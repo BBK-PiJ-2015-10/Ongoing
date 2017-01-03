@@ -1,0 +1,5 @@
+Answer to question 6.
+
+- You might decide to opt for a lazy-initialization in order to improve performance, avoid
+wasteful computation, and reduce program memory requirements.
+

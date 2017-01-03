@@ -1,0 +1,29 @@
+Differences between abstract classes and interfaces:
+
+1. Abstract classes can contain member fields that are not initialized, while interfaces 
+fields need to be initialized.
+
+2. A Class can implement many interfaces while a Class can only extend one Abstract class.
+
+3. An interface can extends many interfaces, while an Abstract class can only the exten
+sion of one class.
+
+4. Fields in an interface need to be public, while in a class they can be either private
+or public.
+
+5. An Abstract class can define a constructor, an Interface can't.
+
+6. An interface can have default methods.
+
+7. Accessability; an Abstract class can be protected while an Interface is public.
+Interfaces can be public or package. Abstract classes can be many types.
+
+8. Interface can't have private methods or fields.
+
+Professor Answers
+
+1. Abstract Class inherits from Object, Interfaces don't inherit from anything.
+
+2. 
+
+

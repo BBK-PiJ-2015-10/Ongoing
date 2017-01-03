@@ -1,0 +1,20 @@
+package day9.AkkaTutorial
+
+import akka.actor.ActorSystem
+import akka.actor.Props
+import akka.actor.ActorRef2Scala
+import akka.actor.ActorRef
+
+
+
+object StudentSimulatorApp2 extends App {
+  
+  val system = ActorSystem("UniversityMessageSystem")
+  
+  //val teacherActorRef:ActorRef=actorSystem.actorOf(Props[TeacherActor])
+  
+  val teacherActorRef :ActorRef= system.actorOf(Props[TeacherActor],"Teacher1")
+  
+  
+  
+}

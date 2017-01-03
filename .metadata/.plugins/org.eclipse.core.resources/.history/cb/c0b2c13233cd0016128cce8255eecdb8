@@ -1,0 +1,74 @@
+package wordone;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+
+import org.apache.hadoop.io.WritableComparable;
+
+public class Pair implements WritableComparable<Pair> {
+	
+	private String firstWord;
+	
+	private String secondWord;
+	
+	public Pair(String firstWord, String secondWord) {
+		this.firstWord = firstWord;
+		this.secondWord = secondWord;
+	}
+	
+	public Pair(){
+	}
+	
+	public String getFirstWord() {
+		return firstWord;
+	}
+
+	public void setFirstWord(String firstWord) {
+		this.firstWord = firstWord;
+	}
+
+	public String getSecondWord() {
+		return secondWord;
+	}
+
+	public void setSecondWord(String secondWord) {
+		this.secondWord = secondWord;
+	}
+
+	@Override
+	public void readFields(DataInput in) throws IOException {
+		// TODO Auto-genera
+		
+	}
+
+	@Override
+	public void write(DataOutput out) throws IOException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int compareTo(Pair other) {
+		String tempt = firstWord+secondWord;
+		String tempo = other.firstWord+other.secondWord;
+		return tempt.compareTo(tempo);
+	}
+	
+	@Override
+	public int hashCode(){
+		String temp = firstWord+secondWord;
+		return(temp.hashCode());
+	}
+	
+	@Override
+	public boolean equals(Object other){
+		if (other instanceof Pair){
+			Pair otherp = (Pair) other;
+			return (firstWord.equals(otherp.firstWord) && secondWord.equals(otherp.secondWord));
+		}
+		return false;
+	}
+
+	
+}

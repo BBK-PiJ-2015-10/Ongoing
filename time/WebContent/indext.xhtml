@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+ 	  xmlns:h="http://java.sun.com/jsf/html">
+	<head>
+		<title>The time zone application</title>
+	</head>
+	<body>
+		<h:form>
+			<p>
+				Set time zone
+				<h:inputText value="#{timeZoneBean.city}"/>
+			</p>
+			<p>
+				<h:commandButton value="Submit" action="#{timeZoneBean.checkCity}" /><br/>
+			</p>
+		</h:form>
+	</body>
+</html>

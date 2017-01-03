@@ -1,0 +1,5 @@
+- A class like WindowAdapter with methods that do nothing is valuable by:
+	- Serve as an Abstract Class with a default implementation of all the methods from an
+	interface. We can then extend this Class and only defined in the details the methods
+	that we really need or want.
+	- 

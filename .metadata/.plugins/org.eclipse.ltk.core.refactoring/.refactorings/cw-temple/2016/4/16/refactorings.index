@@ -1,0 +1,33 @@
+1460714785037	Rename type 'SmartExploration'
+1460714807013	Rename type 'SmartExplorationDepthFirstSearch'
+1460715912825	Rename type 'Exploration'
+1460717957447	Rename type 'SeekGold'
+1460727365197	Rename type 'OptimalPathDijkstraImpl'
+1460731706525	Delete element
+1460733286616	Rename type 'InformedGoldSeekExitOptimizer'
+1460733454241	Rename type 'EscapeInformedGoldSeekExitOpt'
+1460733488367	Rename type 'EscapeInformedGoldSeekExitOptImpl'
+1460733534487	Rename type 'ExplorationDepthFirstSearch'
+1460733575657	Rename type 'ExplorationDepthFirstSearchImpl'
+1460733602470	Rename type 'EscapeInformGoldSeekExitOptImpl'
+1460747501632	Delete element
+1460750177536	Delete element
+1460795392597	Delete element
+1460802594191	Delete element
+1460805049075	Delete element
+1460805452930	Delete element
+1460806352092	Delete element
+1460813493925	Copy compilation unit
+1460813940549	Copy compilation unit
+1460815837533	Rename type 'SuperNode'
+1460815949097	Rename type 'SuperEvalNode'
+1460816544965	Delete element
+1460816552184	Delete element
+1460817394355	Delete element
+1460817764482	Delete element
+1460818029819	Delete element
+1460818439457	Delete element
+1460818518864	Delete element
+1460819399844	Delete element
+1460819771420	Delete element
+1460820569672	Delete element

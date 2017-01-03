@@ -1,0 +1,61 @@
+package day9.AkkaSampleML
+
+
+//This is all based on Mark Lewis video.
+//Actor Model
+//This is from the Simple Actor Example2 and Simple Actor Example video.
+//This is from the Communicating Actors video.
+//Ask Pattern.
+//Akka Details.
+//Actor hierarchy.
+//Actor: URLs
+//Actor Supervision
+//Actor Life Cycle
+//Actor Scheduling
+//Using Actors
+
+//Actor Scheduling
+
+
+import akka.actor.Actor
+import akka.actor.ActorSystem
+import akka.actor.Props
+import akka.actor.actorRef2Scala
+
+
+object SimpleActorExample extends App {
+  
+  class SimpleActor extends Actor {
+    
+    def receive = {
+      case s:String => println("String: " +s)
+      case i:Int => println("Number: "+i)
+    }
+    
+    def foo = println("Normal method")
+    
+}
+
+  val system = ActorSystem("SimpleSystem")
+  
+  //This is really an actorRef not an actor class
+  val actor = system.actorOf(Props[SimpleActor], "SimpleActor")
+  
+  
+  
+  println("Before messages")
+  actor ! "Hi there."
+  println("After String") 
+  actor ! 42
+  println("After Int")
+  actor ! 'a'
+  println("After char")
+  
+  system.terminate()
+  
+  
+  
+  //  Is it deprecated or not? system.shutdown()
+  
+  
+}  

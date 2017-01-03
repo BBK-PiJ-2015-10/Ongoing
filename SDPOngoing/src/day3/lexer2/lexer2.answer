@@ -1,0 +1,4 @@
+(a) We could synchronized the method getInstance() so that only 1 thread can access it at any
+particular point in time.
+
+(b) Because the checking, acquiring, and releasing of locks take time.

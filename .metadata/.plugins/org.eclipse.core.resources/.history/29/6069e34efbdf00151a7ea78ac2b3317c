@@ -1,0 +1,9 @@
+package day9.AkkaSampleML
+
+object ParalleCollect extends App {
+  
+  for (i <- i to 10) {
+    println(i)
+  }
+  
+}

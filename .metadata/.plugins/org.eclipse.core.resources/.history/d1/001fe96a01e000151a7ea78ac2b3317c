@@ -1,0 +1,9 @@
+package day9.AkkaSampleML
+
+import scala.concurrent.Future
+
+object FutureTest extends App {
+  
+  Future 
+  
+}

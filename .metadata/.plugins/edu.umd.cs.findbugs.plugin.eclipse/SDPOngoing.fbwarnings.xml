@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="4" timestamp="1453052258504" analysisTimestamp="1453052257438" release="">
+  <Project projectName="SDPOngoing">
+    <Jar>C:\Users\YasserAlejandro\SDP\Ongoing\SDPOngoing\bin\day2\exer12</Jar>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\SDP\Ongoing\SDPOngoing\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-aop-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-aop-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-aop-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-aspects-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-aspects-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-aspects-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-beans-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-beans-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-beans-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-context-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-context-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-context-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-context-support-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-context-support-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-context-support-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-core-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-core-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-core-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-expression-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-expression-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-expression-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-instrument-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-instrument-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-instrument-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-instrument-tomcat-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-instrument-tomcat-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-instrument-tomcat-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-jdbc-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-jdbc-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-jdbc-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-jms-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-jms-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-jms-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-messaging-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-messaging-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-messaging-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-orm-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-orm-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-orm-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-oxm-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-oxm-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-oxm-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-test-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-test-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-test-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-tx-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-tx-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-tx-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-web-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-web-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-web-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-webmvc-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-webmvc-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-webmvc-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-webmvc-portlet-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-webmvc-portlet-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-webmvc-portlet-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-websocket-4.2.4.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-websocket-4.2.4.RELEASE-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Spring\spring-framework-4.2.4.RELEASE\libs\spring-websocket-4.2.4.RELEASE-sources.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\commons-logging-1.2-bin\commons-logging-1.2\commons-logging-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\commons-logging-1.2-bin\commons-logging-1.2\commons-logging-1.2-javadoc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\aopalliance.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\guava-18.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\javax.inject.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\asm-5.0.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\bnd-0.0.384.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\cglib-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\commons-logging-1.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\easymock.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\felix-2.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\guava-testlib-18.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\jarjar-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\javax.inject-tck.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\jsr305.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\munge.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\safesax.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\spring-beans.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\spring-core.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\jdiff\jdiff.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\guice\guice\lib\build\jdiff\xerces.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\mguice\guice-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\Dagger\dagger-1.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\Dagger\dagger-compiler-1.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\Javax\javawriter-2.5.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\YasserAlejandro\Javax\javax-inject.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_40\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\YasserAlejandro\SDP\Ongoing\SDPOngoing\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 17 Jan 2016 17:37:26 +0000" total_classes="5" referenced_classes="22" total_bugs="0" total_size="32" num_packages="1" java_version="1.8.0_40" vm_version="25.40-b25" cpu_seconds="1.95" clock_seconds="1.07" peak_mbytes="579.51" alloc_mbytes="910.50" gc_seconds="0.06">
+    <PackageStats package="day2.exer12" total_bugs="0" total_types="5" total_size="32">
+      <ClassStats class="day2.exer12.HelloWorldMessageProvider" sourceFile="HelloWorldMessageProvider.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="day2.exer12.HelloWorldSpringWithAutoscan" sourceFile="HelloWorldSpringWithAutoscan.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="day2.exer12.MessageProvider" sourceFile="MessageProvider.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="day2.exer12.MessageRenderer" sourceFile="MessageRenderer.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="day2.exer12.StandardOutMessageRenderer" sourceFile="StandardOutMessageRenderer.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="235" invocations="2" avgMicrosecondsPerInvocation="117806" maxMicrosecondsPerInvocation="185643" standardDeviationMircosecondsPerInvocation="67836"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="184" invocations="375" avgMicrosecondsPerInvocation="491" maxMicrosecondsPerInvocation="60410" standardDeviationMircosecondsPerInvocation="3112"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="169" invocations="373" avgMicrosecondsPerInvocation="455" maxMicrosecondsPerInvocation="12632" standardDeviationMircosecondsPerInvocation="960"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="103" invocations="22" avgMicrosecondsPerInvocation="4699" maxMicrosecondsPerInvocation="68348" standardDeviationMircosecondsPerInvocation="14381"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="45" invocations="89" avgMicrosecondsPerInvocation="507" maxMicrosecondsPerInvocation="20831" standardDeviationMircosecondsPerInvocation="2170"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="43" invocations="22" avgMicrosecondsPerInvocation="1977" maxMicrosecondsPerInvocation="34948" standardDeviationMircosecondsPerInvocation="7235"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="38" invocations="22" avgMicrosecondsPerInvocation="1759" maxMicrosecondsPerInvocation="11814" standardDeviationMircosecondsPerInvocation="2957"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1453052042829" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1453052042844" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="2" timestamp="1453052047764" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1453052067178" release="" codeSize="191" numClasses="15"/>
+  </History>
+</BugCollection>

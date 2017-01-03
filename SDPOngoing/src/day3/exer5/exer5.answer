@@ -1,0 +1,7 @@
+exer5.answer
+
+You can prevent this by doing the following:
+a - Declaring your constructor method private.
+b- Declare a field of the type of the Class, declare it as private and static and instantiate it.
+c - Create a public static method that returns the field defined in b. You can use this method
+to make reference to this unique instance of your class.

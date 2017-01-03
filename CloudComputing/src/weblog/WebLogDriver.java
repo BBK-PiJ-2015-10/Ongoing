@@ -1,0 +1,55 @@
+package weblog;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.IntWritable;
+
+import java.io.IOException;
+import java.lang.InterruptedException;
+import java.lang.ClassNotFoundException;
+
+public class WebLogDriver {
+
+	public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException {
+		
+		//System.setProperty("hadoop.home.dir","//");
+		
+		Configuration conf = new Configuration();
+		
+		//Job job = new Job();
+		//job.setJobName("WebLogDriver");
+		
+		//String location = "C:\\Users\\YasserAlejandro\\SDP\\Ongoing\\PIJReview\\src\\xml\\output.xml";
+		//C:\Users\YasserAlejandro\Desktop\practice\input
+		//C:\\Users\\YasserAlejandro\\Desktop\\practice\\input
+		
+		Job job = new Job(conf,"WebLogDriver");
+		
+		job.setJarByClass(WebLogDriver.class);
+		
+		job.setMapperClass(WebLogMapper.class);
+		job.setReducerClass(WebLogReducer.class);
+		
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(IntWritable.class);
+		
+		job.setMapOutputKeyClass(WebLogWritable.class);
+		job.setMapOutputValueClass(IntWritable.class);
+		
+		FileInputFormat.addInputPath(job,new Path(args[0]));
+		FileOutputFormat.setOutputPath(job,new Path(args[1]));
+		
+		//job.waitForCompletion(true);
+		
+		System.out.println("Did this work");
+		
+		
+		
+
+	}
+
+}

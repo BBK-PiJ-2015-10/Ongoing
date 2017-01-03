@@ -1,0 +1,37 @@
+1479117275195	Rename package 'mvc'
+1479117304517	Move compilation unit
+1479117333989	Rename package 'dp.mvc'
+1479117362924	Move compilation unit
+1479117421428	Delete element
+1479117464537	Rename package 'dp.other'
+1479117499155	Delete element
+1479117527822	Rename package 'mvc'
+1479117557178	Move compilation unit
+1479117564500	Delete element
+1479208994369	Delete element
+1479209261144	Move compilation unit
+1479209272284	Move compilation unit
+1479210689952	Copy compilation units
+1479221148962	Copy elements
+1479221316591	Rename type 'HelloWorldDecoupledWithFactory'
+1479221365023	Rename type 'HelloWorldSrpingFactoryI'
+1479221377119	Delete element
+1479222802752	Delete element
+1479223602469	Delete element
+1479249489795	Delete element
+1479249758890	Copy elements
+1479249791478	Rename type 'HelloWorldFromSpring1'
+1479291706858	Copy elements
+1479292325573	Rename type 'HelloWorldFromSpringWithDI'
+1479292584547	Rename resource 'bean.properties'
+1479292899672	Rename resource 'bean.xml'
+1479293458919	Copy file
+1479293603261	Delete element
+1479294349977	Delete element
+1479294411307	Copy elements
+1479294625527	Rename type 'HelloWorldFromSpringWithDIXMLFile'
+1479295404303	Rename resource 'dixml.xml'
+1479295423279	Rename resource 'dixmlannotations.xml'
+1479296338127	Copy elements
+1479296371884	Rename type 'HelloWorldFromSpringWithDIXMLFileWithAnnotations'
+1479304340506	Rename type 'CredicCard'

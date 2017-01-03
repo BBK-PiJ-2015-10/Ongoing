@@ -1,0 +1,42 @@
+package wordone;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+
+import org.apache.hadoop.io.WritableComparable;
+
+public class Pair implements WritableComparable<Pair> {
+	
+	private String firstWord;
+	
+	private String secondWord;
+	
+	public Pair(String firstWord, String secondWord) {
+		this.firstWord = firstWord;
+		this.secondWord = secondWord;
+	}
+	
+	
+	
+
+	@Override
+	public void readFields(DataInput arg0) throws IOException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void write(DataOutput arg0) throws IOException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int compareTo(Pair arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+}

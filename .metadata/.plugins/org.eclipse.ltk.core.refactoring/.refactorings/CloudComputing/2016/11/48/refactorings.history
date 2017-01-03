@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;average.E_EReduce&apos; to &apos;E_EReducer&apos;&#x0D;&#x0A;- Original project: &apos;CloudComputing&apos;&#x0D;&#x0A;- Original element: &apos;average.E_EReduce&apos;&#x0D;&#x0A;- Renamed element: &apos;average.E_EReducer&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;E_EReduce&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;average{E_EReduce.java[E_EReduce" matchStrategy="1" name="E_EReducer" qualified="false" references="true" similarDeclarations="false" stamp="1480157023362" textual="false" version="1.0"/>
+</session>

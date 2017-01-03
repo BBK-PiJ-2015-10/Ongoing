@@ -1,0 +1,7 @@
+<factorypath>
+    <factorypathentry kind="PLUGIN" id="org.eclipse.jst.ws.annotations.core" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="EXTJAR" id="C:\Users\YasserAlejandro\Javax\javawriter-2.5.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="EXTJAR" id="C:\Users\YasserAlejandro\Javax\javax-inject.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="EXTJAR" id="C:\Users\YasserAlejandro\Dagger\dagger-1.2.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="EXTJAR" id="C:\Users\YasserAlejandro\Dagger\dagger-compiler-1.2.2.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>

@@ -1,0 +1,8 @@
+2.
+
+(a) False. You can have interfaces with no methods. Check the example on folder a.
+
+(b) False. An instance field declared by an interface doesn't have to be declared by the
+implementing class.
+
+(c) False. Interfaces can't have constructor methods.

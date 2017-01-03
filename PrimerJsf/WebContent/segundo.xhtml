@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:h="http://java.sun.com/jsf/html"
+	  xmlns:f="http://java.sun.com/jsf/core">
+
+<head>
+<title>Primer Titulo</title>
+</head>
+<body>
+<h:form>
+<h:panelGrid columns="2">
+<h:outputLabel value="Nombre:"/>
+<h:inputText value="#{loginBean.nombre}"/>
+<h:outputLabel value="Apellido:"/>
+<h:inputText value="#{loginBean.apellido}"/>
+</h:panelGrid><br/>
+<h:graphicImage library="images" name="imagen2.gif"/>
+</h:form>
+</body>
+</html>

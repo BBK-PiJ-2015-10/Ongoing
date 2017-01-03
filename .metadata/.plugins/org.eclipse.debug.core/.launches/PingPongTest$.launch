@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="scala.application">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Akka Ping Pong Example/src/main/scala/Ping.scala"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="PingPongTest"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Akka Ping Pong Example"/>
+</launchConfiguration>
