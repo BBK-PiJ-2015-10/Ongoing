@@ -1,0 +1,13 @@
+package com.gontuseries.hellocontroller;
+
+public class StudentExtended extends Student {
+	
+	
+	
+	public StudentExtended(){
+		super();
+	}
+
+	
+
+}

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="validator.SelectionValidator"/>
-<fullyQualifiedTypeName name="validator.SelectionValidatorImpl"/>
 <fullyQualifiedTypeName name="configuration.MapCreatorFactoryAbstract"/>
 <fullyQualifiedTypeName name="configuration.MapCreatorFactoryCSV"/>
 <fullyQualifiedTypeName name="configuration.MapCreatorAbstract"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
 <fullyQualifiedTypeName name="org.springframework.web.portlet.mvc.AbstractController"/>
+<fullyQualifiedTypeName name="com.gontuseries.hellocontroller.StudentAdmissionController"/>
+<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,17 @@
+package com.gontuseries.hellocontroller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+
+@Controller
+public class StudentAdmissionController {
+
+	//public ModelAndView(value="/admissionForm.html", method = RequestMethod.GET){
+		//ModelAndView model = new ModelAndView("AdmissionForm");
+		//return model;
+		
+	//}
+	
+}

@@ -1,0 +1,24 @@
+package com.gontuseries.hellocontroller;
+
+import java.util.Date;
+import java.util.ArrayList;
+
+public class StudentExtended extends Student {
+	
+	private long studentMobile;
+	
+	private Date studentDOB;
+	
+	private ArrayList<String> studentskills;
+	
+	public StudentExtended(){
+		super();
+	}
+
+
+	
+	
+
+	
+
+}
