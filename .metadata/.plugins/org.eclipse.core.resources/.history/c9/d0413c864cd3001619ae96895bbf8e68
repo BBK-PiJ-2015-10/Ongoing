@@ -1,0 +1,31 @@
+package recursion;
+
+import searching.BinarySearcher;
+
+public class Sentence {
+	
+	
+	public static void main(String[] args) {	
+		
+		String name="yasser";
+		System.out.println(name.substring(1));
+		System.out.println(name.substring(0,5));
+		System.out.println(name.charAt(0));
+		System.out.println(name.charAt(name.length()-1));
+		System.out.println("Printing this sucker again");
+		
+	}
+	
+	public boolean isPalindrome(String text){
+		if (text.length()<=1){
+			return false;
+		}
+		if (text.charAt(0)==text.charAt(text.length())){
+			return true;
+		}
+		return true;
+		
+		
+	}
+
+}

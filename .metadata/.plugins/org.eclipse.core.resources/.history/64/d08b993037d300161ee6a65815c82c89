@@ -1,0 +1,12 @@
+package sorting;
+
+public class QuickSortPrac {
+	
+	private int[] values;
+	
+	public void sort (int[] input){
+		
+		
+	}
+
+}

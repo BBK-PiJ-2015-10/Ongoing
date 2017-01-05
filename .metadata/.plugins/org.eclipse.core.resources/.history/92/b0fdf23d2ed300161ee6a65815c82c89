@@ -1,0 +1,53 @@
+package searching;
+
+public class BinarySearcher {
+	
+	//private int[] A;
+	
+	private BinarySearcher(){
+		//this.A=A;
+	}
+	
+	public int search(int v, int[] A){
+		if (A.length<1){
+			return -1;
+		}
+		int mid=A.length/2;
+		if (A[mid]==v){
+			return mid;
+		}
+		else if(A[mid]<v && mid>0){
+			
+		} else {
+			
+		}
+		
+		
+		return -1;
+	}
+	
+	public int helper(int target,int[]A,int beg, int end){
+		if (beg==end){
+			if (A[beg]==target){
+				return beg;
+			}
+			else {
+				return -1;
+			}	
+		}
+		int mid=beg+(end-beg)/2;
+		if (A[mid]==target){
+			return 1;
+		}
+		else if (A[mid]<target && mid>0){
+			return helper(target,A,beg,mid-1);
+		}
+		else if (A[mid]>target && mid<A.length-1){
+			return helper(target,A,mid+1,end);
+		}
+		return -1;
+	
+	}
+	
+
+}

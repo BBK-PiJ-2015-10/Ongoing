@@ -1,0 +1,34 @@
+package theappbusiness;
+
+public class StairCase {
+
+	public static void main(String[] args) {
+		
+		System.out.println(first(1));
+		
+		//StairCase(6);
+	}
+
+	static void StairCase(int n){
+		helper("",n,0);
+		
+		
+	}
+	
+	static void helper(String input,int target,int count){
+		if (count<target){
+			input+="#";
+			System.out.println(input);
+			helper(input,target,count+1);
+		}
+	}
+	
+	static String first(int target){
+		String result ="";
+		for (int i=0;i<target-1;i++){
+			result+="t";
+		}
+		return result;
+	}
+	
+}

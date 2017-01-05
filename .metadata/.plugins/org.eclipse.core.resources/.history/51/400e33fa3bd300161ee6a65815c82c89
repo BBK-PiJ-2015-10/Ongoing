@@ -1,0 +1,47 @@
+package sorting;
+
+public class QuickSortPrac {
+	
+	private int[] values;
+	
+	public void sort (int[] input){
+		if (input.length<2){
+			return;
+		}
+		values=input;
+		quickSort(0,input.length-1);	
+	}
+	
+	public void quickSort(int low,int high){
+		int i=low;
+		int j=high;
+		int mid = low+(high-low)/2;
+		int pivot=values[mid];
+		while (i<=j){
+			while (values[i]<pivot){
+				i++;
+			}
+			while (values[j]>pivot){
+				j--;
+			}
+			if (i<=j){
+				swap(i,j);
+				i++;
+				j--;
+			}
+		}	
+			if (low<j){
+				quickSort(low,j);
+			}
+			if (high>i){
+				quickSort(i,high);
+			}
+	}
+	
+	private void swap(int a,int b){
+		int temp=values[a];
+		values[a]=values[b];
+		values[b]=temp;
+	}
+
+}

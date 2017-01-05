@@ -12,7 +12,7 @@ public class SortingRunner {
 		
 		int[] smallq = {14,25,2,9,1};
 		
-		
+		 
 		System.out.println("before");
 		System.out.println(Arrays.toString(smallq));
 		System.out.println("with Quicksort");
@@ -44,7 +44,7 @@ public class SortingRunner {
 		System.out.println("With Heapsort");
 		System.out.println(Arrays.toString(smallhs));
 		
-		
+	
 		
 		
 		

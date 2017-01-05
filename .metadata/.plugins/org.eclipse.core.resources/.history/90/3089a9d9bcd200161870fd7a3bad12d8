@@ -1,0 +1,10 @@
+package codility.lesson8;
+
+public class SuperDominant {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

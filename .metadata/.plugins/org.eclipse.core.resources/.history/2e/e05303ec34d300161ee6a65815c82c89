@@ -1,0 +1,33 @@
+package sorting;
+
+public class MergeSortPrac {
+	
+	private int[] values;
+	
+	private int[] helper;
+	
+	public void sort (int [] input){
+		if (input.length<2){
+			return;
+		}
+		values=input;
+		helper = new int[input.length];
+		mergeSort(0,values.length-1);
+		
+	}
+	
+	public void mergeSort(int low,int high){
+		if (low<high){
+			int mid=(low+high)/2;
+			mergeSort(low,mid);
+			mergeSort(mid+1,high);
+			merge(low,mid,high);
+		}
+	}
+	
+	public void merge(int low,int mid, int high){
+		
+	}
+	
+
+}

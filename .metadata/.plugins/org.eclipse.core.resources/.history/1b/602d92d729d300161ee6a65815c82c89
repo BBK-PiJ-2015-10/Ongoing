@@ -1,0 +1,15 @@
+package searching;
+
+public class BinarySearcher {
+	
+	private int[] a;
+	
+	private BinarySearcher(int[] a){
+		this.a=a;
+	}
+	
+	public int search(int v){
+		
+	}
+
+}

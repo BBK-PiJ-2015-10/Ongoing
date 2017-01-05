@@ -2,6 +2,8 @@ package algorithms.select;
 
 public class QuickSelect {
 	
+	//This algorithm finds the kth smallest element in a list
+	
 	private int[] values;
 
 	public static void main(String[] args) {
@@ -9,11 +11,10 @@ public class QuickSelect {
 		int[] test = {2,2,2,2,3};
 		
 		QuickSelect qs = new QuickSelect();
-		int result =qs.select(test,5);
+		int result =qs.select(test,4);
 		System.out.println(result);
 		
-		System.out.println("What happened now amigo tontolino");
-
+	
 	}
 	
 	public int select(int[]A, int rank){

@@ -6,7 +6,7 @@ public class Dominant {
 
 	public static void main(String[] args) {
 		
-		int[] test = {4,4,4,5,5};
+		int[] test = {3,2,3,4,3,3,3,-1};
 		
 		Dominant dom = new Dominant();
 		System.out.println(dom.solution(test));

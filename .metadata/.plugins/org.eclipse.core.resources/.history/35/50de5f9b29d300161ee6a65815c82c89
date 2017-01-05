@@ -1,0 +1,20 @@
+package searching;
+
+public class BinarySearcher {
+	
+	private int[] a;
+	
+	private BinarySearcher(int[] a){
+		this.a=a;
+	}
+	
+	public int search(int v){
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
