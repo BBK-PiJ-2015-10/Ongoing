@@ -1,0 +1,74 @@
+package theappbusiness;
+
+import java.util.Stack;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class ScriptTest {
+	
+	private Map<Character,Character> chars = new HashMap();
+
+	public static void main(String[] args) {
+		
+		/*
+		Scanner sc = new Scanner(System.in);
+		
+		while(sc.hasNext()){
+			String input = sc.next();
+		}
+		
+		*/
+		
+		String input = "{}()";
+		ScriptTest st = new ScriptTest();
+		st.loadMapSymbols();
+		//System.out.println(st.chars.get('{'));
+		//Character test='}';
+		//System.out.println(test.equals(st.chars.get('{')));
+		//Character.pr
+		System.out.println(st.evaluate(input));
+		
+		
+	}
+	
+	public void loadMapSymbols(){
+		chars.put('{','}');
+		chars.put('[',']');
+		chars.put('(', ')');
+	}
+	
+	public Character getChar(Character c){
+		return chars.get(c);
+	}
+	
+	public boolean evaluate (String input){
+		Stack<Character> stack = new Stack();
+		for (int i=0;i<input.length();i++){
+			 Character temp = new Character(input.charAt(i));
+			 System.out.println(temp);
+			 if (stack.empty()){
+				 System.out.println("Empty stack, pushing " +chars.get(temp));
+				 stack.push(chars.get(temp));
+				 System.out.println(stack.size());
+				 
+			 }
+			 else {
+				 if (temp.equals(chars.get(stack.peek()))){
+					 System.out.println("Popping this " +stack.peek());
+					 stack.pop();
+				 }
+				 else {
+					 System.out.println("NonEmpty stack, pushing " +chars.get(temp));
+					 stack.push(chars.get(temp));
+					 
+				 }
+			 }
+		}
+		return stack.isEmpty();
+	}
+	
+	
+	
+
+}

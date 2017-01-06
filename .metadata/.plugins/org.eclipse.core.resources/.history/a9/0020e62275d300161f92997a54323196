@@ -1,0 +1,14 @@
+package theappbusiness;
+
+public class ScriptTest {
+
+	public static void main(String[] args) {
+		
+		AdvancedArithmetic aa = new MyCalculator();
+		System.out.println(aa.divisor_sum(6));
+		
+		//Need to do the Java Stack Challenge
+
+	}
+
+}

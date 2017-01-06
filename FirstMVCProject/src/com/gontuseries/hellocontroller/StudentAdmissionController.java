@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.validation.BindingResult;
 
 import java.util.Map;
 
@@ -50,6 +51,12 @@ public class StudentAdmissionController {
 		ModelAndView model5 = new ModelAndView("AdmissionForm5");
 		//model5.addObject("headerMessage","University of Londonium");
 		return model5;
+	}
+	
+	@RequestMapping(value="/admissionForm6.html",method=RequestMethod.GET)
+	public ModelAndView getAdmission6(){
+		ModelAndView model6 = new ModelAndView("AdmissionForm6");
+		return model6;
 	}
 	
 	
@@ -119,7 +126,21 @@ public class StudentAdmissionController {
 		
 	}
 	
-	
+	//BindingResult is to catch error on binding
+	@RequestMapping(value="/submitAdmissionForm6.html",method=RequestMethod.POST)
+	public ModelAndView submitAdmissionForm6(@ModelAttribute("student6") StudentIncrementalWithAddress student6, BindingResult result){
+		
+		if (result.hasErrors()){
+			
+			ModelAndView model6 = new ModelAndView("AdmissionForm6");
+			return model6;
+			
+		}
+		
+		ModelAndView model6 = new ModelAndView("AdmissionSuccess6");
+		return model6;
+		
+	}
 	
 	
 	

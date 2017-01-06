@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="configuration.MapCreatorFactoryAbstract"/>
-<fullyQualifiedTypeName name="configuration.MapCreatorFactoryCSV"/>
 <fullyQualifiedTypeName name="configuration.MapCreatorAbstract"/>
 <fullyQualifiedTypeName name="configuration.MapCreatorImplCSV"/>
 <fullyQualifiedTypeName name="configuration.ConfigurationManagerAbstract"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="org.springframework.web.portlet.mvc.AbstractController"/>
 <fullyQualifiedTypeName name="com.gontuseries.hellocontroller.StudentAdmissionController"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+<fullyQualifiedTypeName name="java.lang.CharSequence"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
 </qualifiedTypeNameHistroy>
