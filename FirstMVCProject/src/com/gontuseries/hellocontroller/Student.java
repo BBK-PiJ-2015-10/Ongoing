@@ -1,9 +1,12 @@
 package com.gontuseries.hellocontroller;
 
+import javax.validation.constraints.Size;
+
 public class Student {
 	
 	private String studentName;
 	
+	@Size(min=2, max=30)
 	private String studentHobby;
 
 	public String getStudentName() {

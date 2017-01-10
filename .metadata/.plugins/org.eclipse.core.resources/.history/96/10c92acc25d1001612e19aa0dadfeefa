@@ -1,8 +1,0 @@
-package com.guntuseries.helloController;
-
-import javax.servlet.http.HttpServletRequest;
-import org.springframework.web.portlet.mvc.AbstractController;
-
-public class HelloController extends AbstractController {
-
-}
