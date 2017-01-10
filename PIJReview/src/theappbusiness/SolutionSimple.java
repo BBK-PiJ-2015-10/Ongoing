@@ -9,33 +9,29 @@ public class SolutionSimple {
 	public static void main(String[] args) {
 		
 		Integer [] array1 = {1,1,1,2,2,2,1,1,2,2,6,2,1,8};
-		//System.out.println(isEqual(10,Arrays.asList(array1)));
+		System.out.println(isEqual(10,Arrays.asList(array1)));
 		
 		Integer [] array2 = {53,800,0,0,0,356,8988,1,1};
-		//System.out.println(isEqual(4,Arrays.asList(array2)));
+		System.out.println(isEqual(4,Arrays.asList(array2)));
 		
 		Integer [] array3 ={};
 		System.out.println(isEqual(0,Arrays.asList(array3)));
 		
 		Integer [] array4 ={1,1,1,1,1,1,1};
 		System.out.println(isEqual(7,Arrays.asList(array4)));
-		//System.out.println(calculateLargestSlice(Arrays.asList(array4)));
 		
 		Integer [] array5 ={1,2,2,2,2,2};
 		System.out.println(isEqual(6,Arrays.asList(array5)));
 		
 		Integer [] array6 ={1,3,1,3,3,1,1,1,3,1};
 		System.out.println(isEqual(10,Arrays.asList(array6)));
-		System.out.println(calculateLargestSlice(Arrays.asList(array6)));
 		
 		Integer [] array7 ={5,6};
 		System.out.println(isEqual(2,Arrays.asList(array7)));
 		
 		Integer [] array8 = {3,1,0,2,2,3,1,2,1,1,1,2};
-		//System.out.println(isEqual(6,Arrays.asList(array8)));
-		//System.out.println(calculateLargestSlice(Arrays.asList(array8)));
-		
-		
+		System.out.println(isEqual(6,Arrays.asList(array8)));
+	
 	}
 	
 	public static boolean isEqual(int inputValue,List<Integer> inputList){
@@ -46,79 +42,82 @@ public class SolutionSimple {
 	}
 	
 	
+	private static Integer sumEval(Integer count1,Integer count2){
+		if (count1!=null && count2!=null){
+				return  count1+count2;
+		} 
+		else if (count1!=null && count2==null){
+				return count1;
+		}
+		else if (count1==null && count2!=null){
+			return count2;
+		}
+		return 0;
+	}
+	
 
 	private static int calculateLargestSlice(List<Integer> inputSequence) {  
 		
-		int maxSlice=0;
-		Integer currentNumber=null;
-		Integer priorNumber=null;
-		Integer currentArrayCount=null;
-		Integer priorArrayCount=null;
+		Integer globalMax=0;
+		Integer firstNumber=null;
+		Integer secondNumber=null;
+		Integer firstArrayCount=null;
+		Integer secondArrayCount=null;
+		Integer turn=null;
 		
-		for(int count=0;count<inputSequence.size();count++){
-			Integer value = inputSequence.get(count);
-			if (currentNumber==null ){
-				currentNumber=value;
-				currentArrayCount=1;
-				if (maxSlice<currentArrayCount){
-					maxSlice=currentArrayCount;
+		for (int i=0;i<inputSequence.size();i++){
+			
+			Integer current=inputSequence.get(i);
+			
+			if (firstNumber==null){
+				firstNumber=current;
+				firstArrayCount=1;
+				if(sumEval(firstArrayCount,secondArrayCount)>globalMax){
+					globalMax=sumEval(firstArrayCount,secondArrayCount);
 				}
 			}
-			else {
-				if (value==currentNumber && (priorNumber==null || priorNumber!=value)){
-					currentArrayCount++;
-					//System.out.println(currentArrayCount);
-					if (maxSlice<currentArrayCount){
-						maxSlice=currentArrayCount;
+			else if (firstNumber==current){
+				firstArrayCount++;
+				if(sumEval(firstArrayCount,secondArrayCount)>globalMax){
+					globalMax=sumEval(firstArrayCount,secondArrayCount);
+				}
+			}
+			else if (secondNumber==null){
+				secondNumber=current;
+				turn=firstNumber;
+				secondArrayCount=1;
+				if(sumEval(firstArrayCount,secondArrayCount)>globalMax){
+					globalMax=sumEval(firstArrayCount,secondArrayCount);
+				}
+			}
+			else if (secondNumber==current){
+				secondArrayCount++;
+				if(sumEval(firstArrayCount,secondArrayCount)>globalMax){
+					globalMax=sumEval(firstArrayCount,secondArrayCount);
+				}
+			}
+			else if (current!=firstNumber || current!=secondNumber){
+				if (firstNumber==turn){
+					firstNumber=current;
+					firstArrayCount=0;
+					firstArrayCount++;
+					turn=secondNumber;
+					if(sumEval(firstArrayCount,secondArrayCount)>globalMax){
+						globalMax=sumEval(firstArrayCount,secondArrayCount);
 					}
 				}
 				else {
-					if (value!=currentNumber && priorNumber==null){
-						priorNumber=currentNumber;
-						priorArrayCount=currentArrayCount;
-						priorArrayCount++;
-						if (maxSlice<priorArrayCount){
-							maxSlice=priorArrayCount;
-						}
-						currentNumber=value;
-						currentArrayCount++;
+					secondNumber=current;
+					secondArrayCount=0;
+					secondArrayCount++;
+					turn=firstNumber;
+					if(sumEval(firstArrayCount,secondArrayCount)>globalMax){
+						globalMax=sumEval(firstArrayCount,secondArrayCount);
 					}
-					else {
-						if (value!=currentNumber && value==priorNumber){
-							int temp1=currentNumber;
-							int temp2=currentArrayCount;
-							currentNumber=priorNumber;
-							currentArrayCount=priorArrayCount;
-							currentArrayCount++;
-							if (maxSlice<currentArrayCount){
-								maxSlice=currentArrayCount;
-							}
-							priorNumber=temp1;
-							priorArrayCount=temp2+1;
-						}
-						else {
-							if (value!=currentNumber && value!=priorNumber){
-								priorNumber=currentNumber;
-								priorArrayCount=currentArrayCount;
-								priorArrayCount++;
-								//System.out.println("Count for " +priorNumber +" is "+priorArrayCount);
-								currentNumber=value;
-								currentArrayCount=1;
-								if (maxSlice<currentArrayCount){
-									maxSlice=currentArrayCount;
-								}	
-							}
-						}
-					}	
-				}				
+				}
 			}
-			
-		}
-		return maxSlice;
-	
-		
-		
-     
+		}	
+		return globalMax;
     }
 	
 	
