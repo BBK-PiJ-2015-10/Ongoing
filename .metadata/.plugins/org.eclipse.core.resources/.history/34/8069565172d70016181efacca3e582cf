@@ -1,0 +1,7 @@
+Size.student7.studentHobby = please enter a value in the hobby field between 2 to 30 characters little samurai
+
+!--The key pattern is [Validation Annotation Name].[Object Reference Name].[Field Name]
+!-- if can't find it, it will use  [Validation Annotation Name].[Field Name]
+!-- if can't find it, it will use  [Validation Annotation Name].[Field Type]
+!-- if can't find it, it will use [Validation Annotation Name]
+!-- if can't find it, it will use the default, in this case the Size

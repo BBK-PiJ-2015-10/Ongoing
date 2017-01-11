@@ -2,11 +2,16 @@ package com.gontuseries.hellocontroller;
 
 import java.util.Date;
 import java.util.ArrayList;
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Max;
 
 public class StudentIncremental extends Student  {
 	
+	//Also available is @Min, @NotNull @NotEmpty @Future for dates
+	@Max(2222)
 	private long studentMobile;
 	
+	@Past
 	private Date studentDOB;
 	
 	private ArrayList<String> studentSkills;

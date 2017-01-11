@@ -1,0 +1,49 @@
+package com.gontuseries.hellocontroller;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+import javax.validation.Constraint;
+
+
+@Documented
+@Constraint
+
+
+public @interface IsValidHobby {
+	
+	String message() default "Please provide a valid Hobby; accepted hobbies are - Running, Swimming, Dancing, and Open Source projects";
+
+	Class<?> groups() default {};
+	
+	Class<? extends Payload>[] default{}
+	
+	
+	/*
+	
+	default String message() {
+		return "Please provide a valid Hobby; accepted hobbies are - Running, Swimming, Dancing, and Open Source projects";
+	}
+	
+	default Class*<?>[] groups()  {
+		return {};
+	}
+	
+	default Class<? extends Payload>[] payload(){
+		return {}
+	}
+	
+	*/
+	
+	//default Class<?>[] groups()
+	
+	//Class<? extends Payload>[] payload();
+	
+	//default "tonto";
+	
+	
+	//"Please provide a valid Hobby; accepted hobbies are - Running, Swimming, Dancing, and Open Source projects";
+	
+	
+
+}

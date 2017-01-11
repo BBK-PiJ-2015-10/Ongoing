@@ -52,7 +52,7 @@ public class StudentAdmissionController2 {
 	//BindingResult is to catch error on binding
 	//Without the @Valid annotation, spring will completely ignore the size annotation.
 	@RequestMapping(value="/submitAdmissionForm7.html",method=RequestMethod.POST)
-	public ModelAndView submitAdmissionForm7( @Valid @ModelAttribute("student7") StudentIncrementalWithAddress student6, BindingResult result){
+	public ModelAndView submitAdmissionForm7(@Valid@ModelAttribute("student7") StudentIncrementalWithAddress student6, BindingResult result){
 		
 		if (result.hasErrors()){
 			

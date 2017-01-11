@@ -1,0 +1,38 @@
+package com.gontuseries.hellocontroller;
+
+import java.lang.annotation.Documented;
+
+
+public interface IsValidHobby {
+	
+	
+	
+	
+	/*
+	
+	default String message() {
+		return "Please provide a valid Hobby; accepted hobbies are - Running, Swimming, Dancing, and Open Source projects";
+	}
+	
+	default Class*<?>[] groups()  {
+		return {};
+	}
+	
+	default Class<? extends Payload>[] payload(){
+		return {}
+	}
+	
+	*/
+	
+	//default Class<?>[] groups()
+	
+	//Class<? extends Payload>[] payload();
+	
+	//default "tonto";
+	
+	
+	//"Please provide a valid Hobby; accepted hobbies are - Running, Swimming, Dancing, and Open Source projects";
+	
+	
+
+}
