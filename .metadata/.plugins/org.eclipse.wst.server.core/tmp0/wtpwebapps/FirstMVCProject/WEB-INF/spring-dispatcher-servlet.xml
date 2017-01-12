@@ -28,6 +28,9 @@
 	<!-- This was added to able to use a map -->
 	<mvc:annotation-driven />
 	
+	<!-- This is done to support the theme mapping -->
+	<mvc:resources mapping="/resources/**" location="/WEB-INF/" />
+	
 	<mvc:interceptors>
 		<!-- This specifies the interceptor to be only applicable to just this particular
 		URL -->
@@ -39,6 +42,11 @@
 		<!-- This is the interceptor to handle locale language -->
 		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
 			<property name="paramName" value="siteLanguage"/>
+		</bean>
+		
+		<!-- This is the interceptor for the theme -->
+		<bean class="org.springframework.web.servlet.theme.ThemeChangeInterceptor">
+			<property name="paramName" value="siteTheme"/>
 		</bean>
 		
 	</mvc:interceptors>
@@ -63,9 +71,22 @@
 	
 	<!-- This is a bean to support the language resolver -->
 	<bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+		<!--
 		<property name="defaultLocale" value="en"/>
 		<property name="cookieName" value="localeCookie"/>
 		<property name="cookieMaxAge" value="360"/>
+		-->
+	</bean>
+	
+	
+	<bean id="themeSource" 
+	   class="org.springframework.ui.context.support.ResourceBundleThemeSource">
+		<property name="basenamePrefix" value="theme-"/>
+	</bean>
+	
+	<bean id="themeResolver"
+	   class="org.springframework.web.servlet.theme.CookieThemeResolver">
+		<property name="defaultThemeName" value="green" />
 	</bean>
 
 </beans>

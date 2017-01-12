@@ -26508,3 +26508,89 @@ java.lang.NullPointerException
 2017-01-12 09:38:20,044  WARN [Worker-12] - ScalaProject - Project akka-scala runs on platform default installation.
 2017-01-12 09:38:20,281  WARN [Worker-12] - ScalaProject - Project ap-ray-tracer has platform default sourceLevel.
 2017-01-12 09:38:20,281  WARN [Worker-12] - ScalaProject - Project ap-ray-tracer runs on platform default installation.
+2017-01-12 14:05:33,552  WARN [Worker-3] - ScalaProject - Project supervising-actors has platform default sourceLevel.
+2017-01-12 14:05:34,133  WARN [Worker-1] - ScalaProject - Project supervising-actors has platform default sourceLevel.
+2017-01-12 14:05:34,324  WARN [Worker-1] - ScalaProject - Project supervising-actors runs on platform default installation.
+2017-01-12 14:05:34,252  WARN [Worker-3] - ScalaProject - Project supervising-actors runs on platform default installation.
+2017-01-12 14:05:40,236  WARN [Worker-3] - ScalaProject - Project Akka Ping Pong Example has platform default sourceLevel.
+2017-01-12 14:05:40,237  WARN [Worker-3] - ScalaProject - Project Akka Ping Pong Example runs on platform default installation.
+2017-01-12 14:05:40,263  WARN [Worker-3] - ScalaProject - Project StatefulActor has platform default sourceLevel.
+2017-01-12 14:05:40,264  WARN [Worker-3] - ScalaProject - Project StatefulActor runs on platform default installation.
+2017-01-12 14:05:40,267  WARN [Worker-3] - ScalaProject - Project simple-actors has platform default sourceLevel.
+2017-01-12 14:05:40,268  WARN [Worker-3] - ScalaProject - Project simple-actors runs on platform default installation.
+2017-01-12 14:05:40,270  WARN [Worker-3] - ScalaProject - Project hello has platform default sourceLevel.
+2017-01-12 14:05:40,271  WARN [Worker-3] - ScalaProject - Project hello runs on platform default installation.
+2017-01-12 14:05:40,729  WARN [Worker-3] - ScalaProject - Project ray-tracer has platform default sourceLevel.
+2017-01-12 14:05:40,761  WARN [Worker-3] - ScalaProject - Project ray-tracer runs on platform default installation.
+2017-01-12 14:05:40,762  WARN [Worker-3] - ScalaProject - Project remote-actors has platform default sourceLevel.
+2017-01-12 14:05:40,763  WARN [Worker-3] - ScalaProject - Project remote-actors runs on platform default installation.
+2017-01-12 14:05:40,765  WARN [Worker-3] - ScalaProject - Project SCSDPOngoing has platform default sourceLevel.
+2017-01-12 14:05:40,765  WARN [Worker-3] - ScalaProject - Project SCSDPOngoing runs on platform default installation.
+2017-01-12 14:05:41,039  WARN [Worker-3] - ScalaProject - Project abc has platform default sourceLevel.
+2017-01-12 14:05:41,040  WARN [Worker-3] - ScalaProject - Project abc runs on platform default installation.
+2017-01-12 14:05:41,107  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for tutorial-1205-001, setting default to 2.11.
+2017-01-12 14:05:41,109  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for tutorial-1205-001, setting default to 2.11.
+2017-01-12 14:05:41,205  WARN [Worker-1] - ScalaProject - Project Akka Ping Pong Example has platform default sourceLevel.
+2017-01-12 14:05:41,206  WARN [Worker-1] - ScalaProject - Project Akka Ping Pong Example runs on platform default installation.
+2017-01-12 14:05:41,230  WARN [Worker-3] - ScalaProject - Project originalray-tracer has platform default sourceLevel.
+2017-01-12 14:05:41,230  WARN [Worker-3] - ScalaProject - Project originalray-tracer runs on platform default installation.
+2017-01-12 14:05:41,232  WARN [Worker-3] - ScalaProject - Project AkkaNotes_Messaging has platform default sourceLevel.
+2017-01-12 14:05:41,232  WARN [Worker-3] - ScalaProject - Project AkkaNotes_Messaging runs on platform default installation.
+2017-01-12 14:05:41,236  WARN [Worker-3] - ScalaProject - Project AkkaPI has platform default sourceLevel.
+2017-01-12 14:05:41,238  WARN [Worker-3] - ScalaProject - Project AkkaPI runs on platform default installation.
+2017-01-12 14:05:41,239  WARN [Worker-3] - ScalaProject - Project proto-ray-tracer has platform default sourceLevel.
+2017-01-12 14:05:41,241  WARN [Worker-3] - ScalaProject - Project proto-ray-tracer runs on platform default installation.
+2017-01-12 14:05:43,160  WARN [Worker-1] - ScalaProject - Project StatefulActor has platform default sourceLevel.
+2017-01-12 14:05:43,160  WARN [Worker-1] - ScalaProject - Project StatefulActor runs on platform default installation.
+2017-01-12 14:05:43,429  WARN [Worker-1] - ScalaProject - Project simple-actors has platform default sourceLevel.
+2017-01-12 14:05:43,430  WARN [Worker-1] - ScalaProject - Project simple-actors runs on platform default installation.
+2017-01-12 14:05:43,489  WARN [Worker-1] - ScalaProject - Project hello has platform default sourceLevel.
+2017-01-12 14:05:43,490  WARN [Worker-1] - ScalaProject - Project hello runs on platform default installation.
+2017-01-12 14:05:43,666  WARN [Worker-1] - ScalaProject - Project ray-tracer has platform default sourceLevel.
+2017-01-12 14:05:43,667  WARN [Worker-1] - ScalaProject - Project ray-tracer runs on platform default installation.
+2017-01-12 14:05:43,868  WARN [Worker-1] - ScalaProject - Project remote-actors has platform default sourceLevel.
+2017-01-12 14:05:43,868  WARN [Worker-1] - ScalaProject - Project remote-actors runs on platform default installation.
+2017-01-12 14:05:44,439  WARN [Worker-1] - ScalaProject - Project SCSDPOngoing has platform default sourceLevel.
+2017-01-12 14:05:44,443  WARN [Worker-1] - ScalaProject - Project SCSDPOngoing runs on platform default installation.
+2017-01-12 14:05:45,043  WARN [Worker-1] - ScalaProject - Project abc has platform default sourceLevel.
+2017-01-12 14:05:45,043  WARN [Worker-1] - ScalaProject - Project abc runs on platform default installation.
+2017-01-12 14:05:45,064  WARN [Worker-1] - ScalaProject - Project originalray-tracer has platform default sourceLevel.
+2017-01-12 14:05:45,064  WARN [Worker-1] - ScalaProject - Project originalray-tracer runs on platform default installation.
+2017-01-12 14:05:45,561  WARN [Worker-1] - ScalaProject - Project AkkaNotes_Messaging has platform default sourceLevel.
+2017-01-12 14:05:45,562  WARN [Worker-1] - ScalaProject - Project AkkaNotes_Messaging runs on platform default installation.
+2017-01-12 14:05:45,567  WARN [Worker-1] - ScalaProject - Project AkkaPI has platform default sourceLevel.
+2017-01-12 14:05:45,568  WARN [Worker-1] - ScalaProject - Project AkkaPI runs on platform default installation.
+2017-01-12 14:05:46,088  WARN [Worker-1] - ScalaProject - Project proto-ray-tracer has platform default sourceLevel.
+2017-01-12 14:05:46,089  WARN [Worker-1] - ScalaProject - Project proto-ray-tracer runs on platform default installation.
+2017-01-12 14:05:58,885  WARN [Worker-3] - ScalaProject - Project akka-scala has platform default sourceLevel.
+2017-01-12 14:05:58,886  WARN [Worker-3] - ScalaProject - Project akka-scala runs on platform default installation.
+2017-01-12 14:05:59,243  WARN [Worker-3] - ScalaProject - Project ap-ray-tracer has platform default sourceLevel.
+2017-01-12 14:05:59,244  WARN [Worker-3] - ScalaProject - Project ap-ray-tracer runs on platform default installation.
+2017-01-12 14:06:13,975  WARN [Worker-7] - ScalaProject - Project Akka Ping Pong Example has platform default sourceLevel.
+2017-01-12 14:06:13,977  WARN [Worker-7] - ScalaProject - Project Akka Ping Pong Example runs on platform default installation.
+2017-01-12 14:06:14,000  WARN [Worker-7] - ScalaProject - Project StatefulActor has platform default sourceLevel.
+2017-01-12 14:06:14,002  WARN [Worker-7] - ScalaProject - Project StatefulActor runs on platform default installation.
+2017-01-12 14:06:14,004  WARN [Worker-7] - ScalaProject - Project simple-actors has platform default sourceLevel.
+2017-01-12 14:06:14,004  WARN [Worker-7] - ScalaProject - Project simple-actors runs on platform default installation.
+2017-01-12 14:06:14,007  WARN [Worker-7] - ScalaProject - Project hello has platform default sourceLevel.
+2017-01-12 14:06:14,008  WARN [Worker-7] - ScalaProject - Project hello runs on platform default installation.
+2017-01-12 14:06:14,011  WARN [Worker-7] - ScalaProject - Project ray-tracer has platform default sourceLevel.
+2017-01-12 14:06:14,011  WARN [Worker-7] - ScalaProject - Project ray-tracer runs on platform default installation.
+2017-01-12 14:06:14,013  WARN [Worker-7] - ScalaProject - Project remote-actors has platform default sourceLevel.
+2017-01-12 14:06:14,013  WARN [Worker-7] - ScalaProject - Project remote-actors runs on platform default installation.
+2017-01-12 14:06:14,015  WARN [Worker-7] - ScalaProject - Project SCSDPOngoing has platform default sourceLevel.
+2017-01-12 14:06:14,021  WARN [Worker-7] - ScalaProject - Project SCSDPOngoing runs on platform default installation.
+2017-01-12 14:06:14,257  WARN [Worker-7] - ScalaProject - Project abc has platform default sourceLevel.
+2017-01-12 14:06:14,258  WARN [Worker-7] - ScalaProject - Project abc runs on platform default installation.
+2017-01-12 14:06:14,266  WARN [Worker-7] - ScalaProject - Project originalray-tracer has platform default sourceLevel.
+2017-01-12 14:06:14,268  WARN [Worker-7] - ScalaProject - Project originalray-tracer runs on platform default installation.
+2017-01-12 14:06:14,271  WARN [Worker-7] - ScalaProject - Project AkkaNotes_Messaging has platform default sourceLevel.
+2017-01-12 14:06:14,271  WARN [Worker-7] - ScalaProject - Project AkkaNotes_Messaging runs on platform default installation.
+2017-01-12 14:06:14,274  WARN [Worker-7] - ScalaProject - Project AkkaPI has platform default sourceLevel.
+2017-01-12 14:06:14,275  WARN [Worker-7] - ScalaProject - Project AkkaPI runs on platform default installation.
+2017-01-12 14:06:14,280  WARN [Worker-7] - ScalaProject - Project proto-ray-tracer has platform default sourceLevel.
+2017-01-12 14:06:14,280  WARN [Worker-7] - ScalaProject - Project proto-ray-tracer runs on platform default installation.
+2017-01-12 14:06:14,410  WARN [Worker-7] - ScalaProject - Project akka-scala has platform default sourceLevel.
+2017-01-12 14:06:14,411  WARN [Worker-7] - ScalaProject - Project akka-scala runs on platform default installation.
+2017-01-12 14:06:14,549  WARN [Worker-7] - ScalaProject - Project ap-ray-tracer has platform default sourceLevel.
+2017-01-12 14:06:14,551  WARN [Worker-7] - ScalaProject - Project ap-ray-tracer runs on platform default installation.

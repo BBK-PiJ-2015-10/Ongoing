@@ -1,15 +1,24 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
-	<body>
-		<a href="/FirstMVCProject/admissionForm7.html?siteLanguage=en">English</a> |
-		<a href="/FirstMVCProject/admissionForm7.html?siteLanguage=fr">French</a>
+	<head>
+		<link rel="stylesheet" href="<spring:theme code='styleSheet'/>" type="text/css"/>
+	</head>
+	<body>	
+		<p>
+			<a href="/FirstMVCProject/admissionForm7.html?siteTheme=green">Green</a>|
+			<a href="/FirstMVCProject/admissionForm7.html?siteTheme=red">Red</a>
+		</p>
+		<p>
+			<a href="/FirstMVCProject/admissionForm7.html?siteLanguage=en">English</a> |
+			<a href="/FirstMVCProject/admissionForm7.html?siteLanguage=fr">French</a>
 		
+		</p>
 		<h1>FORM 7</h1>		
 		
 		<h1>${headerMessage}</h1>
 		
-		<h1><spring:message code="label.admissionForm"/></h1>
+		<h3><spring:message code="label.admissionForm"/></h3>
 		
 		<form:errors path="student7.*"/>
 		
