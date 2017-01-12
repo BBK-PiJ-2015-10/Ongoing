@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.WebDataBinder;
@@ -15,6 +16,7 @@ import java.util.Date;
 
 import java.text.SimpleDateFormat;
 import javax.validation.Valid;
+import java.io.IOException;
 
 @Controller
 public class StudentAdmissionController2 {
@@ -36,8 +38,10 @@ public class StudentAdmissionController2 {
 	
 	@RequestMapping(value="/admissionForm7.html",method=RequestMethod.GET)
 	public ModelAndView getAdmission7(){
+			
 		ModelAndView model7 = new ModelAndView("AdmissionForm7");
 		return model7;
+		
 	}
 	
 	
@@ -66,6 +70,28 @@ public class StudentAdmissionController2 {
 		
 	}
 	
+	@ExceptionHandler(value = NullPointerException.class)
+	public String handleNullPointerException(Exception e){
+
+		System.out.println("Null pointer exception has occured: " +e);
+		return "NullPointerException";
+	}
+	
+	@ExceptionHandler(value = IOException.class)
+	public String handleIOException(Exception e){
+		
+		System.out.println("IO Exception exception has occured: " +e);
+		return "IOException";
+		
+	}
+	
+	@ExceptionHandler(value = Exception.class)
+	public String handleException(Exception e){
+		
+		System.out.println("Exception has occured: " +e.getMessage());
+		return "Exception";
+		
+	}
 	
 	
 
