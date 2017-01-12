@@ -9,7 +9,7 @@ public class Student {
 	private String studentName;
 	
 	//@Size(min=2, max=30, message="Please enter a value between 2 to 30 letters in the student hobby field.")
-	@Size(min=3, max=30)
+	@Size(min=3, max=30) @IsValidHobby(listOfValidHobbies="Swimming|Running|Open Source|German|Dutch")
 	private String studentHobby;
 
 	public String getStudentName() {

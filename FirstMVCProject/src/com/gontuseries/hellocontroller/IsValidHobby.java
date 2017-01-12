@@ -14,7 +14,10 @@ import javax.validation.Payload;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface IsValidHobby {
 
-	String message() default "tonto";
+	String listOfValidHobbies() default "Dancing|Painting";
+	
+	String message() default "Please provide a valid hobby value "
+			+ "choose among: Swimming,Running,Open Source,German,Dutch";
 		
 	Class<?>[] groups() default {};
 	

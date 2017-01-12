@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="validator.FileValidatorImplBpaMap"/>
-<fullyQualifiedTypeName name="validator.FileValidator"/>
 <fullyQualifiedTypeName name="configuration.ConfigurationManagerSQL"/>
 <fullyQualifiedTypeName name="main.ABCSystem"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer.Context"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="javax.validation.Constraint"/>
 <fullyQualifiedTypeName name="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
 <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.handler.HandlerInterceptorAdapter"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 </qualifiedTypeNameHistroy>

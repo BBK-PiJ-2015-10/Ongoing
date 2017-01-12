@@ -1,0 +1,23 @@
+Size.student7.studentHobby = please enter a value in the {0} field between {2} to {1} characters little samurai
+
+Pattern.student7.studentName = numbers are not valid in the {0} field
+
+Max.student7.studentMobile = the value entered in the {0} field is higher than {1} which is not valid
+
+Past.student7.studentDOB = the value entered in the {0} field is in the past
+
+label.studentName = Nom de l'edudiant : 
+label.studentHobby = Loisir de l'etudiant :
+label.studentMobile = Le mobile de l'etudiant :
+label.studentDOB = DDN de l'etudiant :
+label.studentSkills = Competences de l'etudiant :
+label.studentAddress = Addresse de l'etudiant :
+label.country = Pays :
+label.city = Cite :
+label.street = Rue :
+label.pincode = Code Postal :
+label.submit.admissionForm = Soumettez ce formulaire en cliquant ici
+label.admissionForm = Admission des Etudiants de Informatique Avancee
+
+
+

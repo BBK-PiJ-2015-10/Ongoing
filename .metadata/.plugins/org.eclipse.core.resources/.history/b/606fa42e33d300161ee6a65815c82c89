@@ -1,9 +1,0 @@
-package sorting;
-
-public class MergeSortPrac {
-	
-	public void (int [] input){
-		
-	}
-
-}

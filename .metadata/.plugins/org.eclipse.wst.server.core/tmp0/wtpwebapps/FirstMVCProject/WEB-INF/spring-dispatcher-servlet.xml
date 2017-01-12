@@ -28,6 +28,21 @@
 	<!-- This was added to able to use a map -->
 	<mvc:annotation-driven />
 	
+	<mvc:interceptors>
+		<!-- This specifies the interceptor to be only applicable to just this particular
+		URL -->
+		<mvc:interceptor>
+			<mvc:mapping path="/admissionForm7.html"/>
+			<bean class="com.gontuseries.hellocontroller.DayOfWeekBasedAccessInterceptor" />
+		</mvc:interceptor>
+		
+		<!-- This is the interceptor to handle locale language -->
+		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+			<property name="paramName" value="siteLanguage"/>
+		</bean>
+		
+	</mvc:interceptors>
+	
 	<!--Tells which view resolver to use whose job is to tell the exact location of the view needed  -->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
@@ -44,6 +59,13 @@
 		the below
 		<property name="cacheSeconds" value="1" />
 		-->
+	</bean>
+	
+	<!-- This is a bean to support the language resolver -->
+	<bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+		<property name="defaultLocale" value="en"/>
+		<property name="cookieName" value="localeCookie"/>
+		<property name="cookieMaxAge" value="360"/>
 	</bean>
 
 </beans>

@@ -10,11 +10,11 @@
 		
 		<table>
 			<tr>
-				<td>Student Name :</td>
+				<td>Student Name: </td>
 				<td>${student7.studentName}</td>
 			</tr>
 			<tr>
-				<td>Student Hobby :</td>
+				<td>Student Hobby: </td>
 				<td>${student7.studentHobby}</td>
 			</tr>
 			<tr>

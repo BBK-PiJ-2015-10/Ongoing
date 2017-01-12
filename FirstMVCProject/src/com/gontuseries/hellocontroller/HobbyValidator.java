@@ -3,10 +3,14 @@ package com.gontuseries.hellocontroller;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
+//This class provides the validation logic of the IsValidHobby annotation
 public class HobbyValidator implements ConstraintValidator<IsValidHobby,String> {
 
+	private String listOfValidHobbies;
+	
 	@Override
 	public void initialize(IsValidHobby isValidHobby) {	
+		this.listOfValidHobbies=isValidHobby.listOfValidHobbies();
 	}
 
 	@Override
@@ -16,7 +20,7 @@ public class HobbyValidator implements ConstraintValidator<IsValidHobby,String> 
 			return false;
 		}
 		
-		if (studentHobby.matches("Swimming|Running|Open Source|German")){
+		if (studentHobby.matches(listOfValidHobbies)){
 			return true;
 		} 
 		else {

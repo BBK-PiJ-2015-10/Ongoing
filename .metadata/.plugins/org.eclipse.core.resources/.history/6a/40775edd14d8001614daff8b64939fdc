@@ -1,0 +1,11 @@
+package com.gontuseries.hellocontroller;
+
+import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+public class DayOfWeekBasedAccessInterceptor extends HandlerInterceptorAdapter {
+	
+	
+	
+	
+
+}
