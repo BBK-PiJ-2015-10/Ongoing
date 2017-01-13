@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="configuration.ConfigurationManagerSQL"/>
 <fullyQualifiedTypeName name="main.ABCSystem"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer.Context"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.handler.HandlerInterceptorAdapter"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

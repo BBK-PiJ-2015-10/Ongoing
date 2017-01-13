@@ -6,7 +6,5 @@ INDEX VERSION 1.3+C:\Users\YasserAlejandro\SDP\Ongoing\.metadata\.plugins\org.ec
 1051816779.index
 2311278701.index
 1759887303.index
-3977060608.index
 482642805.index
 1005304573.index
-3977060608.index
