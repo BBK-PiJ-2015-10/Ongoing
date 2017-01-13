@@ -12,9 +12,11 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import java.util.Date;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.text.SimpleDateFormat;
 import javax.validation.Valid;
+import java.util.ArrayList;
 
 @Controller
 public class StudentAdmissionController2 {
@@ -36,13 +38,11 @@ public class StudentAdmissionController2 {
 	
 	@RequestMapping(value="/admissionForm7.html",method=RequestMethod.GET)
 	public ModelAndView getAdmission7(){
-			
 		ModelAndView model7 = new ModelAndView("AdmissionForm7");
 		
 		//throw new NullPointerException("Null Pointer Exception");
 		
 		return model7;
-		
 	}
 	
 	
@@ -53,24 +53,33 @@ public class StudentAdmissionController2 {
 	}
 		
 
-	
 	//BindingResult is to catch error on binding
 	//Without the @Valid annotation, spring will completely ignore the size annotation.
 	@RequestMapping(value="/submitAdmissionForm7.html",method=RequestMethod.POST)
 	public ModelAndView submitAdmissionForm7(@Valid@ModelAttribute("student7") StudentIncrementalWithAddress student6, BindingResult result){
-		
 		if (result.hasErrors()){
-			
 			ModelAndView model7 = new ModelAndView("AdmissionForm7");
-			return model7;
-			
+			return model7;	
 		}
-		
 		ModelAndView model7 = new ModelAndView("AdmissionSuccess7");
 		return model7;
-		
 	}
 	
+	//ResponseBody covert that studentList to a JSON format instead of a view
+	@ResponseBody
+	@RequestMapping(value="/students",method=RequestMethod.GET)
+	public ArrayList<StudentIncremental> getStudentList(){
+		
+		ArrayList<StudentIncremental> studentsList = new ArrayList();
+		String [] array = {"Bruno Conti","Jose Murino","Pepe Guardiola"};
+		for (int i=0;i<array.length;i++){
+			StudentIncremental temp = new StudentIncremental();
+			temp.setStudentName(array[i]);
+			studentsList.add(temp);
+		}
+		return studentsList;
+		
+	}
 
 	
 	
