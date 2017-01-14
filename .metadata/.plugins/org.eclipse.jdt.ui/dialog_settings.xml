@@ -3,7 +3,7 @@
 	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
-	<item value="C:\Users\YasserAlejandro\Desktop\LIB\hibernate-validator-5.3.4.Final\dist\lib\optional" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Users\YasserAlejandro\Desktop\LIB\jaxrs-ri\api" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<item value="C:\Users\YasserAlejandro\mtp\mtp-abm\New folder" key="org.eclipse.jdt.ui.last.external.project"/>
 	<item value="480,510" key="UserLibraryLoadSaveDialog.size"/>
@@ -253,7 +253,7 @@
 			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
 			<item value="183" key="DIALOG_X_ORIGIN"/>
-			<item value="211" key="DIALOG_Y_ORIGIN"/>
+			<item value="191" key="DIALOG_Y_ORIGIN"/>
 		</section>
 	</section>
 	<section name="NewClassWizardPage">

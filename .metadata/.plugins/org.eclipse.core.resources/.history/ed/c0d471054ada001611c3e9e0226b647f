@@ -1,0 +1,55 @@
+package com.scispike.ws;
+
+public class DeepThoughtProxy implements com.scispike.ws.DeepThought {
+  private String _endpoint = null;
+  private com.scispike.ws.DeepThought deepThought = null;
+  
+  public DeepThoughtProxy() {
+    _initDeepThoughtProxy();
+  }
+  
+  public DeepThoughtProxy(String endpoint) {
+    _endpoint = endpoint;
+    _initDeepThoughtProxy();
+  }
+  
+  private void _initDeepThoughtProxy() {
+    try {
+      deepThought = (new com.scispike.ws.DeepThoughtServiceLocator()).getDeepThought();
+      if (deepThought != null) {
+        if (_endpoint != null)
+          ((javax.xml.rpc.Stub)deepThought)._setProperty("javax.xml.rpc.service.endpoint.address", _endpoint);
+        else
+          _endpoint = (String)((javax.xml.rpc.Stub)deepThought)._getProperty("javax.xml.rpc.service.endpoint.address");
+      }
+      
+    }
+    catch (javax.xml.rpc.ServiceException serviceException) {}
+  }
+  
+  public String getEndpoint() {
+    return _endpoint;
+  }
+  
+  public void setEndpoint(String endpoint) {
+    _endpoint = endpoint;
+    if (deepThought != null)
+      ((javax.xml.rpc.Stub)deepThought)._setProperty("javax.xml.rpc.service.endpoint.address", _endpoint);
+    
+  }
+  
+  public com.scispike.ws.DeepThought getDeepThought() {
+    if (deepThought == null)
+      _initDeepThoughtProxy();
+    return deepThought;
+  }
+  
+  public java.lang.String whatIsTheAnswer(java.lang.String interviewer) throws java.rmi.RemoteException{
+    if (deepThought == null)
+      _initDeepThoughtProxy();
+    //return deepThought.whatIsTheAnswer(interviewer);
+    return "Petter";
+  }
+  
+  
+}

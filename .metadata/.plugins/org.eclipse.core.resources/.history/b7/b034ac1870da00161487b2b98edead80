@@ -1,0 +1,10 @@
+package com.gontuseries.university;
+
+import javax.ws.rs.Path;
+
+@Path("/university")
+public class UniversityRESTWS {
+	
+	
+
+}

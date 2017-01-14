@@ -1,0 +1,18 @@
+package com.gontuseries.university;
+
+import javax.ws.rs.Path;
+import javax.ws.rs.core.MediaType;
+
+@Path("/university")
+public class UniversityRESTWS {
+	
+	@GET
+	@Produces(MediaType.TEXT_HTML)
+	public String getHTMLUniversityInfo(){
+		
+		
+	}
+	
+	
+
+}
