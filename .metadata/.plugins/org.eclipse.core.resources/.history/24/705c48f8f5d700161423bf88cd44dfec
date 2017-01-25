@@ -1,5 +1,0 @@
-package com.gontuseries.hellocontroller;
-
-public interface IsValidHoby {
-
-}

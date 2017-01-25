@@ -9,10 +9,12 @@ import javax.ws.rs.core.MediaType;
 //import javax.ws.rs.QueryParam;
 //import javax.ws.rs.MatrixParam;
 import javax.ws.rs.POST;
+import javax.ws.rs.GET;
 //import javax.ws.rs.FormParam;
-//import javax.ws.rs.core.Response;
-//import javax.ws.rs.core.Response.ResponseBuilder;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.ResponseBuilder;
 import javax.ws.rs.Consumes;
+import javax.ws.rs.Produces;
 //import com.sun.jersey.multipart.FormDataParam;
 
 //import javax.ws.rs.FormDataParam;
@@ -28,7 +30,7 @@ import java.io.IOException;
 @Path("/university")
 public class UniversityRESTWS {
 	
-	///*
+	/*
 	
 	@POST
 	@Path("/upload")
@@ -45,7 +47,7 @@ public class UniversityRESTWS {
 	private void saveToDisk(InputStream uploadedInputStream,
 			FormDataContentDisposition fileDetail){
 		
-		String uploadedFileLocation = "C:\\Users\\YasserAlejandro\\Dropbox\\MSc Computer Science Birkbeck\\Project Ext\\WebServices\\Upload\\" +fileDetail.getFileName();
+		String uploadedFileLocation = "C:\\Users\\YasserAlejandro\\Dropbox\\MSc Computer Science Birkbeck\\Project Ext\\WebServices\\tonto\\" +fileDetail.getFileName();
 		
 		try {
 			
@@ -71,9 +73,9 @@ public class UniversityRESTWS {
 	}
 	
 	
-	//*/
+	*/
 	  
-	/*
+	///*
 	
 	@GET
 	@Path("/get")
@@ -89,6 +91,7 @@ public class UniversityRESTWS {
 		
 	}
 	
+	/*
 	
 	@POST
 	@Path("/add")

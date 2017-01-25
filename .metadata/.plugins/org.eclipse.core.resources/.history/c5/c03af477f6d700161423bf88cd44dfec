@@ -1,9 +1,0 @@
-package com.gontuseries.hellocontroller;
-
-import javax.validation.ConstraintValidator;
-
-public class HobbyValidator implements ConstraintValidator<IsValidHobby,String> {
-	
-	
-
-}

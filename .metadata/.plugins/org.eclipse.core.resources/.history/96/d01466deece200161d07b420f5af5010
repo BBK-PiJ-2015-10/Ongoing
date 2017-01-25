@@ -1,0 +1,19 @@
+package pairthree;
+
+import org.apache.hadoop.io.Text;
+
+public class TestDriver {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Ale Tontolone");
+		
+		Text one = new Text();
+	
+		if(one==null){
+			System.out.println("It is null");
+		}
+
+	}
+
+}

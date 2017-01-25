@@ -1589,3 +1589,19 @@ java.io.EOFException: null
 2017-01-18 09:21:50,623 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\src\main\resources
 2017-01-18 09:21:50,637 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-01-18 09:21:50,641 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\src\test\resources
+2017-01-18 17:33:48,202 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-18 17:33:48,324 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\src\main\resources
+2017-01-18 17:33:48,339 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-18 17:33:48,344 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\src\test\resources
+2017-01-21 15:07:51,613 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-21 15:07:51,634 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\src\main\resources
+2017-01-21 15:07:51,644 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-21 15:07:51,645 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\src\test\resources
+2017-01-23 20:34:45,244 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-23 20:34:45,352 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\src\main\resources
+2017-01-23 20:34:45,360 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-23 20:34:45,361 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\src\test\resources
+2017-01-24 09:50:34,624 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-24 09:50:34,652 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\src\main\resources
+2017-01-24 09:50:34,660 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-01-24 09:50:34,663 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\src\test\resources

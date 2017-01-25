@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CloudComputing/src/pairtwo/MapPair.java&apos; to &apos;MapperTupple.java&apos;" description="Rename resource &apos;MapPair.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/pairtwo/MapPair.java" name="MapperTupple.java" stamp="1485017736451" updateReferences="true"/>
+</session>

@@ -1,4 +1,0 @@
-@CHARSET "ISO-8859-1";
-H3 {
-	COLOR: red; FONT-FAMILY: arial; FONT-SZIE: 20pt;
-}

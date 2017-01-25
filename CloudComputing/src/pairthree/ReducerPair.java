@@ -4,46 +4,44 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.DoubleWritable;
 
 import java.io.IOException;
 import java.lang.InterruptedException;
 
-public class ReducerPair extends Reducer<Pair,IntWritable,Text,IntWritable> {
+public class ReducerPair extends Reducer<Text,Pair,Text,DoubleWritable> {
 
-	private IntWritable result = new IntWritable();
+	private DoubleWritable result = new DoubleWritable();
 	
 	private Text fpair = new Text();
 	
 	
-	public void reduce(Pair key,Iterable<IntWritable> values,Context context)
+	public void reduce(Text key,Iterable<Pair> values,Context context)
 		throws IOException, InterruptedException {
 		
-		//String testWord = context.getConfiguration().get("target1");
+		String firstTarget = context.getConfiguration().get("target1");
+		String secondTarget = context.getConfiguration().get("target2");
+				
+		int den=0;
+		int num=0;
 		
-		
-		//String first = key.getFirstWord().toString().toLowerCase();
-		//String second = key.getSecondWord().toString().toLowerCase();
-		
-		//if ( first.equals(testWord) || second.equals(testWord)){
-			
-			int sum=0;
-			
-			for (IntWritable value: values){
-				sum++;
+		for (Pair value: values){
+			if (value.isEmpty()){
+				den++;
 			}
-			
-			fpair.set((key.getFirstWord().toString()+" "+key.getSecondWord().toString()));
-			
-			result.set(sum);
-			context.write(fpair,result);
-			
-			
-		//}
+			else {
+				num++;
+			}
+		}
 		
+		double fraction=num/1;
+		result.set(fraction);
+		
+		context.write(new Text(firstTarget+","+secondTarget),result);
+		
+	
 		
 
-	
-	
 		
 	}
 	
