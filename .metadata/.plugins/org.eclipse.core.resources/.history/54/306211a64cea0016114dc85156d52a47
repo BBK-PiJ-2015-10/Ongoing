@@ -1,0 +1,90 @@
+package theappbusiness;
+
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.ArrayDeque;
+
+public class DequeExercise {
+
+	public static void main(String[] args) {
+		
+		DequeExercise exer = new DequeExercise();
+		
+		int [] uc1 = {5,3,5,2,3,2};
+		exer.testCase(uc1,3,3,1);
+		exer.testCase(uc1,2,2,2);
+		exer.testCase(uc1,4,3,3);
+		
+		
+		
+		/*
+		
+		int size =3;
+		int[] test = {5,3,5,2,3,2};
+		
+		Deque<Integer> deque = new ArrayDeque();
+		
+		int uniqueGlobalCount=0;
+		int uniqueLocalCount=0;
+		
+		for (int i=0; i<test.length;i++){
+			int num = test[i];
+			if (deque.size()>=3){
+				int elim = deque.removeFirst();
+				if(uniqueLocalCount>uniqueGlobalCount){
+					uniqueGlobalCount=uniqueLocalCount;
+				}
+				if(!deque.contains(elim)){
+					uniqueLocalCount--;
+				}
+			}
+			if (!deque.contains(num)){
+				uniqueLocalCount++;
+			}
+			deque.addLast(num);
+		}
+		
+		System.out.println(uniqueGlobalCount);
+		
+		*/
+		
+	}
+	
+	
+	public int maxUnique(int[] values,int targetSize){
+		
+		Deque<Integer> deque = new ArrayDeque();
+		
+		int uniqueGlobalCount=0;
+		int uniqueLocalCount=0;
+		
+		for (int i=0; i<values.length;i++){
+			int num = values[i];
+			if (deque.size()>=targetSize){
+				int elim = deque.removeFirst();
+				if(uniqueLocalCount>uniqueGlobalCount){
+					uniqueGlobalCount=uniqueLocalCount;
+				}
+				if(!deque.contains(elim)){
+					uniqueLocalCount--;
+				}
+			}
+			if (!deque.contains(num)){
+				uniqueLocalCount++;
+			}
+			deque.addLast(num);
+		}
+		return uniqueGlobalCount;
+	}
+	
+	public void testCase(int[] values, int targetSize, int answer, int testRef){
+		if(answer==maxUnique(values,targetSize)){
+			System.out.println("Passed test " +testRef);
+		}
+		else {
+			System.out.println("Failed test " +testRef);
+		}
+	}
+	
+
+}

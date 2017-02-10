@@ -1,0 +1,90 @@
+package com.datax.play.spark
+
+import org.apache.spark.SparkConf;
+import org.apache.spark.SparkContext;
+import org.apache.spark.api.java.JavaRDD;
+
+import java.util.Arrays;
+
+object log {
+  
+  /*
+   * load errors messages from a log into memory
+   * then interactively search for various patterns
+   */
+  
+  
+  def main ( args:Array[String]):Unit = {
+    
+    ///*
+  
+    val conf = new SparkConf().setAppName("logger").setMaster("local[*]")
+    
+    val sc = new SparkContext(conf)
+    
+    //based RDD
+    //val lines = sc.textFile("input/log.txt")
+    val lines = sc.textFile("inputtemp/temp.txt")
+    
+    
+    //transformed RDDs
+    val errors = lines.filter(_.startsWith("ERROR"))
+    val messages = errors.map(_.split("\t")).map(r=>r(1))
+    messages.cache()
+    
+    
+    //val test = errors.map(_.split("\t")).map(r=>r(2)).saveAsTextFile("output2.txt")
+    
+    //lines.filter(_.startsWith("ERROR")).map(_.split('\t')).map(r=>r(2)).saveAsTextFile("output4.txt")
+    
+       
+    //lines.filter(_.startsWith("ERROR")).map(_.split(" ")).map(x=>x(1)).saveAsTextFile("output4.txt")
+    
+    //lines.map(_.split(" ")).map(x=>x.size).saveAsTextFile("output5.txt")
+    
+    lines.map(_.split(" ")).map(x=>x(2)).saveAsTextFile("output5.txt")
+    lines.map(_.split(" ")).map(x=>x(3)).saveAsTextFile("output6.txt")
+    lines.map(_.split(" ")).map(x=>x(4)).saveAsTextFile("output7.txt")
+    lines.map(_.split(" ")).map(x=>x(5)).saveAsTextFile("output8.txt")
+    
+    //Left on page 94
+    
+    /*
+    
+    for (x <-tonto) {
+      val temp = x.split(" ").last
+      
+      println(temp)
+    }
+    
+    */
+    
+    //val ale = Array(1,2,3)
+    
+    //*/
+    
+    //val names = Array("ale","tonto")
+    
+    //val first =names(0)
+    
+    //println(first)
+
+    
+    //val ale : Array[String] = ["yasser","alejandro","palacios"]
+    
+    
+    
+
+    
+    //action 1
+    //messages.filter(_.contains("mysql")).count()
+  
+  //action 2
+  //messages.filter(_.contains("php")).count()
+  
+  
+  }
+  
+  
+  
+}

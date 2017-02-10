@@ -1,0 +1,76 @@
+package sorting;
+
+public class QuickSortPrac {
+
+	private int[] values;
+	
+	public static void main(String[] args) {
+		
+		int[] test1 = {7,4,1,6};
+		
+		QuickSortPrac sp = new QuickSortPrac();
+		sp.sort(test1);
+		
+	
+		print(test1);
+		
+
+	}
+	
+	public static void print(int[] input){
+		String result ="";
+		for (int i=0;i<input.length;i++){
+			result=result+" "+input[i];
+		}
+		System.out.println(result);
+	}
+	
+	public void sort(int[] input){
+		if (input.length<2){
+			return;
+		}
+		values=new int[input.length];
+		values=input;
+		quickSort(0,input.length-1);
+	}
+	
+	private void quickSort(int low, int high){
+		int i=low;
+		int j=high;
+		int pivot = values[low+(high-low)/2];
+		while (i<=j){
+			if (values[i]<values[pivot]){
+				i++;
+			}
+			if(values[j]>values[pivot]){
+				j--;
+			}
+			if (i<=j){
+				swap(i,j);
+				i++;
+				j--;
+			}
+		}
+		if (high>i){
+			quickSort(i,high);
+		}
+		if (low<j){
+			quickSort(low,j);
+		}
+		
+	}
+	
+	
+	
+	
+	private void swap(int a, int b){
+		int temp=values[a];
+		values[a]=values[b];
+		values[b]=temp;
+	}
+	
+	
+	
+	
+
+}

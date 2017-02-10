@@ -22,8 +22,8 @@ public class ReducerPair extends Reducer<Text,Pair,Text,DoubleWritable> {
 		String firstTarget = context.getConfiguration().get("target1");
 		String secondTarget = context.getConfiguration().get("target2");
 				
-		int den=0;
-		int num=0;
+		double den=0;
+		double num=0;
 		
 		for (Pair value: values){
 			if (value.isEmpty()){
@@ -34,7 +34,7 @@ public class ReducerPair extends Reducer<Text,Pair,Text,DoubleWritable> {
 			}
 		}
 		
-		double fraction=num/1;
+		double fraction=num/den;
 		result.set(fraction);
 		
 		context.write(new Text(firstTarget+","+secondTarget),result);

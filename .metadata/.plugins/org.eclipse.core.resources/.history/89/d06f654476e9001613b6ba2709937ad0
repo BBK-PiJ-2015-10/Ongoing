@@ -1,0 +1,42 @@
+package theappbusiness;
+
+import java.util.Scanner;
+import java.util.List;
+import java.util.ArrayList;
+
+public class JavaSort {
+
+	public static void main(String[] args) {
+		
+		///*
+		
+		Scanner in = new Scanner(System.in);
+		
+		int testCases = Integer.parseInt(in.nextLine());
+		
+		List<Student> studentList = new ArrayList();
+		while (testCases>0){
+			int id = in.nextInt();
+			String name = in.next();
+			double cgpa = in.nextDouble();
+			Student stu = new Student(id,name,cgpa);
+			studentList.add(stu);
+			testCases--;
+			
+		}
+		
+		for (Student value: studentList){
+			//System.out.println(value.getName);
+		}
+		
+		//*/
+
+	}
+	
+}	
+	
+	
+	
+	
+
+

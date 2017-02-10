@@ -1,0 +1,40 @@
+package theappbusiness;
+
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.ArrayDeque;
+
+public class DequeExercise {
+
+	public static void main(String[] args) {
+		
+		int size =3;
+		int[] test = {5,3,5,3,2,2};
+		
+		Deque deque = new ArrayDeque();
+		
+		int uniqueGlobalCount=0;
+		int uniqueLocalCount=0;
+		
+		for (int i=0; i<test.length;i++){
+			int num = test[i];
+			if (deque.size()>=3){
+				deque.removeFirst();
+				if(uniqueLocalCount>uniqueGlobalCount){
+					uniqueGlobalCount=uniqueLocalCount;
+				}
+			}
+			if (!deque.contains(num)){
+				uniqueLocalCount++;
+			}
+			deque.addLast(num);
+		}
+		
+		System.out.println(uniqueGlobalCount);
+		
+
+	}
+	
+	
+
+}

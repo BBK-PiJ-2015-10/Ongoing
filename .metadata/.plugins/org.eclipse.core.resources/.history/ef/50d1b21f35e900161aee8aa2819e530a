@@ -1,0 +1,89 @@
+package theappbusiness;
+
+import java.util.Stack;
+import java.util.Map;
+import java.util.HashMap;
+
+public class JavaStack {
+
+	public static void main(String[] args) {
+		
+	
+		JavaStack js = new JavaStack();
+		
+	
+		
+		
+		
+		js.runTest("{}",true,1);
+		js.runTest("[]",true,2);
+		js.runTest("[]{",false,3);
+		js.runTest("(){}",true,4);
+		js.runTest("({})",true,5);
+		js.runTest("({)}",false,6);
+		js.runTest("}{",false,7);
+		
+		
+
+	}
+	
+
+	private Map<Character,Character> map = new HashMap();
+	
+	private void loadMap(){
+		map.put('{','}');
+		map.put('(',')');
+		map.put('[',']');
+	}
+	
+	private boolean isBalanced(String input){
+		if ((input.length() % 2)!=0){
+			return false;
+		}
+		loadMap();
+		Stack<Character> stack = new Stack();
+		
+		if (input.length()>0){
+			evalWord(input,stack);
+			if (stack.isEmpty()){
+				return true;
+			}
+		}
+		return false;
+	}
+	
+
+	
+	private Stack<Character> evalWord(String input,Stack<Character> stack){
+		char val = input.charAt(0);
+		if (!stack.isEmpty()){
+			char peek = stack.peek();
+			//System.out.println("I am peeking " +peek);
+			if (val==peek){
+				stack.pop();
+				
+			}
+		}
+		else {
+			stack.push(map.get(val));
+			//System.out.println("I am pushing " +map.get(val));
+		}
+		if (input.length()>1){
+			return evalWord(input.substring(1),stack);
+		} else {
+			return stack;
+		}
+	}
+	
+	
+	
+	public void runTest(String input,Boolean result,int testref){
+		if (isBalanced(input)==result){
+			System.out.println("Passed test " +testref);
+		}
+		else {
+			System.out.println("Failed test " +testref);
+		}
+	}
+
+}

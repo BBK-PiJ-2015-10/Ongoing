@@ -12,6 +12,7 @@ public class SortingRunner {
 		
 		int[] smallq = {14,25,2,9,1};
 		
+		//int[] smallq = {1,3,4,7};
 		 
 		System.out.println("before");
 		System.out.println(Arrays.toString(smallq));

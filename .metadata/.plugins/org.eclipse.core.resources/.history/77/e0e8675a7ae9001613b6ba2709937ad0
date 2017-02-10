@@ -1,0 +1,27 @@
+package theappbusiness;
+
+import java.util.Comparator;
+
+public class StudentComparator implements Comparator<Student> {
+
+	@Override
+	public int compare(Student arg1, Student arg2) {
+		Double gp1 = arg1.getCgpa();
+		Double gp2 = arg2.getCgpa();
+		if (!gp1.equals(gp2)){
+			return -(gp1.compareTo(gp2));
+		}
+		
+		Character name1 = arg1.getName().charAt(0);
+		Character name2 = arg2.getName().charAt(0);
+		if (!name1.equals(name2)){
+			return (name1.compareTo(name2));
+		}
+				
+		Integer num1= arg1.getId();
+		Integer num2= arg2.getId();
+		return -(num1.compareTo(num2));
+			
+	}
+		
+}

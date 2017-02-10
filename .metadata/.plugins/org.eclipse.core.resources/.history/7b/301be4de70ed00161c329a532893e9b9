@@ -1,0 +1,11 @@
+package com.datax.play.spark
+
+object counter {
+  
+  def main (args: Array[String]): Unit = {
+    
+    println("Hello back Scala")
+    
+  }
+  
+}

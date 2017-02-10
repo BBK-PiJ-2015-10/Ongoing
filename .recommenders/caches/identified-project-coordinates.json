@@ -1,1 +1,1 @@
-[[{"location":"C:\\Users\\YasserAlejandro\\Desktop\\LIB\\hadoop\\hadoop-mapreduce-client-core-2.7.3.jar","type":"JAR","hints":{}},"org.apache.hadoop:hadoop-mapreduce-client-core:2.7.3"]]
+[[{"location":"C:\\Program Files\\Java\\jre1.8.0_111","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"],[{"location":"C:\\Users\\YasserAlejandro\\Desktop\\LIB\\mongo\\mongo-java-driver-3.4.1.jar","type":"JAR","hints":{}},"org.mongodb.mongo-java-driver:org.mongodb.mongo-java-driver:3.4.1"]]
