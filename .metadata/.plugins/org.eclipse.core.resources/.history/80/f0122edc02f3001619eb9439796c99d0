@@ -1,0 +1,31 @@
+package adatastructures.tree;
+
+public class BinaryTree {
+
+	Node root;
+	
+	BinaryTree(){
+		root=null;
+	}
+	
+	public void insert(int data){
+		insert(root,data);
+	}
+	
+	public void insert(Node node,int data){
+		if (node==null){
+			node=new Node(data);
+		}
+		else {
+			if (node.getData()>data){
+				insert(node.getLeft(),data);
+			}
+			else if (node.getData()<data){
+				insert(node.getRight(),data);
+			}
+		}
+	}
+	
+	
+
+}

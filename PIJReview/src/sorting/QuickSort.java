@@ -1,5 +1,9 @@
 package sorting;
 
+/*
+ * Average, best, and worst performance: O(n log n), O(n log n), O(n2)
+ */
+
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;

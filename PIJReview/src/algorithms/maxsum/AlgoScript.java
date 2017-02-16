@@ -16,6 +16,9 @@ public class AlgoScript {
 		DynamicSolution ds = new DynamicSolution();
 		System.out.println(ds.maxSum(test));
 		
+		OptSol os = new OptSol();
+		System.out.println(os.maxSum(test));
+		
 		
 
 	}

@@ -1,5 +1,10 @@
 package sorting;
 
+/*
+ * Average, best, worst peformance O(n log n)
+ * Worst-case space performance O(n)
+ */
+
 public class MergeSort {
 
 	private int[] numbers;

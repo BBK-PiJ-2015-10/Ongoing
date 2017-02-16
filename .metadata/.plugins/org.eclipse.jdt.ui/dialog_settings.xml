@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
-	<item value="3" key="TypeHierarchyViewPart.orientation"/>
-	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
-	<item value="C:\spark\jars" key="org.eclipse.jdt.ui.lastextjar"/>
-	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
-	<item value="C:\Users\YasserAlejandro\mtp\mtp-abm\New folder" key="org.eclipse.jdt.ui.last.external.project"/>
-	<item value="480,510" key="UserLibraryLoadSaveDialog.size"/>
-	<section name="SelfEncapsulateFieldWizard">
-		<item value="false" key="GenerateJavadoc"/>
-	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="1" key="layout"/>
 		<item value="true" key="group_libraries"/>
@@ -17,244 +7,11 @@
 		<item value="1" key="rootMode"/>
 		<item value="false" key="linkWithEditor"/>
 	</section>
-	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item value="519" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="678" key="DIALOG_HEIGHT"/>
-		<item value="432" key="DIALOG_X_ORIGIN"/>
-		<item value="8" key="DIALOG_Y_ORIGIN"/>
-	</section>
-	<section name="SourceActionDialog.constructors">
+	<section name="SourceActionDialog.methods">
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="Comments"/>
 		<item value="1" key="VisibilityModifier"/>
 		<item value="false" key="FinalModifier"/>
-	</section>
-	<section name="javadoc">
-		<item value="public" key="access"/>
-		<item value="false" key="noindex"/>
-		<item value="C:\Users\YasserAlejandro\mp\mtp-abm\java\javadoc.xml" key="antpath"/>
-		<item value="false" key="nodeprecatedlist"/>
-		<item value="true" key="use"/>
-		<item value="true" key="author"/>
-		<item value="false" key="nodeprecated"/>
-		<item value="false" key="nonavbar"/>
-		<item value="" key="docletpath"/>
-		<item value="C:\Program Files\Java\jdk1.8.0_40\bin\javadoc.exe" key="javadoc_command_history"/>
-		<item value="1.8" key="source"/>
-		<item value="true" key="version"/>
-		<item value="Activity Based Costing Application - Documentation" key="doctitle"/>
-		<item value="" key="docletname"/>
-		<item value="true" key="splitindex"/>
-		<item value="true" key="fromStandard"/>
-		<item value="false" key="notree"/>
-		<item value="C:\Users\YasserAlejandro\mp\mtp-abm\java\doc" key="destdir"/>
-		<item value="false" key="openinbrowser"/>
-		<section name="projects">
-			<section name="SDPOngoing">
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SDPOngoing\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SDPOngoing\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="originalray-tracer">
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project10\original-ray-tracer\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project10\original-ray-tracer\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="SCSDPOngoing">
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SCSDPOngoing\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SCSDPOngoing\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="abc">
-				<item value="C:\Users\YasserAlejandro\mp\mtp-abm\java\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\mp\mtp-abm\java\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="cw-temple">
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\cw-temple\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\cw-temple\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="proto-ray-tracer">
-				<item value="C:\Users\YasserAlejandro\SDP\sdp-cw-proto-group\sdp-cw3-group\cw3-ray-tracer\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sdp-cw-proto-group\sdp-cw3-group\cw3-ray-tracer\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="akka-scala">
-				<item value="C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="RemoteSystemsTempFiles">
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\RemoteSystemsTempFiles\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="remote-actors">
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\RemoteActors\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\RemoteActors\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="ap-ray-tracer">
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\projectRTProto\ap-ray-tracer\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\projectRTProto\ap-ray-tracer\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="StatefulActor">
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\StatefulActor\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\StatefulActor\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="simple-actors">
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\SimpleActor\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\SimpleActor\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="PIJReview">
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PIJReview\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PIJReview\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="AkkaNotes_Messaging">
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project2\AkkaNotes_Messaging\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project2\AkkaNotes_Messaging\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="Akka Ping Pong Example">
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project7\ping\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project7\ping\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="supervising-actors">
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\SupervisingActors\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\SupervisingActors\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="YouTubeFX2">
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\YouTubeFX2\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\YouTubeFX2\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="AkkaPI">
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project12\pi\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project12\pi\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="cw-temple-original">
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\cw-temple-original\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\cw-temple-original\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="hello">
-				<item value="C:\Users\YasserAlejandro\SDP\day-4\hello\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\day-4\hello\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="ray-tracer">
-				<item value="C:\Users\YasserAlejandro\SDP\sdp-cw-group\sdp-cw3-group\cw3-ray-tracer\javadoc.xml" key="antpath"/>
-				<item value="C:\Users\YasserAlejandro\SDP\sdp-cw-group\sdp-cw3-group\cw3-ray-tracer\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-		</section>
-	</section>
-	<section name="BreadcrumbItemDropDown">
-	</section>
-	<section name="OverrideMethodDialog">
-		<item value="true" key="showtypes"/>
-	</section>
-	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
-		<item value="519" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="627" key="DIALOG_HEIGHT"/>
-		<item value="432" key="DIALOG_X_ORIGIN"/>
-		<item value="8" key="DIALOG_Y_ORIGIN"/>
-	</section>
-	<section name="JavadocWizardDialog">
-		<item value="616" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="567" key="DIALOG_HEIGHT"/>
-		<item value="383" key="DIALOG_X_ORIGIN"/>
-		<item value="8" key="DIALOG_Y_ORIGIN"/>
-	</section>
-	<section name="completion_proposal_size">
-	</section>
-	<section name="AddGetterSetterDialog">
-		<item value="false" key="SortOrdering"/>
-		<item value="false" key="RemoveFinal"/>
-	</section>
-	<section name="JarPackageWizard">
-		<item value="false" key="JarPackageWizardPage.INCLUDE_DIRECTORY_ENTRIES"/>
-		<item value="" key="JarManifestWizardPage.MANIFEST_LOCATION"/>
-		<item value="false" key="JarManifestWizardPage.SEAL_JAR"/>
-		<item value="true" key="JarPackageWizardPage.COMPRESS"/>
-		<item value="false" key="JarManifestWizardPage.REUSE_MANIFEST"/>
-		<item value="false" key="jarOptionsWizardPage.STORE_USE_SRC_FOLDERS"/>
-		<item value="true" key="jarOptionsWizardPage.EXPORT_WARNINGS"/>
-		<item value="" key="jarOptionsWizardPage.DESCRIPTION_LOCATION"/>
-		<item value="true" key="jarOptionsWizardPage.BUILD_IF_NEEDED"/>
-		<item value="false" key="JarPackageWizardPage.EXPORT_JAVA_FILES"/>
-		<item value="true" key="jarOptionsWizardPage.EXPORT_ERRORS"/>
-		<item value="true" key="JarManifestWizardPage.GENERATE_MANIFEST"/>
-		<item value="true" key="JarPackageWizardPage.EXPORT_CLASS_FILES"/>
-		<item value="false" key="JarPackageWizardPage.OVERWRITE"/>
-		<item value="false" key="jarOptionsWizardPage.SAVE_DESCRIPTION"/>
-		<item value="false" key="JarPackageWizardPage.REFACTORINGS"/>
-		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
-		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
-		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job56.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job55.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job54.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job53.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job52.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job51.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job50.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job49.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job48.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job47.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job46.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job45.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job44.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job43.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job42.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job41.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job40.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job39.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job38.jar"/>
-			<item value="C:\Users\YasserAlejandro\Dropbox\MSc Computer Science Birkbeck\AC Modules\CloudComputing\CourseWork\cw1\rel1\job\job37.jar"/>
-		</list>
-	</section>
-	<section name="JavaElementSearchActions">
-	</section>
-	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item value="true" key="renameSubpackages"/>
-		<item value="false" key="updateQualifiedNames"/>
-		<item value="*" key="patterns"/>
-		<item value="false" key="updateSimilarElements"/>
-		<item value="1" key="updateSimilarElementsMatchStrategy"/>
-		<item value="false" key="updateTextualMatches"/>
-	</section>
-	<section name="DialogBounds_SuperInterfaceSelectionDialog">
-		<item value="373" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="549" key="DIALOG_HEIGHT"/>
-		<item value="87" key="DIALOG_X_ORIGIN"/>
-		<item value="-20" key="DIALOG_Y_ORIGIN"/>
-	</section>
-	<section name="GenerateConstructorUsingFieldsSelectionDialog">
-		<item value="false" key="OmitCallToSuper"/>
-	</section>
-	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
-		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
-		<section name="DialogBoundsSettings">
-			<item value="600" key="DIALOG_WIDTH"/>
-			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-			<item value="500" key="DIALOG_HEIGHT"/>
-			<item value="183" key="DIALOG_X_ORIGIN"/>
-			<item value="191" key="DIALOG_Y_ORIGIN"/>
-		</section>
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
@@ -263,60 +20,21 @@
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>
-	<section name="DialogBounds_GenerateHashCodeEqualsDialog">
-		<item value="516" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="573" key="DIALOG_HEIGHT"/>
-		<item value="433" key="DIALOG_X_ORIGIN"/>
-		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	<section name="quick_assist_proposal_size">
 	</section>
-	<section name="DialogBounds_OverrideMethodDialog">
-		<item value="527" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="467" key="DIALOG_HEIGHT"/>
-		<item value="428" key="DIALOG_X_ORIGIN"/>
-		<item value="61" key="DIALOG_Y_ORIGIN"/>
-	</section>
-	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
-		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+	<section name="completion_proposal_size">
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="528" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="696" key="DIALOG_HEIGHT"/>
-		<item value="427" key="DIALOG_X_ORIGIN"/>
-		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="418" key="DIALOG_X_ORIGIN"/>
+		<item value="-1" key="DIALOG_Y_ORIGIN"/>
 	</section>
-	<section name="RefactoringWizard.preview">
-		<item value="600" key="width"/>
-		<item value="400" key="height"/>
+	<section name="AddGetterSetterDialog">
+		<item value="false" key="SortOrdering"/>
+		<item value="false" key="RemoveFinal"/>
 	</section>
-	<section name="SourceActionDialog.methods">
-		<item value="false" key="SynchronizedModifier"/>
-		<item value="false" key="Blocks"/>
-		<item value="false" key="Comments"/>
-		<item value="1" key="VisibilityModifier"/>
-		<item value="false" key="InstanceOf"/>
-		<item value="false" key="FinalModifier"/>
-	</section>
-	<section name="AddUnimplementedConstructorsDialog">
-		<item value="false" key="OmitCallToSuper"/>
-	</section>
-	<section name="ClasspathContainerSelectionPage">
-		<item value="12" key="index"/>
-	</section>
-	<section name="NewPackageWizardPage">
-		<item value="false" key="create_package_info_java"/>
-	</section>
-	<section name="quick_assist_proposal_size">
-	</section>
-	<section name="BuildPathsPropertyPage">
-		<item value="2" key="pageIndex"/>
-	</section>
-	<section name="JavaSearchPage">
-		<item value="0" key="HISTORY_SIZE"/>
-		<item value="false" key="CASE_SENSITIVE"/>
-		<item value="11" key="INCLUDE_MASK"/>
+	<section name="JavaElementSearchActions">
 	</section>
 </section>

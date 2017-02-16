@@ -1,0 +1,80 @@
+package theappbusiness;
+
+public class BloombergInterview {
+
+	public static void main(String[] args) {
+		
+		//String test = "4444";
+		//int result = test.length() / 4;
+		//System.out.println(result);
+		
+		
+		/*
+		System.out.println(0 % 4);
+		System.out.println(1 % 4);
+		System.out.println(2 % 4);
+		System.out.println(3 % 4);
+		System.out.println(4 % 4);
+		System.out.println(5 % 4);
+		System.out.println(6 % 4);
+		//*/
+		
+		//String test="ale";
+		test("4,444",4444,1);
+		test("104,450",104450,2);
+		test("123,123",123123,3);
+		test("10,000",10000,4);
+		test("10",10,5);
+		
+		
+		System.out.println(formatNum(1000000,4));
+
+	}
+	
+	private static String formatNum(int num){
+		String value =  new Integer(num).toString();
+		String result="";
+		int counter = value.length()-1;
+		for (int i=0;i<value.length();i++){
+			if ((counter % 3 == 0) && (counter!=0)){
+				result=result+value.charAt(i)+",";
+				counter--;
+			}
+			else {
+				result=result+value.charAt(i);
+				counter--;
+			}
+		}
+		return result;
+	}
+	
+	public static void test(String result,int input,int test){
+		if(result.equals(formatNum(input,3))){
+			System.out.println("Passed " +test);
+		}
+		else {
+			System.out.println("Failed " +test);
+		}
+		
+	}
+	
+	private static String formatNum(int num,int pos){
+		String value =  new Integer(num).toString();
+		String result="";
+		int counter = value.length()-1;
+		for (int i=0;i<value.length();i++){
+			if ((counter % pos == 0) && (counter!=0)){
+				result=result+value.charAt(i)+",";
+				counter--;
+			}
+			else {
+				result=result+value.charAt(i);
+				counter--;
+			}
+		}
+		return result;
+	}
+	
+	
+
+}

@@ -1,5 +1,9 @@
 package sorting;
 
+/*
+ * Average, best, and worst cases: O(n2) , O(n), O(n2)
+ */
+
 public class BubbleSortII {
 	
 	private int[] numbers;

@@ -1,5 +1,9 @@
 package sorting;
 
+/*
+ * Average, best, and worst performance: O(n2), O(n), O(n2)
+ */
+
 public class InsertionSort {
 	
 	

@@ -1,0 +1,131 @@
+package theappbusiness;
+
+import java.util.TreeSet;
+
+public class BloombergInterview {
+
+	public static void main(String[] args) {
+		
+		TreeSet test1 = new TreeSet();
+		test1.add(1);
+		test1.add(3);
+		test1.add(5);
+		
+		
+		//String test = "4444";
+		//int result = test.length() / 4;
+		//System.out.println(result);
+		
+		
+		/*
+		System.out.println(0 % 4);
+		System.out.println(1 % 4);
+		System.out.println(2 % 4);
+		System.out.println(3 % 4);
+		System.out.println(4 % 4);
+		System.out.println(5 % 4);
+		System.out.println(6 % 4);
+		//*/
+		
+		String test="all0";
+		
+		testPalin("alla",true,1);
+		testPalin("abab",false,2);
+		testPalin("alala",false,3);
+		testPalin("bbbb",true,4);
+		testPalin("bbbbb",false,5);
+		testPalin("a",false,6);
+		testPalin("",false,7);
+		testPalin(1,false,8);
+		testPalin(10,false,9);
+		testPalin(11,true,10);
+		
+		
+		
+		
+		
+		
+		/*
+		System.out.println(isPalindrome(test));
+		
+		System.out.println(test.charAt(0));
+		System.out.println(test.charAt(3));
+		System.out.println(test.substring(1,test.length()-1));
+		
+		
+	
+		System.out.println(formatNum(1000000));
+		
+		*/
+
+	}
+	
+	private static String formatNum(int num){
+		String value =  new Integer(num).toString();
+		String result="";
+		int counter = value.length()-1;
+		for (int i=0;i<value.length();i++){
+			if ((counter % 3 == 0) && (counter!=0)){
+				result=result+value.charAt(i)+",";
+				counter--;
+			}
+			else {
+				result=result+value.charAt(i);
+				counter--;
+			}
+		}
+		return result;
+	}
+	
+	public static boolean isPalindrome(String input){
+		if (input.isEmpty()){
+			return false;
+		}
+		if (input.length() % 2 !=0){
+			return false;
+		}
+		else {
+			Character first=input.charAt(0);
+			Character last=input.charAt(input.length()-1);
+			if (!first.equals(last)){
+				return false;
+			}
+			else {
+				if (input.length()==2){
+					return true;
+				}
+				else {
+					return isPalindrome(input.substring(1,input.length()-1));
+				}
+			}
+		}
+	}
+	
+	public static boolean isPalindrome(int number){
+		Integer input = number;
+		return isPalindrome(input.toString());
+	}
+	
+	
+	
+	public static void testPalin(String word,Boolean result,int test){
+		if (result==isPalindrome(word)){
+			System.out.println("Passed test " +test);
+		}
+		else {
+			System.out.println("Failed test " +test);
+		}
+	}
+	
+	
+	public static void testPalin(int number,Boolean result,int test){
+		if (result==isPalindrome(number)){
+			System.out.println("Passed test " +test);
+		}
+		else {
+			System.out.println("Failed test " +test);
+		}
+	}
+	
+
+}

@@ -26,8 +26,7 @@ public class BubbleSort {
 	}
 	
 	private void swapNumbers(int i, int j){
-		int temp;
-		temp = numbers[i];
+		int temp = numbers[i];
 		numbers[i]=numbers[j];
 		numbers[j]=temp;
 	}
