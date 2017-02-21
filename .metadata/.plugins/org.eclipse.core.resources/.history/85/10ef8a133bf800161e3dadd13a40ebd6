@@ -1,0 +1,58 @@
+package com.gontuseries.hibernate;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Column;
+import javax.persistence.Transient;
+
+import java.util.Date;
+
+/*
+ * This is an example using annotations
+ */
+
+//Tells hibernate that it is a class to persist into a database
+@Entity
+@Table(name="STUDENT_INFORMATION")
+public class Student_Info {
+	
+	//This is to specify the primary key
+	@Id
+	private int rollNo;
+	
+	//This annotation is to change the default name of the table column
+	//Transient is to ignore that field completely
+	@Transient
+	@Column(name="FULL_NAME",nullable=false)
+	private String name;
+	
+	private Date birthdate;
+
+	public int getRollNo() {
+		return rollNo;
+	}
+
+	public Date getBirthdate() {
+		return birthdate;
+	}
+
+	public void setBirthdate(Date birthdate) {
+		this.birthdate = birthdate;
+	}
+
+	public void setRollNo(int rollNo) {
+		this.rollNo = rollNo;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+
+}

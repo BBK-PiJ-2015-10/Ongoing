@@ -4,12 +4,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="mavenIgniteFirst"/>
 			<item value="mavenproject1"/>
 		</list>
 		<list key="name">
+			<item value="mavenIgniteFirst"/>
 			<item value="mavenproject1"/>
 		</list>
 		<list key="artifactId">
+			<item value="mavenIgniteFirst"/>
 			<item value="mavenproject1"/>
 		</list>
 		<list key="projectNameTemplate">

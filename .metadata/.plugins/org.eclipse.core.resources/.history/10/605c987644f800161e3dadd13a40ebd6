@@ -1,0 +1,42 @@
+package com.gontuseries.hibernate;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import java.util.Date;
+
+public class ScriptDriver {
+
+	public static void main(String[] args) {
+		
+		Student_Info student = new Student_Info();
+		student.setName("Ale Palacios");
+		student.setBirthdate(new Date());
+		
+		Student_Info student2 = new Student_Info();
+		student2.setName("Ale Biruta");
+		student2.setBirthdate(new Date());
+		
+		
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+		
+		//When session is open, a database connection is open
+		Session session = sessionFactory.openSession();
+		//Begin Transaction is needed, since we are doing a CUD operation
+		session.beginTransaction();
+		
+		session.save(student);
+		session.save(student2);
+		
+		session.getTransaction().commit();
+		session.close();
+		sessionFactory.close();
+		
+		
+		//Session session = SessionFactory.
+		
+
+	}
+
+}

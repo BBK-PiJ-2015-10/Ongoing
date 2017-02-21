@@ -1,0 +1,11 @@
+package com.gontuseries.hibernate;
+
+public class Student_Info {
+	
+	private int rollNo;
+	
+	private String name;
+	
+	
+
+}
