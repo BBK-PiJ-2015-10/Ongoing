@@ -1,0 +1,18 @@
+package com.manytomany;
+
+public class Script {
+
+	public static void main(String[] args) {
+	
+		StudentCertification studentCertification1 = new StudentCertification();
+		studentCertification1.setCertification_name("Core Java Certification");
+		
+		StudentCertification studentCertification2 = new StudentCertification();
+		studentCertification2.setCertification_name("Core Scala Certification");
+		
+		
+		
+
+	}
+
+}

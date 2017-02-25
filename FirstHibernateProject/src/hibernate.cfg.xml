@@ -48,11 +48,24 @@
 		<mapping class="com.manytoone.onedirectional.StudentAddress"></mapping>
 		-->
 		
-		<!--
+		<!-- 
 		<mapping class="com.manytoone.bidirectional.Student"></mapping>
 		<mapping class="com.manytoone.bidirectional.StudentAddress"></mapping>
 		-->
 		
+		<!--  
+		<mapping class="com.manytomany.onedirectional.Student"></mapping>
+		<mapping class="com.manytomany.onedirectional.StudentCertification"></mapping>
+		-->
+		
+		<!-- 	
+		<mapping class="com.manytomany.bidirectional.Student"></mapping>
+		<mapping class="com.manytomany.bidirectional.StudentCertification"></mapping>
+		-->
+		
+		<mapping class="com.crude.Student"></mapping>
+		
+	
 	</session-factory>
 </hibernate-configuration>	
 

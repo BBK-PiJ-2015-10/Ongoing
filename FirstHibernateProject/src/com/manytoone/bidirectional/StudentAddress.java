@@ -24,6 +24,7 @@ public class StudentAddress {
 	
 	private String address_detail;
 	
+	//The class with the mappedBy annotation is the not owning side
 	@OneToMany(cascade=CascadeType.ALL,mappedBy="studentAddress")
 	private Set<Student> students = new HashSet<>();
 
