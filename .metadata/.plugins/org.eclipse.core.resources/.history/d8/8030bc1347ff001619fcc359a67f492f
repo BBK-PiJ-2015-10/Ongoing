@@ -1,0 +1,29 @@
+package test;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class UseCaseTests {
+	
+	private String value1;
+	
+	private String value2;
+	
+	
+	@Test
+	public void testFileDirectory() {	
+		assertEquals(2,2);
+		
+	}
+	
+	
+	@Test
+	public void singleTest(){
+		value1 = "Alejandro";
+		value2 = "Palacios";
+		assertEquals(value1,value2);
+	}
+	
+	
+
+}

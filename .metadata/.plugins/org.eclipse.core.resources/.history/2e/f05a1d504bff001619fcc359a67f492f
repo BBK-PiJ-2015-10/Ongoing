@@ -1,0 +1,52 @@
+package test;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+import java.util.Scanner;
+import java.io.File;
+
+public class UseCaseTests {
+	
+	private Scanner manualScanner = new Scanner(System.in);
+	
+	private Scanner fileScanner;
+	
+	private File dir;
+	
+	private String value2;
+	
+	private String[] names = {"yasser","alejandro","palacios","otero","otero"};
+	
+	
+	@Test
+	public void testFileDirectory() {	
+		System.out.println("Please enter the location of your test directory");
+		String dirAddress = manualScanner.nextLine();
+		assertEquals(true,(dir=new File(dirAddress)).exists());
+		
+		
+		
+		//if ((dir=new File(dirAddress)).exists()){
+			//System.out.println("The directory exists");
+		//}
+		//else {
+			//System.out.println("The directory does not exists");
+		//}
+		//testFile("alejandro","alejandro");
+		//testFile("palacios","palacios");
+		//assertEquals(2,2);
+		
+	}
+	
+	
+	//@Test
+	public void testFile(String first, String second){
+		//value1 = "Alejandro";
+		//value2 = "Alejandro";
+		assertEquals(first,second);
+	}
+	
+	
+
+}

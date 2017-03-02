@@ -1,0 +1,14 @@
+package delivery;
+
+public class Edge {
+	
+	private Node sideA;
+	
+	private Node sideB;
+	
+	private int length;
+	
+	
+	
+
+}

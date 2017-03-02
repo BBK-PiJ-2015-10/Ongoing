@@ -2,7 +2,7 @@ package concurrency.exer1;
 
 public class TextLoop implements Runnable {
 	
-	public static final int COUNT = 100;
+	public static final int COUNT = 20;
 	
 	private final String name;
 	

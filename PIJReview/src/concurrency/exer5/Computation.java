@@ -17,7 +17,7 @@ public class Computation implements Runnable {
 	@Override
 	public void run() {
 		synchronized (this){
-			double result = 0.0;
+			double localResult = 0.0;
 			Random r = new Random(-1);
 			for (int i = 0; i < numbers.length; i++) {
 	            result += Math.sqrt(numbers[i]);
@@ -25,7 +25,7 @@ public class Computation implements Runnable {
 	            result += Math.sqrt(r.nextDouble() * result);
 	            result += Math.sqrt(r.nextDouble() * result);
 	        }
-			this.result = result;
+			this.result = localResult;
 			this.resultReady = true;
 			notifyAll();
 		}

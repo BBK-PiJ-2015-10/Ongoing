@@ -1,0 +1,16 @@
+package delivery;
+
+import java.util.Scanner;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+
+public class GraphCreator {
+	
+	public void captureInput(Scanner sc){
+		
+		
+		
+	}
+
+}

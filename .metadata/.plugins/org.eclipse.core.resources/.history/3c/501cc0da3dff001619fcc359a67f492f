@@ -1,0 +1,9 @@
+package delivery;
+
+public class Hard<T> {
+
+	private T hardUnit;
+	
+	
+	
+}

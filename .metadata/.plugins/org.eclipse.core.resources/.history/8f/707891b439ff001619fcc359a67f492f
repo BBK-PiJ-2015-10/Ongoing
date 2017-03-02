@@ -1,0 +1,40 @@
+package delivery;
+
+public class Link {
+	
+	private Node nodeA;
+	
+	private Node nodeB;
+	
+	private int length;
+
+	public int getLength() {
+		return length;
+	}
+
+	public void setLength(int length) {
+		this.length = length;
+	}
+
+	public void setNodeA(Node nodeA) {
+		this.nodeA = nodeA;
+	}
+
+	public void setNodeB(Node nodeB) {
+		this.nodeB = nodeB;
+	}
+	
+	public Node getOther(Node input){
+		if (input.equals(nodeA)){
+			return nodeB;
+		}
+		else if (input.equals(nodeB)){
+			return nodeA;
+		}
+		return null;
+	}
+	
+	
+	
+
+}
