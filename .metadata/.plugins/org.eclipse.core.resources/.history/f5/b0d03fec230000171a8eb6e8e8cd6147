@@ -1,0 +1,52 @@
+package delivery;
+
+public class EncapPerson {
+	
+	private Person person;
+	
+	private Integer priority;
+	
+	EncapPerson(Person person,Integer priority){
+		this.person=person;
+		this.priority=priority;
+	}
+
+	public Person getPerson() {
+		return person;
+	}
+
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+
+	public Integer getPriority() {
+		return priority;
+	}
+
+	public void setPriority(Integer priority) {
+		this.priority = priority;
+	}
+	
+	@Override
+	public int hashCode(){
+		this.person.hashCode();
+	}
+	
+	@Override
+	public boolean equals(Object input){
+		if (input==this){
+			return true;
+		}
+		if (!(input instanceof Node)){
+			return false;
+		}
+		Node otherNode = ( (Node) input);
+		return otherNode.nodeID.equals(this.nodeID);
+	}
+	
+
+	
+	
+
+
+}

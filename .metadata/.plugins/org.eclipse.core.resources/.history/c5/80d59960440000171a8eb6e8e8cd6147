@@ -1,0 +1,9 @@
+package delivery;
+
+import java.util.Scanner;
+
+public interface GraphCreator {
+	
+	void createGraph(Scanner sc);
+
+}

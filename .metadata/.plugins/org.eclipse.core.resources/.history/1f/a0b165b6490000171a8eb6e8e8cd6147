@@ -1,0 +1,13 @@
+package delivery;
+
+public class VolumetricWeightCalcImpl implements VolumetricWeightCalc {
+
+	@Override
+	public Integer calculateVolWeight(Integer width, Integer length, Integer height) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+}

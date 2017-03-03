@@ -1,0 +1,27 @@
+package delivery;
+
+import java.lang.Math.*;
+
+public class NormalizedWeightCalcImpl implements NormalizedWeightCalc {
+
+	private VolumetricWeightCalc volumetricWeightcalc;
+	
+	public NormalizedWeightCalcImpl(VolumetricWeightCalc volumetricWeightcalc) {
+		this.volumetricWeightcalc = volumetricWeightcalc;
+	}
+
+	@Override
+	public Double calculateVolWeight(Integer width, Integer length, Integer height, Integer weight) {
+		Double dweight = weight.doubleValue();
+		
+		volumetricWeightcalc.calculateVolWeight(width, length, height).compareTo()
+		
+		return null;
+	}
+		
+
+
+
+	
+	
+}

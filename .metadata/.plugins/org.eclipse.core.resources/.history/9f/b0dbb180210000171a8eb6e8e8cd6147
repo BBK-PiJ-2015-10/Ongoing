@@ -1,0 +1,48 @@
+package delivery;
+
+import java.util.PriorityQueue;
+
+public class ScriptTestPerson {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ScriptTestPerson tr = new ScriptTestPerson();
+		tr.run();
+
+	}
+	
+	
+	private PriorityQueue<Person> personq = new PriorityQueue();
+	
+	
+	public void run(){
+		
+		Person one = new Person("Ale",100);
+		Person two = new Person("Tontolone",50);
+		Person three = new Person("Mamamia",200);
+		
+		personq.add(one);
+		personq.add(two);
+		personq.add(three);
+		
+		System.out.println(personq.peek().getName());
+		
+		personq.remove(two);
+		
+		two.setPriority(300);
+		
+		personq.add(two);
+		
+		
+		
+		System.out.println(personq.peek().getName());
+		
+		
+		
+		//one.setPriority
+		
+		
+	}
+
+}

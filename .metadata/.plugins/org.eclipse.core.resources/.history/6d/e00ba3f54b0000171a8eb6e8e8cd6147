@@ -1,0 +1,39 @@
+package delivery;
+
+public class VolumetricWeightCalcImpl implements VolumetricWeightCalc {
+	
+	private Integer volume;
+	
+	//private Integer volume = 0;
+	
+	//private Double rawWeight = volume/5000.0;
+	
+	
+	
+	@Override
+	public Integer calculateVolWeight(Integer width, Integer length, Integer height) {
+		initFields(width,length,height);
+		//System.out.println(rawWeight);
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private void initFields (Integer width, Integer length, Integer height) {
+		this.volume=width*length*height;
+	}
+	
+	private void getVolume(){
+		
+	}
+	
+
+	
+	
+	public void test(){
+		
+		
+	}
+
+	
+	
+}

@@ -1,0 +1,19 @@
+package delivery;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class DijkstraImpl {
+	
+	private Map<String,Node<String>> nodeMap = new HashMap<String,Node<String>>();
+
+	public DijkstraImpl(Map<String, Node<String>> nodeMap) {
+		this.nodeMap = nodeMap;
+	}
+	
+	
+	
+	
+	
+
+}

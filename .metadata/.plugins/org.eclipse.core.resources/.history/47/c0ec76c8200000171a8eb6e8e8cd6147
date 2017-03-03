@@ -1,0 +1,10 @@
+package delivery;
+
+public class ScriptTestPerson {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

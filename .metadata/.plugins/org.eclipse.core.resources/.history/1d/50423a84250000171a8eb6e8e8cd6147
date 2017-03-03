@@ -1,0 +1,52 @@
+package delivery;
+
+import java.util.PriorityQueue;
+
+import java.util.Set;
+import java.util.HashSet;
+
+public class ScriptTestPerson {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ScriptTestPerson tr = new ScriptTestPerson();
+		tr.run();
+
+	}
+	
+	
+	private PriorityQueue<EncapPerson> personq = new PriorityQueue();
+	
+	private Set<Person> people = new HashSet();
+	
+	private Set<Person> other = new HashSet();
+	
+	
+	public void run(){
+		
+		Person one = new Person("Ale");
+		Person two = new Person("Tontolone");
+		Person three = new Person("Mamamia");
+		
+		people.add(one);
+		people.add(two);
+		people.add(three);
+		
+		//people.forEach((n)->(personq.add(new EncapPerson(n,100))));
+		
+		people.forEach((n)->other.add(n));
+		
+		personq.add(new EncapPerson(one,100));
+		
+		people.forEach((n)->personq.add(new EncapPerson(n,100)));
+		
+	
+		
+		
+		//one.setPriority
+		
+		
+	}
+
+}

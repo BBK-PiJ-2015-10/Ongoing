@@ -1,0 +1,12 @@
+package delivery;
+
+public class TestScript {
+
+	public static void main(String[] args) {
+		
+		VolumetricWeightCalc calc = new VolumetricWeightCalcImpl();
+		calc.calculateVolWeight(26,10,11);
+
+	}
+
+}

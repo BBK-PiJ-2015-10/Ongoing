@@ -4,14 +4,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.alejandropalacios"/>
 			<item value="mavenIgniteFirst"/>
 			<item value="mavenproject1"/>
 		</list>
 		<list key="name">
+			<item value="com.alejandropalacios.shiptment"/>
 			<item value="mavenIgniteFirst"/>
 			<item value="mavenproject1"/>
 		</list>
 		<list key="artifactId">
+			<item value="maven-allpago-techinterview"/>
 			<item value="mavenIgniteFirst"/>
 			<item value="mavenproject1"/>
 		</list>
