@@ -1,0 +1,7 @@
+package annotations.scanning;
+
+public interface MessageRenderer {
+	
+	void render();
+
+}

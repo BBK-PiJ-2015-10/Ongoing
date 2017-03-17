@@ -1,0 +1,35 @@
+package delivery;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import delivery.calculator.weight.VolumetricWeightCalc;
+
+public class MainDriver {
+
+	public static void main(String[] args) {
+		
+		//BeanFactory factory = getBeanFactory();
+		
+		 
+
+	}
+	
+	public void launch(){
+		
+		//BeanFactory factory = getBeanFactory();
+		VolumetricWeightCalc calc = new VolumetricWeightCalc();
+		
+	}
+	
+	
+	private static BeanFactory getBeanFactory(){
+		
+		BeanFactory factory = new ClassPathXmlApplicationContext("delivery/beans.xml");
+		return factory;
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,22 @@
+package delivery;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainDriver {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+	
+	
+	private static BeanFactory getBeanFactory(){
+		
+		BeanFactory factory = new ClassPathXmlApplicationContext("delivery/beans.xml");
+		return factory;
+		
+	}
+
+}

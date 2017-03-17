@@ -1,5 +1,0 @@
-package delivery;
-
-public class PrioNode extends Node<T> {
-
-}

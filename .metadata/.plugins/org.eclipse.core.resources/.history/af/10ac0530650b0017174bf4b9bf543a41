@@ -1,0 +1,14 @@
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.journaldev.spring.di.configuration.DIConfiguration;
+import com.journaldev.spring.di.consumer.MyApplication
+
+public class ClientApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

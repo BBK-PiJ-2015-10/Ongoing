@@ -1,7 +1,0 @@
-package delivery;
-
-public interface VolumetricWeightCalculator {
-	
-	public Integer calculateVolWeight(Integer width,Integer length, Integer height);
-
-}

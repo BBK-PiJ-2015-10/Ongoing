@@ -1,7 +1,0 @@
-package delivery;
-
-public interface NormalizedWeightCalculator {
-	
-	public Double calculateVolWeight(Integer width,Integer length, Integer height,Integer weight);
-
-}
