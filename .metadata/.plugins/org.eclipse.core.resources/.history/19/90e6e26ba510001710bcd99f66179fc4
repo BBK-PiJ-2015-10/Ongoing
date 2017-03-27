@@ -1,0 +1,19 @@
+package adt.review
+
+object ADT {
+  
+  def main(args: Array[String] ) : Unit = {
+    println("ale tonto")
+  }
+  
+  def createAdder(): String = {
+    return null;
+  }
+  
+  println("Ale Tonto")
+  
+  
+  
+}
+
+

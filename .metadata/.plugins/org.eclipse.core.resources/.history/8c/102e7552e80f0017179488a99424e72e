@@ -1,0 +1,12 @@
+package com.datax.play.spark
+
+object practice {
+  
+  def main (args: Array[String] ) : Unit = {
+    
+    println("Ale Tonto")
+    
+    
+  }
+  
+}

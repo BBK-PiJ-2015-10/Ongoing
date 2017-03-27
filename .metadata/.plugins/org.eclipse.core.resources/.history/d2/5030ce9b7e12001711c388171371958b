@@ -1,0 +1,15 @@
+package datastructures
+
+class MyHeapPriorityQueue[A: Manifest] extends MyPriorityQueue[A] {
+  
+  private val heap = new Array[A](10)
+  
+  def enqueue(o: A): Unit
+  
+  def dequeue(): A
+  
+  def isEmpty: Boolean
+  
+  def peek: A
+  
+}

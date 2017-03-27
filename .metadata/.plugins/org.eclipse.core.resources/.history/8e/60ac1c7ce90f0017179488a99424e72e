@@ -1,0 +1,34 @@
+package com.datax.play.spark
+
+object practice {
+  
+  val list = List("yasser","alejandro","palacios","otero")
+  
+  def main (args: Array[String] ) : Unit = {
+    
+    test()
+    
+    println("Ale Tonto")
+    
+    
+      
+   
+    
+    
+    
+  }
+  
+  def test() : List[String] = {
+    val results = List()
+     for ( i <- 0 to list.size-1){
+     // val list2 = List("tontolone")
+      results +: list.apply(i) 
+      //println(list.apply(i))
+    }
+    println(results.size)
+    return null
+  }
+  
+  
+  
+}

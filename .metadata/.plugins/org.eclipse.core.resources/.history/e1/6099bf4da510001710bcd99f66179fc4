@@ -1,0 +1,7 @@
+package adt.review
+
+object ADT extends App {
+  
+  println("Ale Tonto")
+  
+}

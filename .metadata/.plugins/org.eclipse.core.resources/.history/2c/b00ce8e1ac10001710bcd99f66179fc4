@@ -1,0 +1,55 @@
+package adt.review
+
+object ADTPrac {
+  
+  def main(args: Array[String] ) : Unit = {
+    
+    val plus2 = createAdder(a=>a+1)
+    println(plus2(50))
+    
+    val func = twice(a => a * 2 +1)  
+    println(func(10))
+    
+    val exclaim = twiceG((a: String) => a +"!")
+    println(exclaim("ale"))
+    
+    val both = andThen(a => a + 1, a => a * 2)
+    println(both(10))
+    
+    val bothG = andThenG(
+    (a: Int) => a * 2.5,
+    (a: Double) => "the answer is " +a
+    )
+    
+    println(bothG(3))
+    
+    assert (bothG(3) == "the answer is 7.5")
+    assert(bothG(3) == "the answer is 7.5","Expected Sails reaised, Got " +bothG(3) )
+    
+    
+    
+    assert(2 == 2)
+        
+    
+  }
+  
+  
+  def createAdder(num: (Int) => Int) = 
+    (input: Int) => input + num(input)
+  
+  
+  def twice(f1: (Int) => Int) = 
+    (input: Int) => f1(f1(input))
+  
+  def twiceG[A](f: (A) => A) =
+    (input: A) => f(f(input))
+    
+  
+  def andThen(f1: (Int) => Int, f2: (Int) => Int)=
+    (input: Int) => f2(f1(input))
+  
+  def andThenG[A, B, C](f1: (A) => B, f2: (B) => C) =
+    (input: A) => f2(f1(input))
+  
+  
+}

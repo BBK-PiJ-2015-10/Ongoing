@@ -1,0 +1,13 @@
+package interviewprep;
+
+public interface Mammal {
+	
+	String name;
+	
+	default String getGenre(){
+		return "Mammalito";
+	}
+	
+	
+
+}

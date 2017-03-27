@@ -1,0 +1,9 @@
+package datastructures
+
+class Tonto[A] {
+  
+  private var totolone = new Array[String](10)
+  
+  private var lone = new Array[A](10)
+  
+}

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UseCaseSavedUnitTests" project="maven-allpago-techinterview" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="usecasestests.UseCaseSavedUnitTests" time="3.799">
-    <testcase name="testFileDirectory" classname="usecasestests.UseCaseSavedUnitTests" time="3.799"/>
-  </testsuite>
-</testrun>

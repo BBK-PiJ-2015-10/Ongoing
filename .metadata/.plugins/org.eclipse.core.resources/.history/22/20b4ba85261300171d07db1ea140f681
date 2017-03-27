@@ -1,0 +1,40 @@
+package multithreading
+
+object Multithreading {
+  
+  def main(args: Array[String]): Unit = {
+    
+    var cnt=0
+    val threads = for (i <-1 to 10) yield {
+      new Thread(new Runnable {
+        def run {
+          for (j <-1 to 100000000) cnt +=1
+        }
+      })
+    }
+    threads.foreach(_.start())
+    Thread.sleep(600)
+    println(cnt)
+    
+    /*
+    new Thread(new Runnable {
+      def run {
+        for (i <- 1 to 15) {
+          println(i)
+          Thread.sleep(200)
+        }
+      }
+    }).start
+    
+    for (c <- 'A' to 'Z'){
+      println(c)
+      Thread.sleep(100)
+    }
+   
+  */
+    
+  }
+  
+  
+  
+}

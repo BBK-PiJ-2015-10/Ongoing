@@ -1,7 +1,7 @@
 package adatastructures.heap;
 
 import java.util.ArrayList;
-//import java.util.Comparable;
+
 
 public class MinHeap {
 

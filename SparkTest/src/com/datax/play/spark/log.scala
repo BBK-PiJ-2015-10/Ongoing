@@ -24,39 +24,56 @@ object log {
     val sc = new SparkContext(conf)
     
     //based RDD
-    val lines = sc.textFile("input/log.txt")
+    //val lines = sc.textFile("input/log.txt")
     val temps = sc.textFile("inputtemp/temp2.txt")
     
     
     
     //transformed RDDs
-    val errors = lines.filter(_.startsWith("ERROR"))
-    val messages = errors.map(_.split("\t")).map(r=>r(1))
-    messages.cache()
+    //val errors = lines.filter(_.startsWith("ERROR"))
+    //val messages = errors.map(_.split("\t")).map(r=>r(1))
+    //messages.cache()
     
     //val alejito : RDD[String] 
     
-    val mima : String = "ale"
+    //val mima : String = "ale"
     
-       
+    //This searches for ERROR, splits it, grabs the second item on array, and saves it in files.    
     //lines.filter(_.startsWith("ERROR")).map(_.split(" ")).map(x=>x(1)).saveAsTextFile("output4.txt")
     
     //temps.map(_.split(" ")).map(x=>x(3)).saveAsTextFile("output5.txt")
     
-    temps.map(_.split(" ")).map(x=>x(2)).saveAsTextFile("output6.txt")
+    //temps.map(_.split(" ")).foreach {( => ??? }
+    
+    //temps.foreach { x => ??? }
      
 
     
     val accum = sc.accumulator(0)
     
-    //temps
+    
+    
+    //The below drops the year, and calculates the cumulative of the elements
+    //temps.map(_.split(" ").drop(1).map(x => x.toInt).reduce(_+_)).saveAsTextFile("output6.txt")
+    
+    //temps.map(_.split("\t")).fold((0)(a,b)=>a+b))
+    
+    //val test = temps.map(_.split(" ")).first().reduce(_+_)
+    
+    //println(test)
+    
+    //for ( x <- test){
+      //println(x)
+    //}
     
     //temps.map(_.split(" ")).flatMap { x => Integer.getInteger(x) }
     
     
     
     
-    //sc.parallelize(Array(1,2,3,4)).foreach(x=>accum +=x)
+    //sc.parallelize(Array(1,2,3,4)).foreach(x=>accum+=x)
+    
+    //println(accum)
     
     
     //

@@ -1,0 +1,10 @@
+package monad.review
+
+object Monads {
+  
+  def main(args: Array[String] ) : Unit = {
+    println("ale tonto")
+  }
+  
+  
+}

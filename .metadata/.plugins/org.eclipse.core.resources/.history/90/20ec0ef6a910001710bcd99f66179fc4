@@ -1,0 +1,33 @@
+package adt.review
+
+object ADTPrac {
+  
+  def main(args: Array[String] ) : Unit = {
+    
+    val plus2 = createAdder(a=>a+1)
+    println(plus2(50))
+    
+    val func = twice(a => a * 2 +1)  
+    println(func(10))
+    
+    val both = andThen(a => a + 1, a => a * 2)
+    println(both(10))
+    
+  }
+  
+  
+  def createAdder(num: (Int) => Int) = 
+    (input: Int) => input + num(input)
+  
+  
+  def twice(f1: (Int) => Int) = 
+    (input: Int) => f1(f1(input))
+  
+  
+  def andThen(f1: (Int) => Int, f2: (Int) => Int)=
+    (input: Int) => f2(f1(input))
+  
+  
+  
+  
+}

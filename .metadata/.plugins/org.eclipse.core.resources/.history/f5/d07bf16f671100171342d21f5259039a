@@ -1,0 +1,18 @@
+package monad.review
+
+object MonoidsRev {
+
+  val StringMonoid = new Monoid[String]
+  
+  
+}
+
+trait Monoid[A] {
+  
+  def op(a1: A, a2: A): A
+  
+  def zero: A
+  
+}
+
+

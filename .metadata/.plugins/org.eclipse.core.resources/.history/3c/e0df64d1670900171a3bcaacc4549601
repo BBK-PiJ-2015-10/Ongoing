@@ -1,7 +1,0 @@
-package annotations.scanning;
-
-public interface MessageProvider {
-	
-	String getMessage();
-
-}

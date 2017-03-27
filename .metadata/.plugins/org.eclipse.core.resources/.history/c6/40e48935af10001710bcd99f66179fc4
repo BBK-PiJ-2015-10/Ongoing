@@ -1,0 +1,28 @@
+package adt.review
+
+object ADTPract {
+  
+}
+
+//Product data type, it has a B and a C
+
+trait A {
+  
+  def b: B  
+  def c: C
+  
+}
+
+trait B
+trait C
+
+
+//Sum data type, Human is a Male or a Female
+
+sealed trait Human
+case class Man() extends Human
+case class Woman() extends Human
+
+
+
+

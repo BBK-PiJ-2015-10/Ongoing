@@ -1,0 +1,12 @@
+package multithreading
+
+object Multithreading {
+  
+  def main(args: Array[String]): Unit = {
+    
+    
+  }
+  
+  
+  
+}

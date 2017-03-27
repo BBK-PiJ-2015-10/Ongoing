@@ -1,0 +1,14 @@
+package datastructures
+
+class Tonto[A] {
+  
+  private var name : A = _
+  
+  private var totolone = new Array[String](10)
+  
+  private var lone : Array[A] = _
+  
+  
+  //= new Array[A](10)
+  
+}

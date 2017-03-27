@@ -9,11 +9,13 @@
 			<item value="mavenproject1"/>
 		</list>
 		<list key="name">
+			<item value="maven-di"/>
 			<item value="com.alejandropalacios.shiptment"/>
 			<item value="mavenIgniteFirst"/>
 			<item value="mavenproject1"/>
 		</list>
 		<list key="artifactId">
+			<item value="maven-di-demo"/>
 			<item value="maven-allpago-techinterview"/>
 			<item value="mavenIgniteFirst"/>
 			<item value="mavenproject1"/>

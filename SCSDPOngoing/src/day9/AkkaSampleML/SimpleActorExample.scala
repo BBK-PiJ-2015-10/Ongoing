@@ -40,7 +40,6 @@ object SimpleActorExample extends App {
   val actor = system.actorOf(Props[SimpleActor], "SimpleActor")
   
   
-  
   println("Before messages")
   actor ! "Hi there."
   println("After String") 

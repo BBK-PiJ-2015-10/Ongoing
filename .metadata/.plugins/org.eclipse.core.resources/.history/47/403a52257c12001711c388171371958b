@@ -1,0 +1,56 @@
+package datastructures
+
+import java.lang.Comparable;
+
+object BinaryHeaps {
+ 
+  
+    
+  
+}
+
+trait MyPriorityQueue[Comparable] {
+  
+  def enqueue(o: Comparable): Unit
+  
+  //def dequeue(): A
+  
+  def isEmpty: Boolean
+  
+  //def peek: A
+  
+}
+
+class Tonto[T: Comparable] {
+  
+  private var heap : Array[Ordered]
+  
+  
+  
+}
+
+
+class HeapPriorityQueue[Comparable] extends MyPriorityQueue[Comparable] {
+  
+  //private var heap = new Array[Comparable](10)
+  
+  private var back = 1;
+  
+  def enqueue(o: Comparable): Unit = {
+    
+  }
+  
+  //def dequeue(): A
+  
+  def isEmpty: Boolean = {
+    return false
+  }
+  
+  //def peek: A = {
+    
+  //}
+  
+}
+
+
+

@@ -1,0 +1,15 @@
+package adt.review
+
+object ADT {
+  
+  def createAdder(): String = {
+    return null;
+  }
+  
+  println("Ale Tonto")
+  
+  
+  
+}
+
+

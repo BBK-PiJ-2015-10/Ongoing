@@ -1,0 +1,16 @@
+package adt.review
+
+object ADT {
+  
+  def main(args: Array[String] ) : Unit = {
+    println("ale tonto")
+  }
+  
+  def createAdder(num: (Int) => Int) = {
+    (input: Int) => input + num(input)
+  }
+    
+  
+}
+
+

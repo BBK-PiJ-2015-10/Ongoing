@@ -1,0 +1,18 @@
+package adt.review
+
+object ADTPract {
+  
+}
+
+trait A {
+  
+  def b: B
+  
+  def c: C
+  
+}
+
+trait B
+trait C
+
+

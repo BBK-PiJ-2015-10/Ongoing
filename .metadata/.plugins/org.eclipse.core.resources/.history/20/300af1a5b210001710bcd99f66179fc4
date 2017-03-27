@@ -1,0 +1,13 @@
+package adt.review
+
+object HOFPrac {
+  
+  def main(args: Array[String] ) : Unit = {
+    
+  }
+  
+  def sum(f: (Int,Int) => Int , a: Int, b: Int ) = {
+    if (a < b) 0 else f(a,b) + sum(f,a+1,b)
+  }
+  
+}

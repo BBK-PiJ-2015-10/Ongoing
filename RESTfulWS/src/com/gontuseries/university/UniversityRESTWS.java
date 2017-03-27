@@ -7,13 +7,13 @@ import javax.ws.rs.Path;
 //import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 //import javax.ws.rs.QueryParam;
-//import javax.ws.rs.MatrixParam;
+import javax.ws.rs.MatrixParam;
 import javax.ws.rs.POST;
 import javax.ws.rs.GET;
 //import javax.ws.rs.FormParam;
-import javax.ws.rs.core.Response;
-import javax.ws.rs.core.Response.ResponseBuilder;
-import javax.ws.rs.Consumes;
+//import javax.ws.rs.core.Response;
+//import javax.ws.rs.core.Response.ResponseBuilder;
+//import javax.ws.rs.Consumes;
 import javax.ws.rs.Produces;
 //import com.sun.jersey.multipart.FormDataParam;
 
@@ -31,7 +31,12 @@ import java.io.IOException;
 public class UniversityRESTWS {
 	
 	/*
+	 * This service is fed via webform http://localhost:8080/RESTfulWS/uploadform.html
+	 * it selects a file from the form and saves it to a specific file location.
+	 */
 	
+	/*
+	 
 	@POST
 	@Path("/upload")
 	@Consumes(MediaType.MULTIPART_FORM_DATA)
@@ -75,8 +80,10 @@ public class UniversityRESTWS {
 	
 	*/
 	  
-	///*
+	/*
 	
+	//When the user enters the url http://localhost:8080/RESTfulWS/rest/university/get
+	//This service will provide a file to the user
 	@GET
 	@Path("/get")
 	@Produces("text/plain")
@@ -91,6 +98,12 @@ public class UniversityRESTWS {
 		
 	}
 	
+	*/
+	
+	/* In this example data is entered through a form http://localhost:8080/RESTfulWS/entryform.html
+	 * the submit button calls this webservice and @FormParam reads the parameters from the form.
+	 */
+	
 	/*
 	
 	@POST
@@ -104,8 +117,9 @@ public class UniversityRESTWS {
 				+name +" , and age : " +age;	
 	}
 	
+	*/
 	
-	///*
+	/*
 	
 	//Below is an example of matrix parameters
 	//http://localhost:8080/RESTfulWS/rest/university;studentRollNo1=5;studentRollNo2=6
@@ -119,8 +133,9 @@ public class UniversityRESTWS {
 				+studentRollNo1 +" and " +studentRollNo2 ;
 	}
 	
+	*/
 	
-	///*
+	/*
 	 
 	//Below is an example with QueryParameters
 	// * http://localhost:8080/RESTfulWS/rest/university?studentRollNo1=5&studentRollNo2=6
