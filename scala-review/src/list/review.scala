@@ -1,5 +1,0 @@
-package list
-
-object review {
-  
-}

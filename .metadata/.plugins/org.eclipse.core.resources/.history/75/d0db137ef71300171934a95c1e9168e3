@@ -1,0 +1,16 @@
+package multithreading
+
+object ParallelScript {
+  
+  def main(args: Array[String]): Unit = {
+    
+    (1 to 100).foreach(x=>println(x))
+  
+    println("ale tonto")
+    
+  }
+  
+  
+  
+  
+}

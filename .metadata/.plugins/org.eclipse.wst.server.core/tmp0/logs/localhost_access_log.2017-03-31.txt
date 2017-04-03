@@ -1,0 +1,6 @@
+127.0.0.1 - - [31/Mar/2017:18:13:03 +0100] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [31/Mar/2017:18:13:07 +0100] "GET /RESTfulWS/WEB-INF/classes/com/gontuseries/university/UniversityRESTWS.java HTTP/1.1" 404 949
+127.0.0.1 - - [31/Mar/2017:18:14:44 +0100] "GET /RESTfulWS/rest/university HTTP/1.1" 200 115
+127.0.0.1 - - [31/Mar/2017:18:15:47 +0100] "GET /RESTfulWS/rest/university HTTP/1.1" 200 115
+127.0.0.1 - - [31/Mar/2017:18:15:53 +0100] "GET /RESTfulWS/rest/university HTTP/1.1" 200 115
+127.0.0.1 - - [31/Mar/2017:18:16:02 +0100] "GET /RESTfulWS/rest/university HTTP/1.1" 200 41

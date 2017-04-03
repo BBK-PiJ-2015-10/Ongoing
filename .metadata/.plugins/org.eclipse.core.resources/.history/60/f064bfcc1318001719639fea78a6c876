@@ -1,0 +1,22 @@
+package com.plantplaces.ui;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+SessionScoped
+ManagedBean
+public class TesterInfo {
+	
+	private String apellido = "Palacios Otero";
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+	
+	
+
+}

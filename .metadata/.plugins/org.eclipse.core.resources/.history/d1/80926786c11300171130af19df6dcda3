@@ -1,0 +1,10 @@
+package multithreading
+
+object ParallelCrystals {
+  
+  def main(args: Array[String]): Unit = {
+    
+    
+  }
+  
+}

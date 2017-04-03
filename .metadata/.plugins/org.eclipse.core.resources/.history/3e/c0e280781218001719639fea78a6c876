@@ -1,0 +1,9 @@
+package com.plantplaces.ui;
+
+public class TontoInfo {
+	
+	private String name = "yasser alejandro palacios";
+	
+	
+
+}

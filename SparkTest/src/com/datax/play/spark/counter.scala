@@ -9,15 +9,21 @@ object counter {
     
     val sc= new SparkContext(conf)
     
-    val text = sc.textFile("input/*.txt")  
+    val text = sc.textFile("input/*.txt")
+    
+    var helper : Any = null
+    
+    val freqTracker: Map[String,Int] = Map()
   
   def main (args: Array[String]): Unit = {
     
-      //println(countTuples("Berlin","Frankfurt")) 
+      //val tester = nextWords("Munich") 
       
-      nextWords("Berlin").foreach(x=>println(x))
+      testLines()
       
-      println("What happened")
+      //nextWords("Berlin").foreach(x=>println(x))
+      
+      //println("What happened")
     
   }
     
@@ -48,7 +54,7 @@ object counter {
     val array = text.flatMap{line=>line.split(" ")}
     val list = array.collect().toList
     val deno = array.filter(x=>x.equals(first)).count().toDouble
-    val nume = countTargets(first,second,list).toDouble
+    val nume = countAdjacentTargets(first,second,list).toDouble
     println(first +" was found : " +deno +" times")
     println(second +" was found : " +nume +" times")
     return nume/deno
@@ -59,7 +65,7 @@ object counter {
     return text.flatMap{line=>line.split(" ")}.filter(x=>x.equals(first)).count()
   }
   
-  def countTargets(target1 : String, target2 : String, list :List[String]) : Long = {
+  def countAdjacentTargets(target1 : String, target2 : String, list :List[String]) : Long = {
     var count=0
     for ( i <- 0 to list.size-2){
       if (list.apply(i).equals(target1) && list.apply(i+1).equals(target2)){
@@ -69,12 +75,51 @@ object counter {
     return count
   }
   
-  
-  def createTuples() : Unit = {
+  /*
+   * This function count words
+   */
+  def countWords() : Unit = {
     text.flatMap{line=>line.split(" ")}
     .map{word=>(word,1)}
     .reduceByKey(_+_).saveAsTextFile("output.txt")
   }
+  
+  def testLines(): Unit = {
+    //text.collect()
+    breakLines("Munich",text.collect())
+  }
+  
+  def breakLines(target: String, lines: Array[String]): Unit = {
+    for (line <- lines ) {
+      provideNeighbors(target,line).foreach(println)
+      
+    } 
+  }
+  
+  def provideNeighbors(first: String, line: String): List[String] = {
+    var result : List[String] = List()
+    val temp = line.split(" ").toList
+     for (i <- 0 to temp.size-2){
+      if (temp.apply(i).equals(first)){
+        result = result :+ temp.apply(i+1)
+     }
+    }
+    result
+  }
+  
+ def top2(list: List[String], max: Int): Set[String] = {
+   var assocarray : Map[String,Int] = Map()
+   var result : Set[String] = Set()
+   for (word <- list){
+     
+   }
+   
+   
+   return result;
+ }
+  
+
+  
   
   
 }

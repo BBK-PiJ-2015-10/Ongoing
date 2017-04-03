@@ -1,5 +1,9 @@
 package algorithms.select;
 
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
+
 public class QuickSelect {
 	
 	//This algorithm finds the kth smallest element in a list
@@ -8,8 +12,8 @@ public class QuickSelect {
 
 	public static void main(String[] args) {
 		
-		int[] test = {2,2,2,2,3};
-		
+		int[] test = {0,3,2,5,7,-1};
+			
 		QuickSelect qs = new QuickSelect();
 		int result =qs.select(test,4);
 		System.out.println(result);

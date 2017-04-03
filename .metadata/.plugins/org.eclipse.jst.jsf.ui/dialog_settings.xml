@@ -8,6 +8,7 @@
 		<section name="urlMappings">
 			<list key="pattern">
 				<item value="/faces/*"/>
+				<item value="*.xhtml"/>
 			</list>
 		</section>
 	</section>

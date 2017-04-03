@@ -4,21 +4,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.alejandropalacios"/>
-			<item value="mavenIgniteFirst"/>
-			<item value="mavenproject1"/>
 		</list>
 		<list key="name">
-			<item value="maven-di"/>
-			<item value="com.alejandropalacios.shiptment"/>
-			<item value="mavenIgniteFirst"/>
-			<item value="mavenproject1"/>
 		</list>
 		<list key="artifactId">
-			<item value="maven-di-demo"/>
-			<item value="maven-allpago-techinterview"/>
-			<item value="mavenIgniteFirst"/>
-			<item value="mavenproject1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -44,6 +33,11 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\YasserAlejandro\SDP\microservices\discospiff\JavaFullStackEnterpriseWeb"/>
+			<item value="C:\Users\YasserAlejandro\SDP\mavenweb"/>
+			<item value="C:\Users\YasserAlejandro\SDP\Ongoing\mavenweb"/>
+			<item value="C:\Users\YasserAlejandro\SDP\Ongoing\maven-allpago-techinterview\pom.xml"/>
+			<item value="C:\Users\YasserAlejandro\SDP\Ongoing\mavenweb\{log4jsample}"/>
 			<item value="C:\Users\YasserAlejandro\SDP\mavenprojects"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -56,6 +50,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -63,6 +58,19 @@
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="PlantPlacesYAP"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="PlantPlacesYAP"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardLocationPage">
@@ -79,10 +87,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.palaciosalejandro.log4j.log4jsample"/>
+			<item value="com.palaciosalejandro.log4jsample.plantplaces"/>
 		</list>
 		<list key="groupId">
+			<item value="com.palaciosalejandro.log4j"/>
+			<item value="com.palaciosalejandro.log4jsample"/>
 		</list>
 		<list key="artifactId">
+			<item value="log4jsample"/>
+			<item value="plantplaces"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

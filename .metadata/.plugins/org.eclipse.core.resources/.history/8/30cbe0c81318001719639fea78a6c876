@@ -1,0 +1,9 @@
+package com.plantplaces.ui;
+
+public class TesterInfo {
+	
+	private String apellido = "Palacios Otero";
+	
+	
+
+}

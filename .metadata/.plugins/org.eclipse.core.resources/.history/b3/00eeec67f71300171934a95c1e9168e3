@@ -1,0 +1,10 @@
+package multithreading
+
+object ParallelScript {
+  
+  (1 to 100).foreach(x=>println(x))
+  
+  println("ale tonto")
+  
+  
+}

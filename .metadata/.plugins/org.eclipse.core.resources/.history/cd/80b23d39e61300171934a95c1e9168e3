@@ -1,0 +1,14 @@
+package multithreading
+
+//import scala.swing._
+
+object ParallelCrystals {
+  
+  //val panel = new Panel
+  
+  def main(args: Array[String]): Unit = {
+    //A
+    //b
+  }
+  
+}

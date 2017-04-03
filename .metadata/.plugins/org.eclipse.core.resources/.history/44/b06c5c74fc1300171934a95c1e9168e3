@@ -1,0 +1,17 @@
+package multithreading
+
+object Mandelbrot {
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  def main(args: Array[String]): Unit = {
+    
+  }
+  
+}

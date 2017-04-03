@@ -1,0 +1,20 @@
+package com.plantplaces.ui;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+public class TontoInfo {
+	
+	private String name = "yasser alejandro palacios";
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	 
+
+}

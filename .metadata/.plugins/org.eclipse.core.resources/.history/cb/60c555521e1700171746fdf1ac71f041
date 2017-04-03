@@ -1,0 +1,27 @@
+package com.alejandropalacios;
+
+
+
+public class MyApp {
+
+	private static Logger logger = LoggerFactory.getLogger(MyApp.class)
+	
+	public static void main(String[] args) {
+		
+		logger.info("Hello World")
+		
+		int result = sum(2,2)
+		
+		System.err.println("2 + 2 is " +result);
+		
+		System.out.println("Ale Culon");
+		
+
+	}
+	
+	public static int sum(int a,int b){
+		return a+b
+	}
+	
+
+}

@@ -1,0 +1,32 @@
+package multithreading
+
+import java.awt.Graphics2D
+import scala.swing.MainFrame
+import java.awt.image.BufferedImage
+import scala.swing.Panel
+import java.awt.Dimension
+import java.awt.Color
+
+object Mandelbrot {
+  
+  val img = new BufferedImage(500,500,BufferedImage.TYPE_INT_ARGB)
+ 
+  val panel = new Panel {
+    override def paint(g: Graphics2D){
+      g.drawImage(img,0,0,null)
+    }
+    preferredSize = new Dimension(img.getWidth(),img.getHeight())
+  }
+  val frame = new MainFrame {
+    title ="Mandelbrot"
+    contents = panel
+    centerOnScreen
+  }  
+  
+
+  def main(args: Array[String]): Unit = {
+    frame.open()
+    
+  }
+  
+}

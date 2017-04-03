@@ -1,0 +1,21 @@
+package com.alejandropalacios;
+
+
+
+public class MyApp {
+
+	private static Logger logger = LoggerFactory.getLogger(MyApp.class)
+	
+	public static void main(String[] args) {
+		
+		//logger.in
+		
+
+	}
+	
+	public static int sum(int a,int b){
+		return a+b
+	}
+	
+
+}

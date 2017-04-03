@@ -1,19 +1,19 @@
 package com.gontuseries.university;
 
 import javax.ws.rs.Path;
-//import javax.ws.rs.PathParam;
+import javax.ws.rs.PathParam;
 //import javax.ws.rs.GET;
-//import javax.ws.rs.PUT;
+import javax.ws.rs.PUT;
 //import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 //import javax.ws.rs.QueryParam;
 import javax.ws.rs.MatrixParam;
 import javax.ws.rs.POST;
 import javax.ws.rs.GET;
-//import javax.ws.rs.FormParam;
-//import javax.ws.rs.core.Response;
-//import javax.ws.rs.core.Response.ResponseBuilder;
-//import javax.ws.rs.Consumes;
+import javax.ws.rs.FormParam;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.ResponseBuilder;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.Produces;
 //import com.sun.jersey.multipart.FormDataParam;
 
@@ -35,7 +35,7 @@ public class UniversityRESTWS {
 	 * it selects a file from the form and saves it to a specific file location.
 	 */
 	
-	/*
+	///*
 	 
 	@POST
 	@Path("/upload")
@@ -78,7 +78,7 @@ public class UniversityRESTWS {
 	}
 	
 	
-	*/
+	//*/
 	  
 	/*
 	
@@ -104,7 +104,7 @@ public class UniversityRESTWS {
 	 * the submit button calls this webservice and @FormParam reads the parameters from the form.
 	 */
 	
-	/*
+	///*
 	
 	@POST
 	@Path("/add")
@@ -117,7 +117,7 @@ public class UniversityRESTWS {
 				+name +" , and age : " +age;	
 	}
 	
-	*/
+	//*/
 	
 	/*
 	
@@ -149,7 +149,7 @@ public class UniversityRESTWS {
 				+ studentRollNo1 +" and " + studentRollNo2;
 	}
 	
-	
+	*/
 	
 	
 	//Below is an example of simple pathParam
@@ -165,8 +165,9 @@ public class UniversityRESTWS {
 				+ studentRollNo1 +" and " + studentRollNo2;
 	}
 	
+	//*/
 	
-	/*
+	///*
 	
 	//http://localhost:8080/RESTfulWS/rest/university
 	@GET
@@ -176,6 +177,7 @@ public class UniversityRESTWS {
 		+ "<body><h1>"+"Name- University of London from HTML TONTO"+"</h1></body>"+"</html>";		
 	}
 	
+	///*
 	
 	//http://localhost:8080/RESTfulWS/rest/university/5
 	@PUT
@@ -186,8 +188,9 @@ public class UniversityRESTWS {
 		return "Updated Succesfully";
 	}
 	
-	*/
-	/*
+	//*/
+	
+	///*
 	
 
 	
@@ -203,7 +206,7 @@ public class UniversityRESTWS {
 	
 
 	
-	*/
+	//*/
 	
 
 }
