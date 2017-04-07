@@ -1,0 +1,42 @@
+package com.plantplaces.ui.test;
+
+import org.junit.Test;
+
+import com.plantplaces.dto.Plant;
+import com.plantplaces.ui.SearchPlants;
+
+import junit.framework.TestCase;
+
+public class TestSearchPlants extends TestCase {
+	
+	private SearchPlants searchPlants;
+	
+	private String execute;
+
+	@Test
+	public void testSearchPlantsExecute(){
+		givenSearchPlantsCreatedWithRedbud();
+		whenInvokeExecute();
+		thenVerifyReturnSuccess();
+	}
+
+	private void whenInvokeExecute() {
+		execute = searchPlants.execute();
+		
+	}
+
+	private void thenVerifyReturnSuccess() {
+		assertEquals("success",execute);
+		
+	}
+
+	private void givenSearchPlantsCreatedWithRedbud() {
+		searchPlants = new SearchPlants();
+		Plant plant = new Plant();
+		plant.setName("Redbud");
+		searchPlants.setPlant(plant);
+	}
+	
+	
+
+}

@@ -1,0 +1,19 @@
+package com.plantplaces.service;
+
+import java.util.List;
+
+import com.plantplaces.dto.Plant;
+
+/**
+ * IPlantService includes all business related functions for a Plant and related
+ * entities
+ * @author YasserAlejandro
+ *
+ */
+public interface IPlantService {
+
+	List<Plant> filterPlants(String filter);
+	
+	
+	
+}

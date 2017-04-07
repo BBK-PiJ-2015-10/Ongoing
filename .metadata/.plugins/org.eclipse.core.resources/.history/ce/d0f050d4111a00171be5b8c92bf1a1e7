@@ -1,0 +1,132 @@
+package bloomberginterview;
+
+import java.util.Arrays;
+import java.util.List;
+
+import junit.*;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+	   Practice pr = new Practice();
+	   pr.stringMethods();
+		
+
+	}
+	
+	
+	private void stringMethods(){
+		
+		evalTest(1,false,isPalindrome("t"));
+		evalTest(2,true,isPalindrome("tt"));
+		evalTest(3,true,isPalindrome("taat"));
+		evalTest(4,false,isPalindrome(""));
+		evalTest(5,false,isPalindrome("taxaat"));
+		evalTest(6,true,isPalindrome("taxat"));
+
+	}
+	
+	public boolean isPalindrome(String word){
+		if (word.isEmpty() || word.length()<2){
+			return false;
+		}
+		return isPalindromeAux(word);
+	}
+	
+	public boolean isPalindromeAux(String word){
+		if (word.length()==1){
+			return true;
+		}
+		char first=word.charAt(0);
+		char last=word.charAt(word.length()-1);
+		if (first==last){
+			int newLength=word.length()-2;
+			if (newLength>0){
+				String newWord=word.substring(1,word.length()-1);
+				return isPalindrome(newWord);
+			}
+			else {
+				return true;
+			}		
+		}
+		else {
+			return false;
+		}
+	}
+	
+	
+	
+	
+	
+	public void evalTest(int test,boolean expected,boolean result){
+		if (expected==result){
+			System.out.println("Test: "+ test +" passed");
+		}
+		else {
+			System.out.println("Test : "+ test +" failed");
+		}
+	}
+	
+	
+
+	
+	
+	
+	private String condensed(String input){
+		String result ="";
+		for (String word: Arrays.asList(input.split(" ")) ){
+			result+=word;
+		}
+		return result;
+	}
+	
+	
+	private String condensedNonTailRec(String input){
+		if (!input.contains(" ")){
+			return input;
+		}
+		int pos = input.indexOf(" ");
+		int next = pos+1;
+		int last = input.length();
+		String head=input.substring(0,pos);
+		if (last>=next){
+			String tail=input.substring(next);
+			return head + condensedNonTailRec(tail);
+		}
+		else {
+			return head;
+		}
+	}
+	
+	private String condensedTailRec(String input){
+		if (!input.contains(" ")){
+			return input;
+		}
+		else {
+			return helperTR(input,"");
+		}
+		
+	}
+	
+	private String helperTR(String input, String accum){
+		if (!input.contains(" ") && (!input.isEmpty())){
+			return accum+input;
+		}
+		int pos = input.indexOf(" ");
+		int next = pos+1;
+		int last = input.length();
+		String head=input.substring(0,pos);
+		String newAccum=accum+head;
+		if (last>=next){
+			String tail=input.substring(next);
+			return helperTR(tail,(newAccum));
+		}
+			return newAccum;	
+	}
+	
+	
+	
+	
+
+}

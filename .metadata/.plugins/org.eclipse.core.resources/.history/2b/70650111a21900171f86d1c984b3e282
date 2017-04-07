@@ -1,0 +1,42 @@
+package com.plantplaces.service.test;
+
+import org.junit.Test;
+import junit.framework.TestCase;
+
+import static org.mockito.Mockito.*;
+
+import com.plantplaces.dao.IPlantDAO;
+import com.plantplaces.service.PlantService;
+
+import java.util.List;
+
+public class TestPlantService extends TestCase {
+
+	private PlantService plantService;
+	
+	@Test
+	public void testFilterPlants(){
+		givenThatPlantServiceIsPopulatedWithPlantDAO();
+		whenFilterWithRed();
+		thenVerifyTwoResults();
+	}
+
+	private void thenVerifyTwoResults() {		
+	}
+
+	private void whenFilterWithRed() {
+		
+	}
+	
+	private List<Plant> constructPlantList(){
+		
+	}
+
+	private void givenThatPlantServiceIsPopulatedWithPlantDAO() {
+		plantService = new PlantService();
+		IPlantDAO plantDAO = mock(IPlantDAO.class);
+		
+		when(plantDAO.fetchPlants()).thenReturn(allPlants);
+	}
+	
+}

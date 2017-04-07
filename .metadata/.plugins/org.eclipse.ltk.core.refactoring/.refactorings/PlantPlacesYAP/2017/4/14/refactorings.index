@@ -4,3 +4,15 @@
 1491252765625	Rename resource 'index.html'
 1491252855180	Rename type 'Application'
 1491257796801	Rename type 'PlantSearch'
+1491328182910	Rename resource 'style.css'
+1491329040049	Copy file
+1491342022037	Delete element
+1491343119571	Convert local variable 'allPlants' to field
+1491355823802	Delete element
+1491357852359	Convert local variable 'plantDAO' to field
+1491512247187	Convert local variable 'searchPlants' to field
+1491517347108	Copy file
+1491517355669	Delete element
+1491517365076	Move file
+1491569203669	Encapsulate field 'plant'
+1491569258567	Encapsulate field 'plantService'

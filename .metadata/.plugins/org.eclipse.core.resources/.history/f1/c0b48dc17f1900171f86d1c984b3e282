@@ -1,0 +1,5 @@
+package com.plantplaces.service;
+
+public interface IPlantService {
+
+}

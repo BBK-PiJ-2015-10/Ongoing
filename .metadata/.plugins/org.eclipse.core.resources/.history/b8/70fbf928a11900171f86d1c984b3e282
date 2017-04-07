@@ -1,0 +1,38 @@
+package com.plantplaces.service.test;
+
+import org.junit.Test;
+
+import com.plantplaces.service.PlantService;
+
+import junit.framework.TestCase;
+
+public class TestPlantService extends TestCase {
+
+	PlantService plantService;
+	
+	@Test
+	public void testFilterPlants(){
+		givenThatPlantServiceIsPopulatedWithPlantDAO();
+		whenFilterWithRed();
+		thenVerifyTwoResults();
+		
+		//assertTrue(true);
+	}
+
+	private void thenVerifyTwoResults() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void whenFilterWithRed() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void givenThatPlantServiceIsPopulatedWithPlantDAO() {
+		// TODO Auto-generated method stub
+		plantService = new PlantService();
+		
+	}
+	
+}

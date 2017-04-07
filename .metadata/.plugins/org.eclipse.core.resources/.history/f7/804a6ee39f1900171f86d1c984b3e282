@@ -1,0 +1,9 @@
+package com.plantplaces.service.test;
+
+import junit.framework.TestCase;
+
+public class TestPlantService extends TestCase {
+
+	
+	
+}

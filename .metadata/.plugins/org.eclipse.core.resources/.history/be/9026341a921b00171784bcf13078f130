@@ -1,0 +1,53 @@
+package com.plantplaces.ui;
+
+import javax.annotation.ManagedBean;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+import org.springframework.context.annotation.Scope;
+
+import com.plantplaces.dto.Plant;
+import com.plantplaces.service.IPlantService;
+
+
+//Request creates a new object for each http request, while session keeps using the same object.
+@Named
+@ManagedBean
+@Scope("request")
+public class AddPlant {
+
+	@Inject
+	private Plant plant;
+	
+	@Inject
+	private IPlantService plantService;
+	
+	public String execute(){
+		String returnValue ="success";
+		try {
+			plantService.save(plant);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return "failure";
+		}
+		return returnValue;
+	}
+
+	public Plant getPlant() {
+		return plant;
+	}
+
+	public void setPlant(Plant plant) {
+		this.plant = plant;
+	}
+
+	public IPlantService getPlantService() {
+		return plantService;
+	}
+
+	public void setPlantService(IPlantService plantService) {
+		this.plantService = plantService;
+	}
+	
+}

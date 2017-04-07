@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Scope;
 @Scope("session")
 public class ApplicationInfo {
 	
-	private String slogan = "The h name space from tutorial is off";
+	private String slogan = "Promoting Plan Diversity through Education";
 
 	public String getSlogan() {
 		return slogan;
