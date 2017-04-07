@@ -4,21 +4,23 @@
 		display:none;
 	}
 	
+
 	#left {
-		display:node;
+		display:none;
 	}
-	
+		
 	#content {
-		backcolor:#FFFFFF;
+		background-color:#FFFFFF;
 		color:#000000;
 		position:relative;
 		padding:5px;
-		top:5em;
-		margin-left:5px;
-		margin-bottom:5px;
+		top: 1em;
+		margin-left: 5px;
+		margin-bottom: 5px;
 	}
 	
 	#bottom {
 		display:none;
 	}
+	
 	

@@ -21,10 +21,10 @@
 			<em><h:outputLabel value="#{applicationInfo.slogan}"/></em>
 			Enter a plant name, and then choose Search.
 			<h:form>
-				<p:autoComplete value="#{plant.name}" completeMethod="#{searchPlants.completePlants}"/>
-				<p:commandButton value="Submit" actionListener="#{searchPlants.execute}" />
+				<h:inputText value="#{plant.name}" /> 
+				<h:commandButton value="Submit" action="#{searchPlants.execute}" />
 			</h:form>
-			
+		
 		<h4>The National Virtual Arboretum and Regional Ornamental Plant Database is 
 		a collaborative effort of numerous regional and national horticulture 
 		professionals and organizations. Plants on this database have been selected for 
@@ -80,10 +80,14 @@
 		landscape gives gardeners, landscapers and plant propagators / nurserymen the 
 		opportunity to expand with a wider variety and selection of outstanding plants 
 		and helps to alleviate monotonous monocultures both aesthetically and 
-		disease-wise.</h4>			
+		disease-wise.</h4>
 					
-			<h:link value="Contact Us" outcome="contactus" />
+			
+		<h:link value="Contact Us" outcome="contactUs" />
+					
 		</ui:define>
+		
+		
 	</ui:composition>
 </h:body>
 </html>

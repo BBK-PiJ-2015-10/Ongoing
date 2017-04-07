@@ -4,6 +4,8 @@ import javax.faces.bean.ManagedBean;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+// import javax.annotation.ManagedBean;
+
 import org.springframework.context.annotation.Scope;
 
 import java.util.List;
@@ -31,6 +33,7 @@ public class SearchPlants {
 		}
 	}
 	
+
 	public List<Plant> completePlants(String query){
 		return plantService.filterPlants(query);
 	}
