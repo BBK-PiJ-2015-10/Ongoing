@@ -14487,3 +14487,143 @@ org.eclipse.core.runtime.CoreException: Launch configuration ClientApplication r
 2017-04-07 23:27:44,047 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
 2017-04-07 23:27:44,048 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-07 23:27:44,049 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 17:17:20,756 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:17:20,905 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 17:17:20,909 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:17:20,910 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 17:17:35,781 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:17:35,855 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-04-08 17:17:35,953 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:17:35,955 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\mavenweb\log4jsample\src\test\resources
+2017-04-08 17:19:06,726 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:19:06,729 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 17:19:06,732 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:19:06,733 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 17:20:57,417 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:20:57,418 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 17:20:57,420 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:20:57,424 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 17:24:43,831 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:24:43,853 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 17:24:43,855 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:24:43,856 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 17:27:02,340 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:27:02,342 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 17:27:02,344 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:27:02,345 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 17:27:24,705 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:27:24,706 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 17:27:24,708 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 17:27:24,709 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 18:20:06,145 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 18:20:06,381 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 18:20:06,787 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 18:20:06,788 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 18:24:01,337 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 18:24:01,338 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 18:24:01,340 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 18:24:01,342 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 18:38:50,492 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 18:38:50,501 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 18:38:50,505 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 18:38:50,507 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:21:02,769 [Worker-52] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: PlantPlacesYAP:PlantPlacesYAP:0.0.1-SNAPSHOT @ C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\pom.xml.
+2017-04-08 20:21:10,987 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:21:10,998 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:21:11,000 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:21:11,003 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:21:11,045 [Worker-52] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of PlantPlacesYAP
+2017-04-08 20:21:11,061 [Worker-52] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for PlantPlacesYAP
+2017-04-08 20:21:11,243 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:21:31,324 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:21:31,326 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:21:31,330 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:21:31,334 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:22:30,900 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:22:30,904 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:22:30,906 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:22:30,907 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:27:06,857 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:27:06,858 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:27:06,864 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:27:06,865 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:30:11,782 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:30:11,802 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:30:11,816 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:30:11,817 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:32:19,450 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:32:19,451 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:32:19,461 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:32:19,462 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:36:53,573 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:36:53,582 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:36:53,584 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:36:53,585 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:38:06,772 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:38:06,773 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:38:06,775 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:38:06,778 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:38:53,491 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:38:53,492 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:38:53,495 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:38:53,496 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:40:01,169 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:40:01,170 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:40:01,173 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:40:01,175 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:41:42,568 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:41:42,570 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:41:42,572 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:41:42,573 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:42:44,513 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:42:44,514 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:42:44,520 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:42:44,521 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:47:16,120 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:47:16,182 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:47:16,185 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:47:16,186 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:52:21,185 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:52:21,188 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:52:21,190 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:52:21,191 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:52:55,485 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:52:55,487 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:52:55,489 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:52:55,490 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:53:53,167 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:53:53,222 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:53:53,224 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:53:53,225 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:54:09,944 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:54:09,945 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:54:09,947 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:54:09,948 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:54:23,493 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:54:23,495 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:54:23,496 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:54:23,497 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 20:58:22,460 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:58:22,461 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 20:58:22,463 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 20:58:22,465 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 21:01:43,420 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 21:01:43,422 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 21:01:43,427 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 21:01:43,428 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 21:02:39,176 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 21:02:39,177 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 21:02:39,179 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 21:02:39,182 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 21:05:06,939 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 21:05:06,940 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 21:05:06,941 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 21:05:06,942 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 21:08:16,151 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 21:08:16,153 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 21:08:16,154 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 21:08:16,155 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
+2017-04-08 21:11:56,866 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 21:11:56,871 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\main\resources
+2017-04-08 21:11:56,877 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-08 21:11:56,879 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\src\test\resources
