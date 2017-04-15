@@ -1,0 +1,68 @@
+package adatastructures.threadedtree;
+
+public class BinaryTree<T extends Comparable> {
+	
+	Node<T> root;
+	
+	public BinaryTree(){
+		root = null;
+	}
+	
+	public void insert(T data){
+		Node<T> temp = new Node(data);
+		if (root==null) root = temp;
+		else if (root.getData().compareTo(data)<1)
+				insert(root.getLeft(),temp);
+		else if (root.getData().compareTo(data)>1)
+				insert(root.getRight(),temp);
+	}
+	
+	
+	public void insert(Node from, Node visitor){
+		if (from==null){
+			from = visitor;
+		}
+		else if (from.getData().compareTo(visitor.getData())<1) 
+			insert (from.getLeft(),visitor);
+		else if (from.getData().compareTo(visitor.getData())>1) 
+			insert (from.getRight(),visitor);
+	}
+	
+	
+	public void preOrder(){
+		String result;
+		if (root==null){
+			return;
+		}
+		preOrder(root);
+	}
+	
+	private void preOrder(Node<T> node){
+		if (node!=null){
+			System.out.println(node.getData());
+			preOrder(node.getLeft());
+			preOrder(node.getRight());
+		}
+	}
+	
+	public int size(){
+		if (root==null){
+			return 0;
+		}
+		return size(root);
+		
+	}
+	
+	private int size (Node<T> node){
+		if (node==null){
+			return 0;
+		}
+		else {
+			return 1 + size(node.getLeft())+size(node.getLeft());
+		}
+	}
+	
+	
+	
+
+}

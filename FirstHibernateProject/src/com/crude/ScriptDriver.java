@@ -22,22 +22,22 @@ public class ScriptDriver {
 		
 		session.save(student1);
 		
-		Student tempStudent = new Student();
+		//Student tempStudent = new Student();
 		
 		//How to retrieve a record from a SQL database  (READ)
 		
-		tempStudent = session.get(Student.class,1);
+		//tempStudent = session.get(Student.class,1);
 		
-		System.out.println("Student Object having student name as " +tempStudent.getStudent_name());
+		//System.out.println("Student Object having student name as " +tempStudent.getStudent_name());
 		
 		//Now I am changing the name of that record (UPDATE)
 		
-		tempStudent.setStudent_name("The tontolone Alexander Palacios");
-		session.update(tempStudent);
+		//tempStudent.setStudent_name("The tontolone Alexander Palacios");
+		//session.update(tempStudent);
 		
 		//To delete the record
 		
-		session.delete(tempStudent);
+		//session.delete(tempStudent);
 		
 		/*
 		 * A couple of other methods that exists in hibernate are:

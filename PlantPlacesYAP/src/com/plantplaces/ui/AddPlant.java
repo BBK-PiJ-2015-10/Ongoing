@@ -49,6 +49,7 @@ public class AddPlant {
 		} catch (Exception e) {
 			
 			logger.error("Error while saving plant. Message: " +e.getMessage());
+			e.printStackTrace();
 			
 			fm = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Unable to Save","Plant not Saved");
 			currentInstance.addMessage(null,fm);

@@ -1,0 +1,6 @@
+package adv.trees
+
+case class Node (val data: Object, var left: Node = null, var right: Node = null) {
+    
+  
+}

@@ -1,0 +1,20 @@
+package adatastructures.threadedtree;
+
+public class BinaryTree<T extends Comparable> {
+	
+	Node<T> root;
+	
+	public BinaryTree(){
+		root = null;
+	}
+	
+	public void insert(T data){
+		if (root==null){
+			
+			//root = new Node(data);
+		}
+		
+		Node<String> first = new Node("ale");
+	}
+
+}

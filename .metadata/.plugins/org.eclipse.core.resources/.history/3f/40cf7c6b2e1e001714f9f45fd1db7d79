@@ -1,0 +1,12 @@
+package adv.trees
+
+class Node {
+  
+  def data : Object
+  
+  def left : Node;
+  
+  def right: Object;
+  
+  
+}

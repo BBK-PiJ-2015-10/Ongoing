@@ -1,7 +1,0 @@
-package com.plantplaces.ui.test;
-
-import junit.framework.TestCase;
-
-public class TestSearchPlants extends TestCase {
-
-}

@@ -1,0 +1,17 @@
+package adatastructures.threadedtree;
+
+public class BinaryTree<T> {
+	
+	Node root;
+	
+	public BinaryTree(){
+		root = null;
+	}
+	
+	public void insert(T data){
+		if (root==null){
+			root = new Node(data);
+		}
+	}
+
+}

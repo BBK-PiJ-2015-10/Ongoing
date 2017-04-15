@@ -11,8 +11,9 @@ import java.util.ArrayList;
 import com.plantplaces.dto.Plant;
 
 @Named("plantDAO")
-public class PlantDAOStub implements IPlantDAO  {
+public class PlantDAOStub  implements IPlantDAO  {
 
+	
 	private static final Logger log = Logger.getLogger(PlantDAOStub.class);
 	
 	@Override
@@ -54,7 +55,7 @@ public class PlantDAOStub implements IPlantDAO  {
 		
 	}
 
-	//@Override
+	@Override
 	public void insert(Plant plant) throws Exception {
 		
 		log.warn("Inserting to stub); this doesn't persist the item");
@@ -62,16 +63,23 @@ public class PlantDAOStub implements IPlantDAO  {
 
 	}
 
-	//@Override
+	@Override
 	public void update(Plant plant) throws Exception {
 		// TODO Auto-generated method stub
 
 	}
 
-	//@Override
+	@Override
 	public void delete(Plant plant) throws Exception {
 		// TODO Auto-generated method stub
 
 	}
+
+	@Override
+	public List<Plant> fetchPlants(Plant plant) {
+		return new ArrayList<Plant>();
+	}
+	
+	
 
 }

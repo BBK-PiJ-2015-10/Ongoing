@@ -1,0 +1,41 @@
+package com.plantplaces.dao.test;
+
+import java.util.List;
+
+import org.junit.Test;
+
+import com.plantplaces.dao.PlantHbmDAO;
+import com.plantplaces.dto.Plant;
+
+import junit.framework.TestCase;
+
+public class TestPlantHbmDAO extends TestCase {
+	
+	private PlantHbmDAO plantHbmDAO;
+	
+	private List<Plant> fetchPlants;
+
+	@Test
+	public void verifyFetchByCommonName(){
+		givenPlantDAOInstantiated();
+		whenCommonNameisRedbud();
+		thenVerifyResults();
+	}
+
+	private void thenVerifyResults() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void whenCommonNameisRedbud() {
+		Plant p = new Plant();
+		p.setCommon("Redbubd");
+		fetchPlants = plantHbmDAO.fetchPlants(p);
+		
+	}
+
+	private void givenPlantDAOInstantiated() {
+		plantHbmDAO = new PlantHbmDAO();
+	}
+
+}

@@ -1,0 +1,11 @@
+package adv.trees
+
+case class Node (val data: Object) {
+  
+
+  
+ 
+  
+  
+  
+}

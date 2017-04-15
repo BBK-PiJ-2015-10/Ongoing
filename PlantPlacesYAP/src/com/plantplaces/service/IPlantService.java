@@ -26,6 +26,8 @@ public interface IPlantService {
 	 */
 
 	void save(Plant plant) throws Exception;
+
+	List<Plant> fetchPlants(Plant plant);
 	
 	
 	

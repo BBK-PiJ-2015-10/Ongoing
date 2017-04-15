@@ -1,0 +1,10 @@
+package adatastructures.threadedtree;
+
+public class ScriptThreadedTree {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package adatastructures.threadedtree;
+
+public class ScriptThreadedTree {
+
+	public static void main(String[] args) {
+		
+		Node<String> first = new Node("ale");
+		
+		Person p1 = new Person("ale","tonto");
+		
+		//Node<Person> second = new Node(p1);
+		
+		
+		
+		
+		
+
+	}
+
+}

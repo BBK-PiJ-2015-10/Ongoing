@@ -1,0 +1,7 @@
+package com.plantplaces.dao.test;
+
+import junit.framework.TestCase;
+
+public class TestPlantHbmDAO extends TestCase {
+
+}

@@ -21,7 +21,7 @@
 			<em><h:outputLabel value="#{applicationInfo.slogan}"/></em>
 			Enter a plant name, and then choose Search.
 			<h:form>
-				<p:autoComplete value="#{plant.name}" completeMethod="#{searchPlants.completePlants}" /> 
+				<p:autoComplete value="#{plant.common}" completeMethod="#{searchPlants.completePlants}" /> 
 				<h:commandButton value="Submit" action="#{searchPlants.execute}" />
 			</h:form>
 		

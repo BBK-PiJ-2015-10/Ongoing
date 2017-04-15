@@ -1,0 +1,12 @@
+package adv.trees
+
+object Script extends App {
+  
+  val first = Node("ale")
+  
+  
+  
+  println("Is this working")
+  
+  
+}

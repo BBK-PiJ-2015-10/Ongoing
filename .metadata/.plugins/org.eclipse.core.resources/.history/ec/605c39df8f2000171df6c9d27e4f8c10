@@ -1,0 +1,40 @@
+package com.other;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import java.util.Date;
+
+public class ScriptDriver {
+
+	public static void main(String[] args) {
+		
+		
+		Plant plant1 = new Plant();
+		plant1.setCommon("yasser");
+		plant1.setCultivar("alejandro");
+		plant1.setGenus("Biruta");
+		plant1.setSpecies("Cane");
+		plant1.setName("Mimasone");
+		
+		
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+		
+		//When session is open, a database connection is open
+		Session session = sessionFactory.openSession();
+		//Begin Transaction is needed, since we are doing a CUD operation
+		session.beginTransaction();
+		
+		session.save(plant1);
+		
+		session.getTransaction().commit();
+		session.close();
+		sessionFactory.close();
+		
+		
+		
+
+	}
+
+}

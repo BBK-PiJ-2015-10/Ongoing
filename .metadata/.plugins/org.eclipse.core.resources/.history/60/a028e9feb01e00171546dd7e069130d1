@@ -1,0 +1,77 @@
+package adatastructures.threadedtree;
+
+import java.util.Stack;
+
+public class BinaryTree<T extends Comparable> {
+	
+	Node<T> root;
+	
+	public BinaryTree(){
+		root = null;
+	}
+	
+	public void insert(T data){
+		root = insert(root, data);
+	}
+	
+	
+	public Node<T> insert(Node<T> node, T data){
+		if (node==null){
+			//System.out.println("Inserting: " +data);
+			node = new Node<T>(data);
+		}
+		else if (node.getData().compareTo(data)==1){
+			//System.out.println("Ale tonto");
+			//System.out.println("Moving to left since: " +node.getData() +" is greater than " +data );
+			node.setLeft(insert(node.getLeft(),data));
+		}
+		else if (node.getData().compareTo(data)==-1) {
+			//System.out.println("Moving to right since: " +node.getData() +" is less than " +data );
+			node.setRight(insert(node.getRight(),data));
+		}
+		return node;
+	}
+	
+	
+	public void preOrder(){
+		preOrder(root);
+	}
+	
+	private void preOrder(Node<T> node){
+		if (node!=null){		
+			System.out.println(node.getData());
+			preOrder(node.getLeft());
+			preOrder(node.getRight());
+		}
+	}
+	
+	private void inOrder(){
+		if (root!=null){
+			Stack<Node<T>> stack = new Stack();
+			inOrder(root,stack);
+		}
+	}
+	
+	private void inOrder(Node<T> node,Stack<Node<T>> stack){
+		
+		
+	}
+	
+	
+	public int size(){
+		return size(root);	
+	}
+	
+	private int size (Node<T> node){
+		if (node==null){
+			return 0;
+		}
+		else {
+			return 1 + size(node.getLeft())+size(node.getRight());
+		}
+	}
+	
+	
+	
+
+}

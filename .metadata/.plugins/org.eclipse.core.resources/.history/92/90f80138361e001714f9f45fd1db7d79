@@ -1,0 +1,11 @@
+package adatastructures.threadedtree;
+
+public class Node<T extends Comparable> {
+	
+	
+	
+	
+
+
+	
+}

@@ -1,0 +1,30 @@
+package adatastructures.threadedtree;
+
+public class ScriptThreadedTree {
+
+	public static void main(String[] args) {
+		
+		BinaryTree<Integer> mytree = new BinaryTree();
+		mytree.insert(5);
+		mytree.insert(7);
+		mytree.insert(1);
+		
+		
+		System.out.println(mytree.size());
+		
+		
+		
+		//Node<String> first = new Node("ale");
+		
+		//Person p1 = new Person("ale","tonto");
+		
+		//Node<Person> second = new Node(p1);
+		
+		
+		
+		
+		
+
+	}
+
+}

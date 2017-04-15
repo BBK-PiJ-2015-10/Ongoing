@@ -36,8 +36,18 @@ public class PlantService implements IPlantService {
 		if(plant.getGenus() == null || plant.getGenus().isEmpty() ){
 			throw new Exception("Genus required");
 		}
-		plantDAO.insert(plant);
-		
+		plantDAO.insert(plant);	
+	}
+	
+	/**
+	 * Return a list of plants that match the given search criteria
+	 * @param plant a parameter that contains the search criteria
+	 * @return a list of matching plants
+	 */
+	@Override
+	public List<Plant> fetchPlants(Plant plant){
+		List<Plant> plants = plantDAO.fetchPlants(plant);
+		return plants;
 	}
 
 	public IPlantDAO getPlantDAO() {

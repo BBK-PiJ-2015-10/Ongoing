@@ -1,0 +1,5 @@
+package com.plantplaces.dao;
+
+public class HibernateUtil {
+
+}

@@ -1,0 +1,16 @@
+package adv.trees
+
+class OldNode {
+  
+  var data: Object = null;
+  
+  var left: OldNode = null;
+  
+  var right: OldNode = null;
+  
+  
+  public tonto(){
+    
+  }
+  
+}

@@ -1,0 +1,13 @@
+package adatastructures.threadedtree;
+
+public class ScriptThreadedTree {
+
+	public static void main(String[] args) {
+		
+		Node first = new Node(1);
+		
+		
+
+	}
+
+}
