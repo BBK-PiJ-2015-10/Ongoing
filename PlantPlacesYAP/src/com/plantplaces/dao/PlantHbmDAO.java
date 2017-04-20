@@ -45,9 +45,7 @@ public class PlantHbmDAO implements IPlantDAO {
 	public void insert(Plant plant) throws Exception {
 		
 		Session session = HibernateUtil.getSessionFactory().openSession();
-			
-		System.out.println("I am about to save: " +plant);
-		
+					
 		session.beginTransaction();
 		session.save(plant);
 		session.getTransaction().commit();

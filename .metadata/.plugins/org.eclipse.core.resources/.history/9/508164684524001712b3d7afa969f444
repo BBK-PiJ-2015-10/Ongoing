@@ -1,0 +1,14 @@
+package com.plantplaces.dao;
+
+import com.plantplaces.dto.Specimen;
+
+public class SpecimenDAO {
+
+	public void insert(Specimen specimen) throws Exception {
+		
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		
+		
+	}
+	
+}

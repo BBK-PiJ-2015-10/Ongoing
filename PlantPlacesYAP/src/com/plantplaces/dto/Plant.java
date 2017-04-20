@@ -1,5 +1,7 @@
 package com.plantplaces.dto;
 
+import java.util.List;
+
 import javax.faces.bean.ManagedBean;
 import javax.inject.Named;
 import javax.persistence.Column;
@@ -40,6 +42,8 @@ public class Plant {
 	@Column(name="COMMON",nullable=false)
 	private String common;
 	
+	@Transient
+	private List<Specimen> specimens;
 
 	
 	public int getPLANT_ID() {
@@ -94,6 +98,17 @@ public class Plant {
 	public String toString(){
 		return genus + " " +species + " " +cultivar +" " +common;
 	}
+
+	
+	public List<Specimen> getSpecimens() {
+		return specimens;
+	}
+
+	public void setSpecimens(List<Specimen> specimens) {
+		this.specimens = specimens;
+	}
+	
+
 
 
 	

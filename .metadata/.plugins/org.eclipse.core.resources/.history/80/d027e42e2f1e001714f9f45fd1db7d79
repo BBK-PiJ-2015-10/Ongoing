@@ -1,8 +1,0 @@
-package adv.trees
-
-object Script extends App {
-  
-  println("Is this working")
-  
-  
-}

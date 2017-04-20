@@ -1,0 +1,94 @@
+package com.plantplaces.dto;
+
+import javax.inject.Named;
+import javax.faces.bean.ManagedBean;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+
+import org.springframework.context.annotation.Scope;
+
+@Named
+@ManagedBean
+@Scope("session")
+@Entity
+@Table(name="specimens")
+public class Specimen {
+	
+	
+	private int SPECIMEN_ID;
+	
+	private int PLANT_ID;
+	
+	private String latitude;
+	
+	private String longitude;
+	
+	private String plantedBy;
+	
+	private String plantedDate;
+
+	public int getSPECIMEN_ID() {
+		return SPECIMEN_ID;
+	}
+
+	public void setSPECIMEN_ID(int sPECIMEN_ID) {
+		SPECIMEN_ID = sPECIMEN_ID;
+	}
+
+	public int getPLANT_ID() {
+		return PLANT_ID;
+	}
+
+	public void setPLANT_ID(int pLANT_ID) {
+		PLANT_ID = pLANT_ID;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public String getPlantedBy() {
+		return plantedBy;
+	}
+
+	public void setPlantedBy(String plantedBy) {
+		this.plantedBy = plantedBy;
+	}
+
+	public String getPlantedDate() {
+		return plantedDate;
+	}
+
+	public void setPlantedDate(String plantedDate) {
+		this.plantedDate = plantedDate;
+	}
+
+	public String getLongitude() {
+		return longitude;
+	}
+
+	public void setLongitude(String longitude) {
+		this.longitude = longitude;
+	}
+
+	public String getLatitude() {
+		return latitude;
+	}
+
+	public void setLatitude(String latitude) {
+		this.latitude = latitude;
+	}
+
+
+	
+	
+
+}

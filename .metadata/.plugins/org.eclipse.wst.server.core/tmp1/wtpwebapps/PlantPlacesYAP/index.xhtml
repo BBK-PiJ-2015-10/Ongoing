@@ -22,7 +22,7 @@
 			Enter a plant name, and then choose Search.
 			<h:form>
 				<p:autoComplete value="#{plant.common}" completeMethod="#{searchPlants.completePlants}" /> 
-				<h:commandButton value="Submit" action="#{searchPlants.execute}" />
+				<p:commandButton value="Submit" action="#{searchPlants.execute}" ajax="false" />
 			</h:form>
 		
 		<h4>The National Virtual Arboretum and Regional Ornamental Plant Database is 
