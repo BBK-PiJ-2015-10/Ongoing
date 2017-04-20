@@ -1,0 +1,17 @@
+package com.plantplaces.dto;
+
+public class Photo {
+	
+	private int id;
+	
+	private int specimenId;
+	
+	private String uri;
+	
+	private String dateTaken;
+	
+	private String contributor;
+	
+	
+
+}

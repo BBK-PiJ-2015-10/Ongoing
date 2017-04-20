@@ -8,3 +8,7 @@
 1492527048172	Extract interface 'ISpecimenDAO'
 1492641498119	Pull up members to 'ISpecimenDAO'
 1492641628392	Encapsulate field 'specimens'
+1492716830764	Encapsulate field 'file'
+1492717969418	Extract interface 'IFileDAO'
+1492718008383	Delete element
+1492718123482	Extract interface 'IFileDAO'
