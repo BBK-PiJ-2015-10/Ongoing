@@ -77,6 +77,11 @@ public class Photo {
 		this.contributor = contributor;
 	}
 	
+	@Override
+	public String toString() {
+		return uri;
+	}
+	
 	
 
 }

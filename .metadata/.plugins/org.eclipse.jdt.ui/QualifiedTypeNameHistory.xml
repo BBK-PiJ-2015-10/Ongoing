@@ -40,11 +40,7 @@
 <fullyQualifiedTypeName name="com.plantplaces.dto.Plant"/>
 <fullyQualifiedTypeName name="javax.inject.Inject"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-<fullyQualifiedTypeName name="com.plantplaces.dto.Specimen"/>
 <fullyQualifiedTypeName name="com.plantplaces.service.IPlantService"/>
-<fullyQualifiedTypeName name="org.hibernate.Query"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.primefaces.event.SelectEvent"/>
 <fullyQualifiedTypeName name="org.primefaces.model.UploadedFile"/>
 <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="com.plantplaces.dto.Photo"/>
 <fullyQualifiedTypeName name="com.plantplaces.dao.IPhotoDAO"/>
 <fullyQualifiedTypeName name="javax.inject.Named"/>
+<fullyQualifiedTypeName name="com.plantplaces.dto.Specimen"/>
+<fullyQualifiedTypeName name="org.hibernate.Query"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

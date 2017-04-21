@@ -2,6 +2,7 @@ package com.plantplaces.ui;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
@@ -35,6 +36,8 @@ public class SpecimenVO {
 
 	@Inject
 	private Photo photo;
+	
+	private List<Photo> photos;
 
 	public Plant getPlant() {
 		return plant;
@@ -77,7 +80,14 @@ public class SpecimenVO {
 	
 	public void onRowSelect(SelectEvent event){
 		Specimen specimen = ((Specimen) event.getObject());
-		setSpecimen(specimen);		
+		setSpecimen(specimen);
+		photos = plantService.fetchPhotos(specimen);
+		
+		try {
+			FacesContext.getCurrentInstance().getExternalContext().redirect("specimen.xhtml");
+		} catch(IOException e){
+			e.printStackTrace();
+		}	
 	}
 
 	public UploadedFile getFile() {
@@ -98,16 +108,13 @@ public class SpecimenVO {
 				InputStream inputstream = file.getInputstream();
 				//setPhoto(new Photo());
 				photo.setSpecimenId(specimen.getSpecimenid());
-				try {
-					plantService.savePhoto(getPhoto(),inputstream);
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				plantService.savePhoto(getPhoto(),inputstream);
+							
 				FacesMessage message = new FacesMessage("Succesful",file.getFileName() + " is uploaded.");
 				FacesContext.getCurrentInstance().addMessage(null,message);
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
+				
+			} catch (Exception e) {
+				
 				e.printStackTrace();
 				FacesMessage message = new FacesMessage("There was a problem your file wasn't loaded");
 				FacesContext.getCurrentInstance().addMessage(null,message);
@@ -122,6 +129,14 @@ public class SpecimenVO {
 
 	public void setPhoto(Photo photo) {
 		this.photo = photo;
+	}
+
+	public List<Photo> getPhotos() {
+		return photos;
+	}
+
+	public void setPhotos(List<Photo> photos) {
+		this.photos = photos;
 	}
 	
 	

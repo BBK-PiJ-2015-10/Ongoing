@@ -83,6 +83,12 @@ public class PlantService implements IPlantService {
 		List<Plant> plants = plantDAO.fetchPlants(plant);
 		return plants;
 	}
+	
+	@Override
+	public List<Photo> fetchPhotos(Specimen specimen){
+		List<Photo> photos = photoDAO.fetchPhotos(specimen);
+		return photos;
+	}
 
 	public IPlantDAO getPlantDAO() {
 		return plantDAO;
@@ -104,15 +110,13 @@ public class PlantService implements IPlantService {
 	@Override
 	public void savePhoto(Photo photo, InputStream inputStream) throws Exception {
 		//String dirAddress =".\\WebContent\\images";
-		//String dirAddress = "C:/Users/YasserAlejandro/SDP/Ongoing/PlantPlacesYAP/WebContent/images";
-		String dirAddress = "/Users/YasserAlejandro/SDP/Ongoing/PlantPlacesYAP/WebContent/images";
+		String dirAddress = "/Users/YasserAlejandro/SDP/Ongoing/PlantPlacesYAP/WebContent/resources/images";
 		File directory = new File(dirAddress);
 		String uniqueImageName = getUniqueImageName();
 		File file = new File(directory,uniqueImageName);
 		fileDAO.save(inputStream, file);
 		
 		photo.setUri(uniqueImageName.toString());
-		//eventually save the photo to the database.
 		photoDAO.save(photo);
 		
 	}
@@ -120,7 +124,7 @@ public class PlantService implements IPlantService {
 
 	private String getUniqueImageName() {
 		String imagePrefix = "plantPlaces";
-		String imageSuffix = "jpg.";
+		String imageSuffix = ".jpg";
 		String middle;
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("yyMMddHHmmss");

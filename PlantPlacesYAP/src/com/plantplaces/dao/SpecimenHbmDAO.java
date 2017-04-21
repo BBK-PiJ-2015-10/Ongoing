@@ -18,7 +18,7 @@ public class SpecimenHbmDAO extends PlantPlacesHbmDAO<Specimen> implements ISpec
 	public List<Specimen> fetchByPlantId(int plantId){
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		//You don't use the table name but the DTO name
-		Query query = session.createQuery("from Specimen where plantId = :plantId ");
+		Query query = session.createQuery("from Specimen where plantId = :plantId");
 		query.setParameter("plantId",plantId);
 		@SuppressWarnings("rawtypes")
 		List list = query.list();
