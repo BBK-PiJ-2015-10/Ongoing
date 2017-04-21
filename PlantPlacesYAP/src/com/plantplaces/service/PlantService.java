@@ -4,7 +4,9 @@ import java.util.List;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 import javax.inject.Inject;
 import javax.inject.Named;
@@ -97,9 +99,29 @@ public class PlantService implements IPlantService {
 
 	@Override
 	public void savePhoto(Photo photo, InputStream inputStream) throws IOException {
-		File directory = new File("C:/Users/YasserAlejandro/Dropbox/JobSearch/WIP");
-		File file = new File(directory,"image.jpg");
+		//String dirAddress =".\\WebContent\\images";
+		//String dirAddress = "C:/Users/YasserAlejandro/SDP/Ongoing/PlantPlacesYAP/WebContent/images";
+		String dirAddress = "/Users/YasserAlejandro/SDP/Ongoing/PlantPlacesYAP/WebContent/images";
+		File directory = new File(dirAddress);
+		String uniqueImageName = getUniqueImageName();
+		File file = new File(directory,uniqueImageName);
 		fileDAO.save(inputStream, file);
+		
+		photo.setUri(uniqueImageName.toString());
+		//eventually save the photo to the database.
+		
+	}
+
+
+	private String getUniqueImageName() {
+		String imagePrefix = "plantPlaces";
+		String imageSuffix = "jpg.";
+		String middle;
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyMMddHHmmss");
+		middle = sdf.format(new Date());
+		
+		return imagePrefix+middle+imageSuffix;
 	}
 
 

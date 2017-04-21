@@ -12,3 +12,7 @@
 1492717969418	Extract interface 'IFileDAO'
 1492718008383	Delete element
 1492718123482	Extract interface 'IFileDAO'
+1492722579051	Move compilation unit
+1492724340357	Convert local variable 'photo' to field
+1492724384139	Encapsulate field 'photo'
+1492724939946	Delete element

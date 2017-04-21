@@ -1,5 +1,7 @@
 package com.plantplaces.dto;
 
+import java.util.Date;
+
 import javax.faces.bean.ManagedBean;
 import javax.inject.Named;
 import javax.persistence.Column;
@@ -30,7 +32,7 @@ public class Photo {
 	private String uri;
 	
 	@Column(name="DATE_TAKEN",nullable=true)
-	private String dateTaken;
+	private Date dateTaken;
 	
 	@Column(name="CONTRIBUTOR",nullable=true)
 	private String contributor;
@@ -59,11 +61,11 @@ public class Photo {
 		this.uri = uri;
 	}
 
-	public String getDateTaken() {
+	public Date getDateTaken() {
 		return dateTaken;
 	}
 
-	public void setDateTaken(String dateTaken) {
+	public void setDateTaken(Date dateTaken) {
 		this.dateTaken = dateTaken;
 	}
 

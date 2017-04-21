@@ -33,6 +33,9 @@ public class SpecimenVO {
 	
 	private UploadedFile file;
 
+	@Inject
+	private Photo photo;
+
 	public Plant getPlant() {
 		return plant;
 	}
@@ -86,11 +89,16 @@ public class SpecimenVO {
 	}
 	
 	public void upload(){
-		if (file!=null){
+		if (specimen.getSpecimenid()==0){
+			FacesMessage message = new FacesMessage("You have not yet selected a specimen. Please select one before saving the image");
+			FacesContext.getCurrentInstance().addMessage(null,message);
+		}
+		else if (file!=null){
 			try {
 				InputStream inputstream = file.getInputstream();
-				Photo photo = new Photo();
-				plantService.savePhoto(photo,inputstream);
+				//setPhoto(new Photo());
+				photo.setSpecimenId(specimen.getSpecimenid());
+				plantService.savePhoto(getPhoto(),inputstream);
 				FacesMessage message = new FacesMessage("Succesful",file.getFileName() + " is uploaded.");
 				FacesContext.getCurrentInstance().addMessage(null,message);
 			} catch (IOException e) {
@@ -101,6 +109,14 @@ public class SpecimenVO {
 			}
 		}
 		
+	}
+
+	public Photo getPhoto() {
+		return photo;
+	}
+
+	public void setPhoto(Photo photo) {
+		this.photo = photo;
 	}
 	
 	

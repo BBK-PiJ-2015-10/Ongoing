@@ -1,0 +1,10 @@
+package com.plantplaces.dao;
+
+public class ScriptTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
