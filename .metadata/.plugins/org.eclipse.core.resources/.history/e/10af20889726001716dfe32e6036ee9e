@@ -1,0 +1,9 @@
+package com.plantplaces.dao;
+
+public abstract class PlantPlacesHbmDAO<T> {
+	
+	public void save(T item) throws Exception {
+		
+	}
+
+}

@@ -16,3 +16,7 @@
 1492724340357	Convert local variable 'photo' to field
 1492724384139	Encapsulate field 'photo'
 1492724939946	Delete element
+1492782846520	Extract interface 'IPhotoDAO'
+1492782947399	Move compilation unit
+1492782952790	Move compilation unit
+1492799318123	Delete elements

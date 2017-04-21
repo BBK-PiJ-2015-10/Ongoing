@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="theappbusiness.BloombergInterview"/>
 <fullyQualifiedTypeName name="org.neo4j.cypher.internal.javacompat.ExecutionEngine"/>
 <fullyQualifiedTypeName name="org.apache.ignite.Ignition"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -42,7 +41,6 @@
 <fullyQualifiedTypeName name="javax.inject.Inject"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
 <fullyQualifiedTypeName name="com.plantplaces.dto.Specimen"/>
-<fullyQualifiedTypeName name="org.hibernate.Session"/>
 <fullyQualifiedTypeName name="com.plantplaces.service.IPlantService"/>
 <fullyQualifiedTypeName name="org.hibernate.Query"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
@@ -55,9 +53,11 @@
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="org.apache.tomcat.util.http.fileupload.IOUtils"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="com.plantplaces.dto.Photo"/>
 <fullyQualifiedTypeName name="com.plantplaces.dao.IFileDAO"/>
-<fullyQualifiedTypeName name="javax.inject.Named"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="com.plantplaces.dto.Photo"/>
+<fullyQualifiedTypeName name="com.plantplaces.dao.IPhotoDAO"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
 </qualifiedTypeNameHistroy>

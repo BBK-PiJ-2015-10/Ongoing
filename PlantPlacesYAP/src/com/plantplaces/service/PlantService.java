@@ -12,6 +12,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import com.plantplaces.dao.IFileDAO;
+import com.plantplaces.dao.IPhotoDAO;
 import com.plantplaces.dao.IPlantDAO;
 import com.plantplaces.dto.Photo;
 import com.plantplaces.dto.Plant;
@@ -23,13 +24,16 @@ import com.plantplaces.dao.ISpecimenDAO;
 public class PlantService implements IPlantService {
 
 	@Inject
-	IPlantDAO plantDAO;
+	private IPlantDAO plantDAO;
 	
 	@Inject
-	ISpecimenDAO specimenDAO;
+	private ISpecimenDAO specimenDAO;
 	
 	@Inject
-	IFileDAO fileDAO;
+	private IFileDAO fileDAO;
+	
+	@Inject
+	private IPhotoDAO photoDAO;
 	
 	private List<Plant> allPlants;
 	
@@ -52,12 +56,12 @@ public class PlantService implements IPlantService {
 		if(plant.getGenus() == null || plant.getGenus().isEmpty() ){
 			throw new Exception("Genus required");
 		}
-		plantDAO.insert(plant);	
+		plantDAO.save(plant);	
 	}
 	
 	@Override
 	public void save(Specimen specimen) throws Exception {
-		specimenDAO.insert(specimen);
+		specimenDAO.save(specimen);
 	}
 	
 	
@@ -98,7 +102,7 @@ public class PlantService implements IPlantService {
 
 
 	@Override
-	public void savePhoto(Photo photo, InputStream inputStream) throws IOException {
+	public void savePhoto(Photo photo, InputStream inputStream) throws Exception {
 		//String dirAddress =".\\WebContent\\images";
 		//String dirAddress = "C:/Users/YasserAlejandro/SDP/Ongoing/PlantPlacesYAP/WebContent/images";
 		String dirAddress = "/Users/YasserAlejandro/SDP/Ongoing/PlantPlacesYAP/WebContent/images";
@@ -109,6 +113,7 @@ public class PlantService implements IPlantService {
 		
 		photo.setUri(uniqueImageName.toString());
 		//eventually save the photo to the database.
+		photoDAO.save(photo);
 		
 	}
 

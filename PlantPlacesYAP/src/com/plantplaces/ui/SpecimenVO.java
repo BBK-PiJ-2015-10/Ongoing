@@ -98,7 +98,12 @@ public class SpecimenVO {
 				InputStream inputstream = file.getInputstream();
 				//setPhoto(new Photo());
 				photo.setSpecimenId(specimen.getSpecimenid());
-				plantService.savePhoto(getPhoto(),inputstream);
+				try {
+					plantService.savePhoto(getPhoto(),inputstream);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				FacesMessage message = new FacesMessage("Succesful",file.getFileName() + " is uploaded.");
 				FacesContext.getCurrentInstance().addMessage(null,message);
 			} catch (IOException e) {

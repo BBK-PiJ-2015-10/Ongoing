@@ -11,8 +11,9 @@ import java.util.ArrayList;
 import com.plantplaces.dto.Plant;
 
 @Named("plantDAO")
-public class PlantDAOStub  implements IPlantDAO  {
+public class PlantDAOStub  /* implements IPlantDAO */  {
 
+	/*
 	
 	private static final Logger log = Logger.getLogger(PlantDAOStub.class);
 	
@@ -80,6 +81,6 @@ public class PlantDAOStub  implements IPlantDAO  {
 		return new ArrayList<Plant>();
 	}
 	
-	
+	*/
 
 }

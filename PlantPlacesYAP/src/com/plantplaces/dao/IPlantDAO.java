@@ -12,7 +12,9 @@ public interface IPlantDAO {
 
 	List<Plant> fetchPlants();
 	
-	void insert(Plant plant) throws Exception;
+	void insert(Session session, Plant plant) throws Exception;
+	
+	void save(Plant dto) throws Exception;
 	
 	void update(Plant plant) throws Exception;
 	

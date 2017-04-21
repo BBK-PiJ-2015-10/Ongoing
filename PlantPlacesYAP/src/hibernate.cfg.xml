@@ -45,6 +45,7 @@
 	
 		<mapping class="com.plantplaces.dto.Plant"></mapping>
 		<mapping class="com.plantplaces.dto.Specimen"></mapping>
+		<mapping class="com.plantplaces.dto.Photo"></mapping>
 	
 	
 	</session-factory>

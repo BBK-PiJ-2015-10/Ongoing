@@ -11,20 +11,8 @@ import org.hibernate.Session;
 import com.plantplaces.dto.Specimen;
 
 @Named
-public class SpecimenHbmDAO implements ISpecimenDAO {
+public class SpecimenHbmDAO extends PlantPlacesHbmDAO<Specimen> implements ISpecimenDAO {
 
-	/* (non-Javadoc)
-	 * @see com.plantplaces.dao.ISpecimenDAO#insert(com.plantplaces.dto.Specimen)
-	 */
-	@Override
-	public void insert(Specimen specimen) throws Exception {
-		
-		Session session = HibernateUtil.getSessionFactory().openSession();
-		session.beginTransaction();
-		session.save(specimen);
-		session.getTransaction().commit();
-		
-	}
 	
 	@Override
 	public List<Specimen> fetchByPlantId(int plantId){
@@ -36,6 +24,14 @@ public class SpecimenHbmDAO implements ISpecimenDAO {
 		List list = query.list();
 		List<Specimen> specimens = Collections.checkedList(list,Specimen.class);
 		return specimens;
+	}	
+
+
+	@Override
+	public void insert(Session session, Specimen dto) throws Exception {
+		session.save(dto);
 	}
+
+
 	
 }
