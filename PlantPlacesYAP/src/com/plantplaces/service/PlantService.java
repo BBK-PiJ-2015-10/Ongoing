@@ -1,6 +1,7 @@
 package com.plantplaces.service;
 
 import java.util.List;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import javax.imageio.ImageIO;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -17,6 +19,10 @@ import com.plantplaces.dao.IPlantDAO;
 import com.plantplaces.dto.Photo;
 import com.plantplaces.dto.Plant;
 import com.plantplaces.dto.Specimen;
+
+import net.coobird.thumbnailator.Thumbnails;
+import net.coobird.thumbnailator.geometry.Positions;
+
 import com.plantplaces.dao.ISpecimenDAO;
 
 
@@ -34,6 +40,9 @@ public class PlantService implements IPlantService {
 	
 	@Inject
 	private IPhotoDAO photoDAO;
+	
+	@Inject
+	private JMSBean jmsBean;
 	
 	private List<Plant> allPlants;
 	
@@ -115,6 +124,16 @@ public class PlantService implements IPlantService {
 		String uniqueImageName = getUniqueImageName();
 		File file = new File(directory,uniqueImageName);
 		fileDAO.save(inputStream, file);
+		
+		jmsBean.submit(file.toString());
+		
+		String thumbNailDirAddress = "/Users/YasserAlejandro/SDP/Ongoing/PlantPlacesYAP/WebContent/resources/thumbnails";
+		File thumbNailDirectory = new File(thumbNailDirAddress);
+		File thumbNail = new File(thumbNailDirectory,uniqueImageName);
+		Thumbnails.of(file).size(100,100).toFile(thumbNail);
+		
+		BufferedImage watermark = ImageIO.read(new File(directory,"watermark.png"));
+		Thumbnails.of(file).scale(1).watermark(Positions.BOTTOM_RIGHT,watermark,0.9f).toFile(file);
 		
 		photo.setUri(uniqueImageName.toString());
 		photoDAO.save(photo);
