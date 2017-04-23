@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;plant&apos; in &apos;com.plantplaces.ui.PlantJSONServlet.doGet(...)&apos; to &apos;searchPlant&apos;&#x0D;&#x0A;- Original project: &apos;PlantPlacesYAP&apos;&#x0D;&#x0A;- Original element: &apos;com.plantplaces.ui.PlantJSONServlet.doGet(HttpServletRequest, HttpServletResponse).plant&apos;&#x0D;&#x0A;- Renamed element: &apos;plant&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;plant&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.plantplaces.ui{PlantJSONServlet.java[PlantJSONServlet~doGet~QHttpServletRequest;~QHttpServletResponse;@plant!815!840!821!825!QPlant;!0!false" name="searchPlant" references="true" stamp="1492954352576" version="1.0"/>
+</session>

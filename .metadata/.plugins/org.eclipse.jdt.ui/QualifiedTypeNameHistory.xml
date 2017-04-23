@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.neo4j.cypher.internal.javacompat.ExecutionEngine"/>
-<fullyQualifiedTypeName name="org.apache.ignite.Ignition"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="org.hamcrest.core.IsEqual"/>
-<fullyQualifiedTypeName name="java.lang.Number"/>
-<fullyQualifiedTypeName name="java.text.NumberFormat"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="delivery.GraphCreator"/>
-<fullyQualifiedTypeName name="delivery.DijkstraImpl"/>
-<fullyQualifiedTypeName name="delivery.GraphCreatorImpl"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="delivery.DeliveryCostEstimator"/>
 <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
@@ -37,10 +25,7 @@
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="com.plantplaces.dao.PlantHbmDAO"/>
-<fullyQualifiedTypeName name="com.plantplaces.dto.Plant"/>
-<fullyQualifiedTypeName name="javax.inject.Inject"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-<fullyQualifiedTypeName name="com.plantplaces.service.IPlantService"/>
 <fullyQualifiedTypeName name="org.primefaces.event.SelectEvent"/>
 <fullyQualifiedTypeName name="org.primefaces.model.UploadedFile"/>
 <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
@@ -55,9 +40,24 @@
 <fullyQualifiedTypeName name="org.hibernate.Session"/>
 <fullyQualifiedTypeName name="com.plantplaces.dto.Photo"/>
 <fullyQualifiedTypeName name="com.plantplaces.dao.IPhotoDAO"/>
-<fullyQualifiedTypeName name="javax.inject.Named"/>
 <fullyQualifiedTypeName name="com.plantplaces.dto.Specimen"/>
 <fullyQualifiedTypeName name="org.hibernate.Query"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="net.coobird.thumbnailator.Thumbnails"/>
+<fullyQualifiedTypeName name="javax.jms.MessageProducer"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+<fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+<fullyQualifiedTypeName name="net.coobird.thumbnailator.geometry.Positions"/>
+<fullyQualifiedTypeName name="javax.jms.Connection"/>
+<fullyQualifiedTypeName name="javax.jms.Session"/>
+<fullyQualifiedTypeName name="javax.jms.Queue"/>
+<fullyQualifiedTypeName name="org.apache.activemq.ActiveMQConnectionFactory"/>
+<fullyQualifiedTypeName name="javax.jms.TextMessage"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
+<fullyQualifiedTypeName name="com.plantplaces.service.IPlantService"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="com.plantplaces.dto.Plant"/>
+<fullyQualifiedTypeName name="javax.json.Json"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.support.SpringBeanAutowiringSupport"/>
 </qualifiedTypeNameHistroy>
