@@ -1,0 +1,24 @@
+package com.plantplaces.transform;
+
+import org.json.JSONObject;
+
+public class PlantEmailTransformer {
+	
+	public String doTransform(String message){
+		String returnString ="";
+		if (message!=null && !message.isEmpty()){
+			JSONObject plant = new JSONObject(message);
+			String genus = plant.getString("genus");
+			String species= plant.getString("species");
+			String common = plant.getString("common");
+			String cultivar = plant.getString("cultivar");
+			returnString+=genus+species+common+cultivar;
+			
+		}
+		
+		return "Email: " +returnString;
+		
+		
+	}
+
+}

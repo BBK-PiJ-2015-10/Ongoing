@@ -1,0 +1,11 @@
+package com.plantplaces.ui;
+
+@WebService
+public class PlantWSService {
+	
+	@WebMethod
+	public String fetchPlants(String plantName){
+		return "foo";
+	}
+
+}

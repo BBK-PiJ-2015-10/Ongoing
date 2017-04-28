@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Double"/>
-<fullyQualifiedTypeName name="delivery.DeliveryCostEstimator"/>
-<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
-<fullyQualifiedTypeName name="java.math.RoundingMode"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="delivery.calculator.weight.VolumetricWeightCalcImpl"/>
 <fullyQualifiedTypeName name="delivery.calculator.weight.NormalizedWeightCalc"/>
 <fullyQualifiedTypeName name="delivery.Factory"/>
@@ -43,7 +38,6 @@
 <fullyQualifiedTypeName name="com.plantplaces.dto.Specimen"/>
 <fullyQualifiedTypeName name="org.hibernate.Query"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="net.coobird.thumbnailator.Thumbnails"/>
 <fullyQualifiedTypeName name="javax.jms.MessageProducer"/>
 <fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
@@ -54,10 +48,16 @@
 <fullyQualifiedTypeName name="javax.jms.Queue"/>
 <fullyQualifiedTypeName name="org.apache.activemq.ActiveMQConnectionFactory"/>
 <fullyQualifiedTypeName name="javax.jms.TextMessage"/>
-<fullyQualifiedTypeName name="javax.inject.Named"/>
+<fullyQualifiedTypeName name="javax.json.Json"/>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="com.plantplaces.dto.Plant"/>
 <fullyQualifiedTypeName name="com.plantplaces.service.IPlantService"/>
 <fullyQualifiedTypeName name="javax.inject.Inject"/>
-<fullyQualifiedTypeName name="com.plantplaces.dto.Plant"/>
-<fullyQualifiedTypeName name="javax.json.Json"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
 <fullyQualifiedTypeName name="org.springframework.web.context.support.SpringBeanAutowiringSupport"/>
+<fullyQualifiedTypeName name="com.plantplaces.ui.PlantWSServiceServiceLocator"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.rmi.RemoteException"/>
 </qualifiedTypeNameHistroy>

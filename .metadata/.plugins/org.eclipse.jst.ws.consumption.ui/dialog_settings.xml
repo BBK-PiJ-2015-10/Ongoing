@@ -3,4 +3,7 @@
 	<list key="org.eclipse.jst.ws.internal.consumption.ui.widgets.test.ClientTestWidget.sampleFolderText_">
 		<item value="sampleCalculatorProxy"/>
 	</list>
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="http://localhost:8080/PlantPlacesYAP/services/PlantWSService?wsdl"/>
+	</list>
 </section>

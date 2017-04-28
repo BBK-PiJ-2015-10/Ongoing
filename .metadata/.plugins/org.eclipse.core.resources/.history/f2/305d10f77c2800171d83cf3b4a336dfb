@@ -1,0 +1,18 @@
+package com.plantplaces.ui;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+@WebService
+public class PlantWSService implements IPlantWSService {
+	
+	/* (non-Javadoc)
+	 * @see com.plantplaces.ui.IPlantWSService#fetchPlants(java.lang.String)
+	 */
+	@Override
+	@WebMethod
+	public String fetchPlants(String plantName){
+		return "foo";
+	}
+
+}

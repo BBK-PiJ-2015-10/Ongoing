@@ -1,0 +1,9 @@
+package com.plantplaces.transform;
+
+public class PlantEmailTransformer {
+	
+	public String doTransform(String message){
+		return "Email: "+message;
+	}
+
+}

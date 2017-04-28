@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Scope;
 
 import com.plantplaces.dto.Plant;
 import com.plantplaces.service.IPlantService;
+import com.plantplaces.service.JMSBean;
 
 
 //Request creates a new object for each http request, while session keeps using the same object.
@@ -27,6 +28,9 @@ public class AddPlant {
 	@Inject
 	private IPlantService plantService;
 	
+	//@Inject
+	//private JMSBean jmsBean;
+	
 	public String execute(){
 		
 		logger.info("Entering the execute method");
@@ -41,6 +45,8 @@ public class AddPlant {
 			plantService.save(plant);
 			
 			logger.info("Save successful " +plant.toString());
+			
+			//jmsBean.submitPlantsQueue(plant.toString());
 			
 			//what is the message we want to show
 			fm = new FacesMessage(FacesMessage.SEVERITY_INFO,"Saved","Plant Saved");

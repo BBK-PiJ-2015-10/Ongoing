@@ -1,9 +1,0 @@
-package com.plantplaces.dao;
-
-import java.io.File;
-
-public class FileDAO {
-	
-	void save(InputStream inputStream,File file);
-
-}

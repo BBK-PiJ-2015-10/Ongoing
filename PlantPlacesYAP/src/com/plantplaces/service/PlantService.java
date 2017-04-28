@@ -65,7 +65,8 @@ public class PlantService implements IPlantService {
 		if(plant.getGenus() == null || plant.getGenus().isEmpty() ){
 			throw new Exception("Genus required");
 		}
-		plantDAO.save(plant);	
+		plantDAO.save(plant);
+		jmsBean.submit(plant);
 	}
 	
 	@Override

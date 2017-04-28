@@ -322,3 +322,4 @@
 0:0:0:0:0:0:0:1 - - [23/Apr/2017:15:12:59 +0100] "GET /PlantPlacesYAP/javax.faces.resource/images/ui-icons_72b42d_256x240.png.xhtml?ln=primefaces-le-frog HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [23/Apr/2017:15:13:15 +0100] "GET /PlantPlacesYAP/plants HTTP/1.1" 200 964
 0:0:0:0:0:0:0:1 - - [23/Apr/2017:15:13:49 +0100] "GET /PlantPlacesYAP/plants?filter=Red HTTP/1.1" 200 716
+127.0.0.1 - - [23/Apr/2017:22:53:33 +0100] "GET / HTTP/1.1" 404 994
