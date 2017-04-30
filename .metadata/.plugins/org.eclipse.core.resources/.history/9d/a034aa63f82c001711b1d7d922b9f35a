@@ -1,0 +1,5 @@
+package com.plantplaces.dto;
+
+public class Plant {
+
+}

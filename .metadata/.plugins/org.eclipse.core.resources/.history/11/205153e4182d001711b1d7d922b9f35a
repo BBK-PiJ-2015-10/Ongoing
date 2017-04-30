@@ -1,0 +1,79 @@
+package com.plantplaces.dto;
+
+import java.util.List;
+
+//import org.springframework.stereotype.Component;
+import javax.inject.Named;
+//import javax.inject.Inject;
+//import org.springframework.stereotype.Service;
+//import javax.faces.bean.ManagedBean;
+
+@Named
+public class Plant {
+
+	private String name;
+	
+	private String genus;
+	
+	private String species;
+	
+	private String common;
+	
+	private int guid;
+	
+	//private List<Specimen> specimens;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getGenus() {
+		return genus;
+	}
+
+	public void setGenus(String genus) {
+		this.genus = genus;
+	}
+
+	public String getSpecies() {
+		return species;
+	}
+
+	public void setSpecies(String species) {
+		this.species = species;
+	}
+
+	public String getCommon() {
+		return common;
+	}
+
+	public void setCommon(String common) {
+		this.common = common;
+	}
+
+	public int getGuid() {
+		return guid;
+	}
+
+	public void setGuid(int guid) {
+		this.guid = guid;
+	}
+
+	/*
+	
+	public List<Specimen> getSpecimens() {
+		return specimens;
+	}
+
+	public void setSpecimens(List<Specimen> specimens) {
+		this.specimens = specimens;
+	}
+	
+	*/
+	
+	
+}

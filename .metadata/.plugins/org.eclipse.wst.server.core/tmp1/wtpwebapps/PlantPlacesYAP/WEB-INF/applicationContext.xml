@@ -16,5 +16,12 @@
 	
 
 	<context:component-scan base-package="com.plantplaces" />
+	
+	<!-- This is to be exposed as a microservice scheleton for the spring remote -->
+	<bean name="plantServiceExporter"
+		  class="org.springframework.remoting.httpinvoker.HttpInvokerServiceExporter">
+		<property name="service" ref="plantService" />
+		<property name="serviceInterface" value="com.plantplaces.service.IPlantService" />
+	</bean>
 
 </beans>

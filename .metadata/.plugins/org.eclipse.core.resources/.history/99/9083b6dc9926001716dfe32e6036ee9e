@@ -1,7 +1,0 @@
-package com.plantplaces;
-
-import com.plantplaces.dao.PlantPlacesHbmDAO;
-
-public class PhotoHbmDAO extends PlantPlacesHbmDAO<T> {
-
-}

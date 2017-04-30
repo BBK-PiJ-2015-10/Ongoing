@@ -1,7 +1,0 @@
-package com.plantplaces.ui;
-
-import javax.servlet.http.HttpServlet;
-
-public class PlantJSONServlet extends HttpServlet {
-
-}

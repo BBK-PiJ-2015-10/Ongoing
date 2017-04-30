@@ -62,6 +62,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="com.plantplaces"/>
 			<item value="PlantPlacesEnterpriseIntegration"/>
 			<item value="ImagePostProcessor"/>
 			<item value="PlantPlacesYAP"/>
@@ -69,6 +70,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="PlantClient"/>
 			<item value="PlantPlacesEnterpriseIntegration"/>
 			<item value="ImagePostProcessor"/>
 			<item value="PlantPlacesYAP"/>
