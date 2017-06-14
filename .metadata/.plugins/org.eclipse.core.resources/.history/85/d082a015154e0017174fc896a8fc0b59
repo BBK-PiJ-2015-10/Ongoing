@@ -1,0 +1,12 @@
+package com.datax.play.spark
+
+object SQLExample {
+  
+  def main(args:Array[String]) {
+    
+    println("Tontolone")
+    
+  }
+  
+  
+}

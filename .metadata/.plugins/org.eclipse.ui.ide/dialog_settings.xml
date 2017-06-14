@@ -5,6 +5,9 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\YasserAlejandro\SDP\bridgephase\java-assignment"/>
+			<item value="C:\Users\YasserAlejandro\SDP\play-microservices\favorite-service"/>
+			<item value="C:\Users\YasserAlejandro\practice\play-scala-intro"/>
 			<item value="C:\Users\YasserAlejandro\BIBI"/>
 			<item value="C:\Users\YasserAlejandro\TEMP\tutorial-1205-001"/>
 			<item value="C:\Users\YasserAlejandro\TEMP\play-java-intro"/>
@@ -22,8 +25,6 @@
 			<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project7\ping"/>
 			<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project6"/>
 			<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project2"/>
-			<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project1"/>
-			<item value="C:\Users\YasserAlejandro\SDP\day-4\hello"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

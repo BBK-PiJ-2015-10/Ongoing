@@ -33,6 +33,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\YasserAlejandro\test"/>
+			<item value="C:\Users\YasserAlejandro\test\"/>
 			<item value="C:\Users\YasserAlejandro\SDP\microservices\discospiff\JavaFullStackEnterpriseWeb"/>
 			<item value="C:\Users\YasserAlejandro\SDP\mavenweb"/>
 			<item value="C:\Users\YasserAlejandro\SDP\Ongoing\mavenweb"/>
@@ -62,6 +64,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="com.journaldev.spring"/>
 			<item value="com.plantplaces"/>
 			<item value="PlantPlacesEnterpriseIntegration"/>
 			<item value="ImagePostProcessor"/>
@@ -70,6 +73,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringAOPExample"/>
 			<item value="PlantClient"/>
 			<item value="PlantPlacesEnterpriseIntegration"/>
 			<item value="ImagePostProcessor"/>

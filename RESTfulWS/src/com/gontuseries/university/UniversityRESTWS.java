@@ -80,7 +80,7 @@ public class UniversityRESTWS {
 	
 	//*/
 	  
-	/*
+	///*
 	
 	//When the user enters the url http://localhost:8080/RESTfulWS/rest/university/get
 	//This service will provide a file to the user
@@ -98,7 +98,7 @@ public class UniversityRESTWS {
 		
 	}
 	
-	*/
+	//*/
 	
 	/* In this example data is entered through a form http://localhost:8080/RESTfulWS/entryform.html
 	 * the submit button calls this webservice and @FormParam reads the parameters from the form.
@@ -119,7 +119,7 @@ public class UniversityRESTWS {
 	
 	//*/
 	
-	/*
+	///*
 	
 	//Below is an example of matrix parameters
 	//http://localhost:8080/RESTfulWS/rest/university;studentRollNo1=5;studentRollNo2=6
@@ -133,7 +133,7 @@ public class UniversityRESTWS {
 				+studentRollNo1 +" and " +studentRollNo2 ;
 	}
 	
-	*/
+	//*/
 	
 	/*
 	 
@@ -177,7 +177,7 @@ public class UniversityRESTWS {
 		+ "<body><h1>"+"Name- University of London from HTML TONTO"+"</h1></body>"+"</html>";		
 	}
 	
-	///*
+	/*
 	
 	//http://localhost:8080/RESTfulWS/rest/university/5
 	@PUT
@@ -190,7 +190,7 @@ public class UniversityRESTWS {
 	
 	//*/
 	
-	///*
+	/*
 	
 
 	

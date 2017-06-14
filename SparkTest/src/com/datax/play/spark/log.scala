@@ -23,20 +23,20 @@ object log {
     
     val sc = new SparkContext(conf)
     
-    //based RDD
-    //val lines = sc.textFile("input/log.txt")
-    val temps = sc.textFile("inputtemp/temp2.txt")
+    //base RDD
+    val lines = sc.textFile("logger/log.txt")
+    //val temps = sc.textFile("inputtemp/temp2.txt")
     
     
     
     //transformed RDDs
-    //val errors = lines.filter(_.startsWith("ERROR"))
-    //val messages = errors.map(_.split("\t")).map(r=>r(1))
-    //messages.cache()
+    val errors = lines.filter(_.startsWith("ERROR"))
+    val messages = errors.map(_.split("\t")).map(r=>r(1))
+    messages.cache()
     
     //val alejito : RDD[String] 
     
-    //val mima : String = "ale"
+  
     
     //This searches for ERROR, splits it, grabs the second item on array, and saves it in files.    
     //lines.filter(_.startsWith("ERROR")).map(_.split(" ")).map(x=>x(1)).saveAsTextFile("output4.txt")
@@ -60,11 +60,7 @@ object log {
     
     //val test = temps.map(_.split(" ")).first().reduce(_+_)
     
-    //println(test)
-    
-    //for ( x <- test){
-      //println(x)
-    //}
+ 
     
     //temps.map(_.split(" ")).flatMap { x => Integer.getInteger(x) }
     
@@ -80,38 +76,12 @@ object log {
     
     //Left on page 94
     
-    /*
-    
-    for (x <-tonto) {
-      val temp = x.split(" ").last
       
-      println(temp)
-    }
-    
-    */
-    
-    //val ale = Array(1,2,3)
-    
-    //*/
-    
-    //val names = Array("ale","tonto")
-    
-    //val first =names(0)
-    
-    //println(first)
-
-    
-    //val ale : Array[String] = ["yasser","alejandro","palacios"]
-    
-    
-    
-
-    
     //action 1
-    //messages.filter(_.contains("mysql")).count()
+    println(messages.filter(_.contains("mysql")).count())
   
-  //action 2
-  //messages.filter(_.contains("php")).count()
+    //action 2
+    println(messages.filter(_.contains("php")).count())
   
   
   }

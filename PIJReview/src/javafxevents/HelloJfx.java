@@ -15,7 +15,7 @@ public class HelloJfx extends Application {
 		message.setFont(new Font(100));
 		stage.setScene(new Scene(message));
 		stage.setTitle("Hello");
-		//System.out.println("Hello hello hello");
+		System.out.println("Hello hello hello");
 		stage.show();
 		
 	}

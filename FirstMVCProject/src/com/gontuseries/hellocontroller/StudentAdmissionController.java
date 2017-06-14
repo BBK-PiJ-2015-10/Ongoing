@@ -62,7 +62,8 @@ public class StudentAdmissionController {
 	}
 	
 	
-	//Example of a model attribute allocation on a matter
+	//Example of a model attribute allocation on a matter. This will be called by Spring before
+	//calling any of the matters of this controller.
 	@ModelAttribute
 	public void addingCommonObjects(Model model){
 		model.addAttribute("headerMessage","University of London - Birkbeck");

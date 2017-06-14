@@ -10,8 +10,8 @@ object MultiExecutors {
   
   def main(args: Array[String]): Unit = {
     //calcFibWithExecutor
-    //calcFibWithParCollection
-    calcFibWithActorsFutures
+    calcFibWithParCollection
+    //calcFibWithActorsFutures
   }
   
   def fib(n: Int): Int = {
@@ -36,7 +36,7 @@ object MultiExecutors {
    * This is an example of calculating a fibonaci with an executor using 8 threads
    */
   def calcFibWithExecutor {
-    val es = Executors.newFixedThreadPool(8)
+    val es = Executors.newFixedThreadPool(4)
     val futures = for (i <- 30 to 15 by -1) yield {
       es.submit(new Callable[Int] {
         def call: Int = {

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HomeController.scala&apos; to &apos;play-scala-intro/app/controllers&apos;&#x0D;&#x0A;- Original project: &apos;play-scala-intro&apos;&#x0D;&#x0A;- Destination element: &apos;play-scala-intro/app/controllers&apos;&#x0D;&#x0A;- Original element: &apos;HomeController.scala&apos;" description="Copy file" destination="/app&lt;controllers" element1="app/controllers/HomeController.scala" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1495060146643" units="0" version="1.0"/>
+</session>

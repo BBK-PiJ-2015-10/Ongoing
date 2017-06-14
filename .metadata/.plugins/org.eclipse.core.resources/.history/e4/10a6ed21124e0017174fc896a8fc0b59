@@ -1,0 +1,5 @@
+package com.datax.play.spark
+
+object SQLExample {
+  
+}

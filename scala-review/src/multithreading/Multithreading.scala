@@ -2,10 +2,18 @@ package multithreading
 
 import java.util.concurrent.atomic.AtomicInteger
 
+/*
+ * Concurrency:
+ * 
+ * Parallelism:
+ * 
+ */
+
 object Multithreading {
   
    def main(args: Array[String]): Unit = {
-     simpleCollisions
+     //simpleCollisions
+     println("Ale Tonto")
    }
    
    case class Particle(x:Double,y:Double,vx:Double,vy:Double,radios:Double) {

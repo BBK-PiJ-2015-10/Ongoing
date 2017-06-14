@@ -7,6 +7,15 @@ import java.util.concurrent.Executors
 import java.util.concurrent.Callable;
 import java.util.concurrent.CyclicBarrier
 
+/*
+ * ArrayBlockingQueue
+ * LinkedListBlockingQueue
+ * Exchanger
+ * CountDownLatch
+ * CyclicBarrier
+ * Semaphore
+ */
+
 
 object ParallelCrystals {
   

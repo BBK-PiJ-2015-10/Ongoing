@@ -11,7 +11,7 @@
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="1" key="layout"/>
 		<item value="true" key="group_libraries"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;1&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1453021185355&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;scala.tools.eclipse.javaelements.ScalaElementFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;1&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1453021185355&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;scala.tools.eclipse.javaelements.ScalaElementFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
 		<item value="1" key="rootMode"/>
 		<item value="false" key="linkWithEditor"/>
 	</section>
@@ -28,6 +28,250 @@
 		<item value="1" key="VisibilityModifier"/>
 		<item value="false" key="FinalModifier"/>
 	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="C:\Users\YasserAlejandro\SDP\bridgephase\java-assignment\javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="C:\Program Files\Java\jdk1.8.0_40\bin\javadoc.exe" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="C:\Users\YasserAlejandro\SDP\bridgephase\java-assignment\doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="SCSDPOngoing">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SCSDPOngoing\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SCSDPOngoing\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="mavenIgniteFirst">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\mavenIgniteFirst\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\mavenIgniteFirst\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="FirstMVCProject">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\FirstMVCProject\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\FirstMVCProject\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="mavenNeo4jFirst">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\mavenNeo4jFirst\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\mavenNeo4jFirst\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="cw-temple">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\cw-temple\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\cw-temple\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Servers">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\Servers\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\Servers\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\RemoteSystemsTempFiles\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="tutorial-1205-001">
+				<item value="C:\Users\YasserAlejandro\TEMP\tutorial-1205-001\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\TEMP\tutorial-1205-001\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="StatefulActor">
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\StatefulActor\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\StatefulActor\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="simple-actors">
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\SimpleActor\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\SimpleActor\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="favorite-service">
+				<item value="C:\Users\YasserAlejandro\SDP\play-microservices\favorite-service\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\play-microservices\favorite-service\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="log4jsample">
+				<item value="C:\Users\YasserAlejandro\SDP\mavenweb\log4jsample\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\mavenweb\log4jsample\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="PrimerJsf">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PrimerJsf\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PrimerJsf\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CalculatorWSClient">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\CalculatorWSClient\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\CalculatorWSClient\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AspectJAOPExample">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\AspectJAOPExample\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\AspectJAOPExample\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AkkaPI">
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project12\pi\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project12\pi\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="PlantClient">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PlantClient\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PlantClient\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="FirstHibernateProject">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\FirstHibernateProject\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\FirstHibernateProject\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SDPOngoing">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SDPOngoing\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SDPOngoing\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SpringDISample">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SpringDISample\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SpringDISample\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="abc">
+				<item value="C:\Users\YasserAlejandro\mp\mtp-abm\java\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\mp\mtp-abm\java\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Mongo">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\Mongo\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\Mongo\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RESTfulWS">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\RESTfulWS\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\RESTfulWS\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="play-scala-intro">
+				<item value="C:\Users\YasserAlejandro\practice\play-scala-intro\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\practice\play-scala-intro\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="SparkTest">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SparkTest\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\SparkTest\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="proto-ray-tracer">
+				<item value="C:\Users\YasserAlejandro\SDP\sdp-cw-proto-group\sdp-cw3-group\cw3-ray-tracer\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\sdp-cw-proto-group\sdp-cw3-group\cw3-ray-tracer\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="akka-scala">
+				<item value="C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\mavenprojects\akka-scala\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="PlantWSClient">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PlantWSClient\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PlantWSClient\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="remote-actors">
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\RemoteActors\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\RemoteActors\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="java-assignment">
+				<item value="C:\Users\YasserAlejandro\SDP\bridgephase\java-assignment\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\bridgephase\java-assignment\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="PIJReview">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PIJReview\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PIJReview\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="maven-allpago-techinterview">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\maven-allpago-techinterview\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\maven-allpago-techinterview\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AkkaNotes_Messaging">
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project2\AkkaNotes_Messaging\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project2\AkkaNotes_Messaging\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="PlantPlacesYAP">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesYAP\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="scala-review">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\scala-review\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\scala-review\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Akka Ping Pong Example">
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project7\ping\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project7\ping\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CloudComputing">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\CloudComputing\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\CloudComputing\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="supervising-actors">
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\SupervisingActors\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\sbtprojects\project5\sdp2016-actors\SupervisingActors\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="YouTubeFX2">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\YouTubeFX2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\YouTubeFX2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="time">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\time\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\time\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CalculatorWS">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\CalculatorWS\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\CalculatorWS\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ImagePostProcessor">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\ImagePostProcessor\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\ImagePostProcessor\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="PlantPlacesEnterpriseIntegration">
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesEnterpriseIntegration\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\Ongoing\PlantPlacesEnterpriseIntegration\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ray-tracer">
+				<item value="C:\Users\YasserAlejandro\SDP\sdp-cw-group\sdp-cw3-group\cw3-ray-tracer\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\YasserAlejandro\SDP\sdp-cw-group\sdp-cw3-group\cw3-ray-tracer\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="BreadcrumbItemDropDown">
+	</section>
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
@@ -37,7 +281,18 @@
 		<item value="432" key="DIALOG_X_ORIGIN"/>
 		<item value="8" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="OccurrencesSearchResultPage">
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="616" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="567" key="DIALOG_HEIGHT"/>
+		<item value="383" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="completion_proposal_size">
+		<item value="253" key="size.y"/>
+		<item value="355" key="size.x"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="SortOrdering"/>
@@ -73,6 +328,11 @@
 			<item value="-29" key="DIALOG_X_ORIGIN"/>
 			<item value="206" key="DIALOG_Y_ORIGIN"/>
 		</section>
+	</section>
+	<section name="ExtractMethodWizard">
+		<item value="false" key="GenerateJavadoc"/>
+		<item value="2" key="AccessModifier"/>
+		<item value="false" key="ThrowRuntimeExceptions"/>
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>

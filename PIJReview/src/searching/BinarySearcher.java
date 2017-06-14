@@ -22,7 +22,8 @@ public class BinarySearcher {
 		}
 		int mid=beg+(end-beg)/2;
 		if (A[mid]==target){
-			return 1;
+			return mid;
+			//return 1;
 		}
 		else if (A[mid]>target && mid>0){
 			return helper(target,A,beg,mid-1);

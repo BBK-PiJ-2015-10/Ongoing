@@ -17,9 +17,13 @@ object counter {
   
   def main (args: Array[String]): Unit = {
     
+      
+      nextWords("MIA").foreach(x=>println(x))
+      
       //val tester = nextWords("Munich") 
       
-      testLines()
+      //testLines()
+      
       
       //nextWords("Berlin").foreach(x=>println(x))
       
@@ -60,11 +64,16 @@ object counter {
     return nume/deno
   }
   
-  
+  /*
+   * Takes a directory, flat mapt it and count the number of times a word appears on the text
+   */
   def countTarget(first: String) : Long = {  
     return text.flatMap{line=>line.split(" ")}.filter(x=>x.equals(first)).count()
   }
   
+  /*
+   * This function counts the number of times a two Strings are together in a List of Strings
+   */
   def countAdjacentTargets(target1 : String, target2 : String, list :List[String]) : Long = {
     var count=0
     for ( i <- 0 to list.size-2){
@@ -76,7 +85,7 @@ object counter {
   }
   
   /*
-   * This function count words
+   * This function count words from a directory and saves output
    */
   def countWords() : Unit = {
     text.flatMap{line=>line.split(" ")}
@@ -89,13 +98,20 @@ object counter {
     breakLines("Munich",text.collect())
   }
   
+  /*
+   * Takes an array of Strings and a target String and provides a
+   * list of the neighbors of the target String on each array String
+   */
   def breakLines(target: String, lines: Array[String]): Unit = {
     for (line <- lines ) {
-      provideNeighbors(target,line).foreach(println)
-      
+      provideNeighbors(target,line).foreach(println)    
     } 
   }
   
+  /*
+   * Provides a list of Strings that are neighbors of a target String within
+   * a String sentence
+   */
   def provideNeighbors(first: String, line: String): List[String] = {
     var result : List[String] = List()
     val temp = line.split(" ").toList
@@ -107,14 +123,14 @@ object counter {
     result
   }
   
+ /*
+  * This is a work in process 
+  */
  def top2(list: List[String], max: Int): Set[String] = {
    var assocarray : Map[String,Int] = Map()
    var result : Set[String] = Set()
    for (word <- list){
-     
    }
-   
-   
    return result;
  }
   

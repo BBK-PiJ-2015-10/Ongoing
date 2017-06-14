@@ -2,30 +2,30 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Double" key="selection"/>
+		<item value="xplor" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="Double"/>
-			<item value="@Ignore"/>
-			<item value="//@Ignore"/>
-			<item value="config10"/>
-			<item value="CSV"/>
-			<item value=""/>
-			<item value="//Ignore"/>
-			<item value="PeriodMakerImpl"/>
+			<item value="xbox"/>
+			<item value="//@Test"/>
+			<item value="\\@Test"/>
+			<item value="@Test"/>
+			<item value="System"/>
+			<item value="InventoryUseCase3.txt"/>
+			<item value="InventoryUseCase2.txt"/>
+			<item value="InventoryUseCase1.txt"/>
 		</list>
 		<list key="replacehistory">
-			<item value="Long"/>
-			<item value="//@Ignore"/>
-			<item value="@Ignore"/>
-			<item value="config15"/>
-			<item value="SQL"/>
-			<item value="Ignore"/>
-			<item value="PeriodMakerImplCSV"/>
-			<item value="ConfigurationMakerImplCSV"/>
+			<item value="xplor"/>
+			<item value="@Test"/>
+			<item value="//@Test"/>
+			<item value="TestUseCase3.txt"/>
+			<item value="TestUseCase2.txt"/>
+			<item value="TestUseCase1.txt"/>
+			<item value="temp2"/>
+			<item value="Quantity"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

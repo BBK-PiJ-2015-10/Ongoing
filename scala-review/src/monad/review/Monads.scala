@@ -1,5 +1,7 @@
 package monad.review
 
+import monad.review.scalamonads.Monad
+
 /*
 
 sealed trait Maybe[+A] {
