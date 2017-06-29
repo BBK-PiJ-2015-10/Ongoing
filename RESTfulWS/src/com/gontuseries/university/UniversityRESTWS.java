@@ -167,7 +167,7 @@ public class UniversityRESTWS {
 	
 	//*/
 	
-	///*
+	/*
 	
 	//http://localhost:8080/RESTfulWS/rest/university
 	@GET
@@ -176,6 +176,8 @@ public class UniversityRESTWS {
 		return "<html> "+"<title>"+"University Information" +"</title>"
 		+ "<body><h1>"+"Name- University of London from HTML TONTO"+"</h1></body>"+"</html>";		
 	}
+	
+	*/
 	
 	/*
 	
@@ -188,12 +190,9 @@ public class UniversityRESTWS {
 		return "Updated Succesfully";
 	}
 	
-	//*/
+	*/
 	
 	/*
-	
-
-	
 	
 	//http://localhost:8080/RESTfulWS/rest/university
 	@GET
@@ -202,11 +201,7 @@ public class UniversityRESTWS {
 		return "NAME- University of London from Plain TXT";
 	}
 	
-
-	
-
-	
-	//*/
+	*/
 	
 
 }
